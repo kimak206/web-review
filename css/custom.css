@@ -1,0 +1,407 @@
+/*============================================================================================*/
+/* Your custom styles below */
+/*============================================================================================*/
+
+@font-face {
+    font-family: Montserat;
+  src: url(../assets/fonts/Montserrat-Regular.ttf);
+}
+
+
+* {
+    color: #413f3d;
+    font-family: Montserat, Roboto, Arial;
+}
+
+
+.h1, .h2, .h3, .h4, .h5, .h6, h1, h2, h3, h4, h5, h6 {
+    font-weight: 800;
+}
+
+.hamburger-inner, .hamburger-inner::after, .hamburger-inner::before {
+    background-color: #332c2c;
+  }
+
+.btn {
+    font-weight: 500;
+    font-size: 0.9rem;
+
+}
+
+.bg-white {
+    background-color: #e2f0f9;
+}
+
+.text-white {
+    color: #fff;
+}
+
+.text-blue {
+    color: #3578fa;
+}
+
+.bg-blue {
+    background-color: #1c60d5;
+}
+
+.btn-blue {
+    display: block;
+    float: left;
+    border: #1c60d5 solid 1px;
+  color: #fff;
+  background: #1c60d5;
+  outline: none;
+  cursor: pointer;
+  padding: 10px 35px;
+  -moz-transition: all 0.3s ease-in-out;
+  -o-transition: all 0.3s ease-in-out;
+  -webkit-transition: all 0.3s ease-in-out;
+  -ms-transition: all 0.3s ease-in-out;
+  transition: all 0.3s ease-in-out;
+  
+  border-radius: 40px;
+}
+
+.btn-blue.xs {
+    padding: 5px 35px;
+}
+
+.btn-blue:hover {
+    box-shadow:#3578fa 0px 0px 12px;
+    color: white;
+}
+
+.btn-blue.long {
+    padding: 6px 55px;
+}
+
+.btn-trans {
+    display: block;
+    float: left;
+    border: #868383 solid 1px;
+  color: black;
+  background: transparent;
+  outline: none;
+  cursor: pointer;
+  padding: 10px 35px;
+  -moz-transition: all 0.3s ease-in-out;
+  -o-transition: all 0.3s ease-in-out;
+  -webkit-transition: all 0.3s ease-in-out;
+  -ms-transition: all 0.3s ease-in-out;
+  transition: all 0.3s ease-in-out;
+  
+  border-radius: 40px;
+}
+
+.btn-trans.long {
+    padding: 6px 55px;
+}
+
+.btn-trans:hover {
+    box-shadow:#868383 0px 0px 12px;
+}
+
+.front-card {
+    background-color: white;
+    box-shadow:grey 0px 0px 12px;
+    border-radius: 10px;
+    padding: 25px;
+    text-align: center;
+    margin-bottom: 30px;
+}
+
+.front-card h3 {
+    color: #1c60d5;
+}
+
+.front-card-star span {
+    color: #3c84e8;
+    font-size: 24px;
+}
+
+.front-card small {
+    font-size: 18px;
+}
+
+.box-rate {
+    font-weight: 800;
+    font-size: 50px;
+}
+
+.box-rate span {
+    font-size: 20px;
+    font-weight: 400;
+}
+
+.front-card a {
+    display: block;
+    padding: 5px;
+    width: 70%;
+    margin: 20px auto 0;
+    text-align: center;
+    border-radius: 25px;
+    background-color: #1c60d5;
+    color: white;
+}
+
+.front-card a:hover {
+    box-shadow:#3578fa 0px 0px 12px;
+    color: white;
+}
+
+.header-content h2 {
+    font-weight: 400;
+    color: #3c84e8;
+
+}
+.header-content strong{
+    font-weight: 800;
+    color: #3c84e8;
+    
+}
+.header-content-underline {
+    width: 50px;
+    float: left;
+    display: block;
+    border-top: #3c84e8 solid 2px;
+}
+
+.top-box-right {
+    background-color: white;
+    border-radius: 30px;
+    box-shadow: #bdd2d2 7px 7px 20px;
+    padding: 30px;
+    display: block;
+    margin: auto;
+    width: 300px;
+    height: 300px;
+}
+
+li {
+    list-style: none;
+}
+
+.sosmed li span {
+    font-size: 30px;
+    color: #3c84e8;
+    position: relative;
+    top: 5px;
+}
+
+.mt-170 {
+    margin-top: 170px;
+}
+
+.videos {
+    width: 100%;
+    height: 160px;
+    box-shadow: #807e7c 0px 0px 8px;
+    overflow: hidden;
+}
+
+.videos img {
+    width: 100%;
+}
+
+.screenshot {
+    width: 100%;
+    height: auto;
+    box-shadow: #807e7c 0px 0px 8px;
+    overflow: hidden;
+}
+
+.screenshot img {
+    width: 100%;
+}
+
+.star-rating {
+    color: #3c84e8;
+    font-size: 20px;
+}
+
+.badge p {
+    margin-bottom: 7px;
+    padding: 5px 5px;
+    border: solid 1px #3578fa;
+    text-align: center;
+    border-radius: 5px;
+    font-size: 14px;
+    font-weight: 400;
+}
+
+.right-box {
+    width: 100%;
+    box-shadow: #cacaca 8px 7px 20px;
+    padding: 20px;
+    border-radius: 0 0 30px 0;
+    margin-bottom: 45px;
+}
+
+.right-box h2 {
+    font-weight: 400;
+    color: #3c84e8;
+    text-align: center;
+}
+
+.right-box strong {
+    color: #3c84e8;
+}
+
+.vs {
+    width: 37px;
+    margin-top: 45px;
+    height: 37px;
+    margin-left: 6px;
+    padding: 5px;
+    font-size: 18px;
+    text-align: center;
+    font-weight: 800;
+    color: white;
+    border-radius: 50%;
+    background-color: #3578fa;
+}
+
+.vs span {
+    color: white;
+    position: relative;
+    top: 0px;
+}
+
+.text-cyan {
+    color: #22cafa !important;
+}
+
+.text-black {
+    color: black !important;
+}
+
+.pricing-box {
+    background-color: #1c60d5;
+    padding: 20px 30px;
+    border-radius: 30px;
+    margin-bottom: 30px;
+}
+
+.pricing-box * {
+    color: white;
+}
+
+.pricing-box h3, .pricing-box h1 {
+    text-align: center;
+}
+
+.permonth {
+    line-height: 1.25rem;
+    font-size: 16px;
+    font-weight: 200;
+    position: relative;
+    top: 5px;
+}
+
+.dollar {
+    font-size: 48px;
+}
+
+.price-column {
+
+}
+.pricing-number strong {
+    font-size: 2.2rem;
+    font-weight: 800;
+}
+
+.pricing-number span {
+    font-weight: 300;
+    font-size: 1.2rem;
+    position: relative;
+    top: -12px;
+    left: -3px;
+}
+
+.price-bg:nth-child(even) {
+    background-color: #ddeaf3;
+}
+.column-top {
+    padding: 25px 15px;
+    border-bottom: 1px solid #e2e2e2;
+    
+}
+
+@media (min-width:577px) {
+    .column-top {
+        min-height: 460px;}
+}
+.column-top * {
+    text-align: center;
+    
+}
+
+.column-btm {
+    padding: 25px 15px;
+}
+
+
+.icon-circle.satu {
+    color: #3c84e8;
+    font-size: 0.7rem;
+    margin-right: 8px;
+}
+
+.altp-left {
+    padding: 20px 0;
+}
+
+.altp-left * {
+    text-align: center;
+}
+
+.altp-left img {
+    width: 100%;
+    height: auto;
+}
+
+.altp-mid {
+    padding: 20px 0px;
+    box-shadow: #bdd2d2 7px 7px 20px;
+}
+
+.features {
+    box-shadow: #bdd2d2 5px 5px 7px; 
+    padding: 10px 10px 10px 0;
+    border-radius: 0 0 15px 0;
+    margin-bottom: 20px;
+}
+
+.features span {
+    color: #3c84e8;
+    
+}
+
+.features.disabled span {
+    color: #cccccc;
+}
+
+.features.disabled {
+    box-shadow: none;
+}
+
+.review-img {
+    overflow: hidden;
+    border-radius: 50%;
+    width: 125px;
+    height: 125px;
+    margin-bottom: 20px;
+}
+
+.review-img img {
+    text-align: center;
+    width: 125px;
+    height: 125px;
+}
+
+
+
+
+
+
+
