@@ -522,7 +522,7 @@ a.btn_top,
 .btn_top {
   border: none;
   color: #fff;
-  background: #1c60d5;
+  background: #41d3bd;
   outline: none;
   cursor: pointer;
   display: inline-block;
@@ -550,7 +550,6 @@ a.btn_top,
 a.btn_top:hover,
 .btn_top:hover {
   opacity: 1 !important;
-  box-shadow:#3578fa 0px 0px 12px;
 }
 a.btn_top.company,
 .btn_top.company {
@@ -857,7 +856,7 @@ main {
 footer {
   padding: 60px 0 35px 0;
   border-top: 1px solid #ededed;
-  background-color: #fff;
+  background-color: #1c60d5;
 }
 @media (max-width: 767px) {
   footer {
@@ -868,6 +867,7 @@ footer h3 {
   margin: 0 0 15px 0;
   font-size: 18px;
   font-size: 1.125rem;
+  color: #41d3bd;
 }
 @media (max-width: 575px) {
   footer h3 {
@@ -910,6 +910,7 @@ footer a.collapse_bt_mobile .circle-plus {
 }
 footer ul li {
   margin-bottom: 5px;
+  color: white;
 }
 footer ul li a {
   -moz-transition: all 0.3s ease-in-out;
@@ -919,7 +920,7 @@ footer ul li a {
   transition: all 0.3s ease-in-out;
   display: inline-block;
   position: relative;
-  color: #555;
+  color: white;
 }
 footer ul li a:hover {
   color: #3578fa;
@@ -965,7 +966,7 @@ footer ul.contacts li i {
   position: absolute;
   top: 2px;
   left: 0;
-  color: #3578fa;
+  color: white;
   line-height: 1;
   font-size: 18px;
   font-size: 1.125rem;
@@ -1027,7 +1028,7 @@ footer ul.contacts li i {
   -moz-border-radius: 0 3px 3px 0;
   -ms-border-radius: 0 3px 3px 0;
   border-radius: 0 3px 3px 0;
-  background-color: #3578fa;
+  background-color: #41d3bd;
   -moz-transition: all 0.3s ease-in-out;
   -o-transition: all 0.3s ease-in-out;
   -webkit-transition: all 0.3s ease-in-out;
@@ -1049,6 +1050,7 @@ footer ul.contacts li i {
   font-size: 16px;
   font-size: 1rem;
   margin-top: 35px;
+  color: #41d3bd;
 }
 .follow_us ul li {
   display: inline-block;
@@ -1057,12 +1059,11 @@ footer ul.contacts li i {
   font-size: 1.25rem;
 }
 .follow_us ul li a i {
-  color: #555;
-  opacity: 0.6;
+  color: white;
 }
 .follow_us ul li a i:hover {
   opacity: 1;
-  color: #3578fa;
+  color: #41d3bd;
 }
 
 ul#footer-selector {
@@ -1078,6 +1079,7 @@ ul#footer-selector {
 ul#footer-selector li {
   float: left;
   margin-right: 10px;
+  background-color: #41d3bd;
 }
 @media (max-width: 575px) {
   ul#footer-selector li:last-child {
@@ -1089,7 +1091,7 @@ ul#footer-selector li {
 ul#additional_links {
   margin: 0;
   padding: 8px 0 0 0;
-  color: #555;
+  color:white;
   font-size: 13px;
   font-size: 0.8125rem;
   float: right;
@@ -1114,11 +1116,11 @@ ul#additional_links li:last-child:after {
   content: "";
 }
 ul#additional_links li span {
-  color: #555;
+  color: white;
   opacity: 0.8;
 }
 ul#additional_links li a {
-  color: #555;
+  color: white;
   opacity: 0.8;
   -moz-transition: all 0.3s ease-in-out;
   -o-transition: all 0.3s ease-in-out;
@@ -1152,12 +1154,12 @@ ul#additional_links li:after {
   position: relative;
 }
 .styled-select#lang-selector {
-  color: #555;
+  color: white;
 }
 .styled-select#lang-selector:after {
   font-family: 'ElegantIcons';
   content: "\e0e2";
-  color: #555;
+  color: white;
   position: absolute;
   right: 10px;
   top: 0;
@@ -1165,7 +1167,7 @@ ul#additional_links li:after {
 .styled-select#currency-selector:after {
   font-family: 'ElegantIcons';
   content: "\33";
-  color: #555;
+  color: white;
   position: absolute;
   right: 10px;
   top: 0;
@@ -1178,7 +1180,7 @@ ul#additional_links li:after {
   border-radius: 0;
   box-shadow: none;
   height: 30px;
-  color: #555;
+  color: white;
   font-size: 12px;
   font-size: 0.75rem;
   margin: 0;
@@ -2834,12 +2836,12 @@ a#filters_col_bt:before {
 }
 
 .review_card {
-  background-color: #fff;
+  background-color:#f4f8fb;
   -webkit-border-radius: 3px;
   -moz-border-radius: 3px;
   -ms-border-radius: 3px;
-  border-radius: 3px;
-  /* padding: 25px 25px 0 25px; */
+  border-radius: 20px;
+  padding: 25px;
   margin-bottom: 30px;
   -webkit-box-shadow: 0 2px 4px rgba(3, 27, 78, 0.06);
   -moz-box-shadow: 0 2px 4px rgba(3, 27, 78, 0.06);
@@ -3571,7 +3573,7 @@ a.social_bt.linkedin:before {
 .tabs nav {
   text-align: center;
   overflow: hidden;
-  border-bottom: solid 1px #e2e2e2;
+ 
 }
 .tabs nav ul {
   margin: 0;
@@ -3579,15 +3581,13 @@ a.social_bt.linkedin:before {
   display: inline-block;
   width: 100%;
   text-align: center;
+  border-bottom: solid 1px #e2e2e2;
 }
 .tabs nav ul li {
-  margin: 0 -4px 0 0;
   display: block;
   float: left;
   text-align: left;
   line-height: 1.3;
-  border-radius: 50px;
-  margin-right: 15px;
 }
 @media (max-width: 991px) {
   .tabs nav ul li {
@@ -3595,17 +3595,15 @@ a.social_bt.linkedin:before {
   }
 }
 .tabs nav ul li a {
-  padding: 10px 25px;
+  padding: 20px 20px;
   color: #555;
   display: block;
   font-size: 21px;
   font-size: 0.9rem;
   white-space: nowrap;
   position: relative;
-  border-radius: 50px;
-  margin-left: 5px;
-  margin-right: 5px;
-  margin-bottom: 10px;
+  transition: none;
+  border-bottom: solid 3px transparent;
 }
 @media (max-width: 991px) {
   .tabs nav ul li a {
@@ -3623,9 +3621,9 @@ a.social_bt.linkedin:before {
   width: 4000px;
 }
 .tabs nav ul li.tab-current a {
-  color: white;
-  box-shadow: #7ad6f7 0px 0px 15px;
-  background-color: #1c60d5;
+  color: black;
+  border-bottom: solid 3px #41d3bd;
+  font-weight: 900;
 }
 .tabs nav ul li.tab-current a i {
   color: #3578fa;
