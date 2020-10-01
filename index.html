@@ -17,6 +17,8 @@
 	<link href="css/bootstrap.min.css" rel="stylesheet">
 	<link href="css/style.css" rel="stylesheet">
 	<link href="css/vendors.css" rel="stylesheet">
+	<link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/fancyapps/fancybox@3.5.7/dist/jquery.fancybox.min.css" />
+
 
 	<!-- YOUR CUSTOM CSS -->
 	<link href="css/custom.css" rel="stylesheet">
@@ -30,11 +32,11 @@
 		<header class="header menu_fixed">
 			<div id="logo">
 				<a href="index.html">
-					<img src="img/spotify.png" width="140" alt="" class="logo_normal">
-					<img src="img/spotify.png" width="140" alt="" class="logo_sticky">
+					<img src="img/logo.png" alt="" class="logo_normal">
+					<img src="img/logo.png" alt="" class="logo_sticky">
 				</a>
 			</div>
-			<div class="search-box d-none d-md-block">
+			<div class="search-box d-none d-lg-block">
 				<input type="text" placeholder="search">
 				<div class="search-icon">
 					<span class="icon_search"></span>
@@ -62,48 +64,35 @@
 						<ul>
 							<li><a href="#">submenu</a></li>
 							<li><a href="#">submenu</a></li>
+							<li><a href="#">submenu</a></li>
+							<li><a href="#">submenu</a></li>
 						</ul>
 					</li>
 					<li><span><a href="#0">Menu 2</a></span>
 						<ul>
-							<li>
-								<span><a href="#0">Layouts</a></span>
-								<ul>
-									<li><a href="#">submenu</a></li>
-									<li><a href="#">submenu</a></li>
-									<li><a href="#">submenu</a></li>
-								</ul>
-							</li>
-							<li><a href="reviews-page.html">Reviews page</a></li>
-							<li><a href="write-review.html">Write a review</a></li>
-							<li><a href="confirm.html">Confirm page</a></li>
-							<li><a href="user-dashboard.html">User Dashboard</a></li>
-							<li><a href="user-settings.html">User Settings</a></li>
+							<li><a href="#">submenu</a></li>
+							<li><a href="#">submenu</a></li>
+							<li><a href="#">submenu</a></li>
+							<li><a href="#">submenu</a></li>
 						</ul>
 					</li>
 					<li><span><a href="pricing.html">Menu 3</a></span></li>
 					<li><span><a href="#0">Menu 4</a></span>
 						<ul>
-							<li><a href="companies-landing.html">Compannies Landing Page</a></li>
-							<li><a href="all-categories.html">Companies Categories Page</a></li>
-							<li><a href="category-companies-listings-filterstop.html">Companies Listing Page</a></li>
-							<li><a href="blog.html">Blog</a></li>
-							<li><a href="login.html">Login</a></li>
-							<li><a href="register.html">Register</a></li>
-							<li><a href="about.html">About</a></li>
-							<li><a href="help.html">Help Section</a></li>
-							<li><a href="faq.html">Faq Section</a></li>
-							<li><a href="contacts.html">Contacts</a></li>
+							<li><a href="#">submenu</a></li>
+							<li><a href="#">submenu</a></li>
+							<li><a href="#">submenu</a></li>
+							<li><a href="#">submenu</a></li>
 							<li>
-								<span><a href="#0">Icon Packs</a></span>
+								<span><a href="#0">Another Submenu</a></span>
 								<ul>
-									<li><a href="icon-pack-1.html">Icon pack 1</a></li>
-									<li><a href="icon-pack-2.html">Icon pack 2</a></li>
-									<li><a href="icon-pack-3.html">Icon pack 3</a></li>
-									<li><a href="icon-pack-4.html">Icon pack 4</a></li>
+									<li><a href="#">submenu</a></li>
+									<li><a href="#">submenu</a></li>
+									<li><a href="#">submenu</a></li>
+									<li><a href="#">submenu</a></li>
 								</ul>
 							</li>
-							<li><a href="404.html">404 page</a></li>
+							<li><a href="#">submenu</a></li>
 						</ul>
 					</li>
 					<li class="d-block d-sm-none"><span><a href="#0" class="btn_top">Write a review</a></span></li>
@@ -119,7 +108,7 @@
 						<div class="row mt-170">
 							<div class="col-12 col-md-6 col-lg-6 mb-5 order-md-2">
 								<div class="top-box-right">
-									<img src="img/logo-company.png" alt="logo" width="250px">
+									<img src="img/asana.png" class="main-logo" alt="logo">
 								</div>
 							</div>
 							<div class="col-12 col-md-6 col-lg-6 mb-5 order-md-1">
@@ -356,27 +345,48 @@
 										<div class="row mb-4">
 											<div class="col-md-4 col-6 mb-4">
 												<div class="videos">
-													<img src="img/vid-thumb.png" alt="videos">
+													<a data-fancybox="video" data-caption="caption for video #1"
+														class="fancy-video" title="image one"
+														href="https://www.youtube.com/watch?v=ioNng23DkIM&ab_channel=BLACKPINK">
+														<img src="img/vid-thumb.png" alt="videos">
+													</a>
+
 												</div>
 											</div>
 											<div class="col-md-4 col-6 mb-4">
 												<div class="videos">
-													<img src="img/vid-thumb.png" alt="videos">
+													<a data-fancybox="video" data-caption="caption for video #2"
+														class="fancy-video" title="image two"
+														href="https://www.youtube.com/watch?v=vRXZj0DzXIA&ab_channel=BLACKPINK">
+														<img src="img/vid-thumb.png" alt="videos">
+													</a>
 												</div>
 											</div>
 											<div class="col-md-4 col-6 mb-4">
 												<div class="videos">
-													<img src="img/vid-thumb.png" alt="videos">
+													<a data-fancybox="video" data-caption="caption for video #3"
+														class="fancy-video"
+														href="https://www.youtube.com/watch?v=uR8Mrt1IpXg&ab_channel=SMTOWN">
+														<img src="img/vid-thumb.png" alt="videos">
+													</a>
 												</div>
 											</div>
 											<div class="col-md-4 col-6 mb-4">
 												<div class="videos">
-													<img src="img/vid-thumb.png" alt="videos">
+													<a data-fancybox="video" data-caption="caption for video #4"
+														class="fancy-video"
+														href="https://www.youtube.com/watch?v=J_CFBjAyPWE&ab_channel=SMTOWN">
+														<img src="img/vid-thumb.png" alt="videos">
+													</a>
 												</div>
 											</div>
 											<div class="col-md-4 col-6 mb-4">
 												<div class="videos">
-													<img src="img/vid-thumb.png" alt="videos">
+													<a class="fancy-video" data-fancybox="video"
+														data-caption="caption for video #5"
+														href="https://www.youtube.com/watch?v=V2hlQkVJZhE&ab_channel=JYPEntertainment">
+														<img src="img/vid-thumb.png" alt="videos">
+													</a>
 												</div>
 											</div>
 										</div>
@@ -390,32 +400,50 @@
 										<div class="row mb-4">
 											<div class="col-md-3 col-6 mb-4">
 												<div class="screenshot">
-													<img src="img/screenshot.jpg" alt="screenshot">
+													<a data-fancybox="gallery" data-caption="Screenshot Number 1"
+														href="img/screenshot.jpg">
+														<img src="img/screenshot.jpg" alt="screenshot">
+													</a>
 												</div>
 											</div>
 											<div class="col-md-3 col-6 mb-4">
 												<div class="screenshot">
-													<img src="img/screenshot.jpg" alt="screenshot">
+													<a data-fancybox="gallery" data-caption="Screenshot Number 2"
+														href="img/screenshot.jpg">
+														<img src="img/screenshot.jpg" alt="screenshot">
+													</a>
 												</div>
 											</div>
 											<div class="col-md-3 col-6 mb-4">
 												<div class="screenshot">
-													<img src="img/screenshot.jpg" alt="screenshot">
+													<a data-fancybox="gallery" data-caption="Screenshot Number 3"
+														href="img/screenshot.jpg">
+														<img src="img/screenshot.jpg" alt="screenshot">
+													</a>
 												</div>
 											</div>
 											<div class="col-md-3 col-6 mb-4">
 												<div class="screenshot">
-													<img src="img/screenshot.jpg" alt="screenshot">
+													<a data-fancybox="gallery" data-caption="Screenshot Number 4"
+														href="img/screenshot.jpg">
+														<img src="img/screenshot.jpg" alt="screenshot">
+													</a>
 												</div>
 											</div>
 											<div class="col-md-3 col-6 mb-4">
 												<div class="screenshot">
-													<img src="img/screenshot.jpg" alt="screenshot">
+													<a data-fancybox="gallery" data-caption="Screenshot Number 5"
+														href="img/screenshot.jpg">
+														<img src="img/screenshot.jpg" alt="screenshot">
+													</a>
 												</div>
 											</div>
 											<div class="col-md-3 col-6 mb-4">
 												<div class="screenshot">
-													<img src="img/screenshot.jpg" alt="screenshot">
+													<a data-fancybox="gallery" data-caption="Screenshot Number 6"
+														href="img/screenshot.jpg">
+														<img src="img/screenshot.jpg" alt="screenshot">
+													</a>
 												</div>
 											</div>
 
@@ -1973,7 +2001,7 @@
 
 									</div>
 									<div class="col-lg-6 mb-3">
-										<h3>Tinder</h3>
+										<h3>Spotify</h3>
 										<span class="rating mb-2">
 											<span class="icon_star star-rating"></span>
 											<span class="icon_star star-rating"></span>
@@ -2000,7 +2028,235 @@
 									<div class="col-lg-3">
 
 										<div class="right-box two mb-0">
-											<h5 class="text-blue mb-3">Tinder Review</h5>
+											<h5 class="text-blue mb-3">Spotify Review</h5>
+											<div class="row">
+												<div class="col-3 pr-1">
+													<div class="review-img small">
+														<img src="img/avatar.jpg" alt="avatar">
+
+													</div>
+												</div>
+												<div class="col-9 pr-1">
+													<h6 class="m-0">Dikut Andi</h6>
+													<p class="m-0">Small Business</p>
+												</div>
+												<div class="col-12">
+													<p class="mini-p">Lorem ipsum dolor sit amet consectetur adipisicing
+														elit. Autem
+														qui est velit quidem ipsam ad totam repudiandae suscipit
+														eligendi error
+														dolore. Autem
+														qui est velit quidem ipsam ad totam repudiandae suscipit
+														eligendi error
+														dolore.
+													</p>
+													<div class="d-flex justify-content-center">
+														<button class="btn btn-blue xs">Full Review</button>
+													</div>
+
+												</div>
+
+											</div>
+
+										</div>
+									</div>
+								</div>
+								<div class="row mb-4">
+									<div class="col-lg-3 mb-3">
+										<div class="d-flex flex-column justify-content-center h-100">
+											<img class="mb-2" src="img/spotify.png" style="width: 100%;" alt="logo">
+											<div class="d-flex justify-content-center px-2">
+												<div class="custom-control custom-checkbox py-2">
+													<input type="checkbox" class="custom-control-input"
+														id="customCheck1">
+													<label class="custom-control-label" for="customCheck1">Compare to
+														Asana</label>
+												</div>
+											</div>
+										</div>
+
+									</div>
+									<div class="col-lg-6 mb-3">
+										<h3>Spotify</h3>
+										<span class="rating mb-2">
+											<span class="icon_star star-rating"></span>
+											<span class="icon_star star-rating"></span>
+											<span class="icon_star star-rating"></span>
+											<span class="icon_star star-rating"></span>
+											<span class="icon_star-half star-rating"></span>
+											<span><strong>4.5</strong> out of <strong>5</strong></span>
+											<!-- <em>5.00/5.00</em> -->
+										</span>
+										<p class="long-p">Lorem ipsum dolor sit amet consectetur adipisicing elit. Quia
+											magnam repellat
+											quaerat voluptatum a et fugiat laudantium eaque nisi facere in atque eveniet
+											architecto, nulla delectus quos, veritatis possimus vero! Lorem ipsum dolor
+											sit amet consectetur adipisicing elit. Quia magnam repellat quaerat
+											voluptatum a et fugiat laudantium eaque nisi facere in atque eveniet
+											architecto, nulla delectus quos, veritatis possimus vero! Lorem ipsum dolor
+											sit amet consectetur adipisicing elit. Quia magnam repellat quaerat
+											voluptatum a et fugiat laudantium eaque nisi facere in atque eveniet
+											architecto, nulla delectus quos, veritatis possimus vero!</p>
+
+										<button class="btn btn-blue xs mr-3">Visit Profile</button>
+										<button class="btn btn-trans xs">Go to website</button>
+									</div>
+									<div class="col-lg-3">
+
+										<div class="right-box two mb-0">
+											<h5 class="text-blue mb-3">Spotify Review</h5>
+											<div class="row">
+												<div class="col-3 pr-1">
+													<div class="review-img small">
+														<img src="img/avatar.jpg" alt="avatar">
+
+													</div>
+												</div>
+												<div class="col-9 pr-1">
+													<h6 class="m-0">Dikut Andi</h6>
+													<p class="m-0">Small Business</p>
+												</div>
+												<div class="col-12">
+													<p class="mini-p">Lorem ipsum dolor sit amet consectetur adipisicing
+														elit. Autem
+														qui est velit quidem ipsam ad totam repudiandae suscipit
+														eligendi error
+														dolore. Autem
+														qui est velit quidem ipsam ad totam repudiandae suscipit
+														eligendi error
+														dolore.
+													</p>
+													<div class="d-flex justify-content-center">
+														<button class="btn btn-blue xs">Full Review</button>
+													</div>
+
+												</div>
+
+											</div>
+
+										</div>
+									</div>
+								</div>
+								<div class="row mb-4">
+									<div class="col-lg-3 mb-3">
+										<div class="d-flex flex-column justify-content-center h-100">
+											<img class="mb-2" src="img/spotify.png" style="width: 100%;" alt="logo">
+											<div class="d-flex justify-content-center px-2">
+												<div class="custom-control custom-checkbox py-2">
+													<input type="checkbox" class="custom-control-input"
+														id="customCheck1">
+													<label class="custom-control-label" for="customCheck1">Compare to
+														Asana</label>
+												</div>
+											</div>
+										</div>
+
+									</div>
+									<div class="col-lg-6 mb-3">
+										<h3>Spotify</h3>
+										<span class="rating mb-2">
+											<span class="icon_star star-rating"></span>
+											<span class="icon_star star-rating"></span>
+											<span class="icon_star star-rating"></span>
+											<span class="icon_star star-rating"></span>
+											<span class="icon_star-half star-rating"></span>
+											<span><strong>4.5</strong> out of <strong>5</strong></span>
+											<!-- <em>5.00/5.00</em> -->
+										</span>
+										<p class="long-p">Lorem ipsum dolor sit amet consectetur adipisicing elit. Quia
+											magnam repellat
+											quaerat voluptatum a et fugiat laudantium eaque nisi facere in atque eveniet
+											architecto, nulla delectus quos, veritatis possimus vero! Lorem ipsum dolor
+											sit amet consectetur adipisicing elit. Quia magnam repellat quaerat
+											voluptatum a et fugiat laudantium eaque nisi facere in atque eveniet
+											architecto, nulla delectus quos, veritatis possimus vero! Lorem ipsum dolor
+											sit amet consectetur adipisicing elit. Quia magnam repellat quaerat
+											voluptatum a et fugiat laudantium eaque nisi facere in atque eveniet
+											architecto, nulla delectus quos, veritatis possimus vero!</p>
+
+										<button class="btn btn-blue xs mr-3">Visit Profile</button>
+										<button class="btn btn-trans xs">Go to website</button>
+									</div>
+									<div class="col-lg-3">
+
+										<div class="right-box two mb-0">
+											<h5 class="text-blue mb-3">Spotify Review</h5>
+											<div class="row">
+												<div class="col-3 pr-1">
+													<div class="review-img small">
+														<img src="img/avatar.jpg" alt="avatar">
+
+													</div>
+												</div>
+												<div class="col-9 pr-1">
+													<h6 class="m-0">Dikut Andi</h6>
+													<p class="m-0">Small Business</p>
+												</div>
+												<div class="col-12">
+													<p class="mini-p">Lorem ipsum dolor sit amet consectetur adipisicing
+														elit. Autem
+														qui est velit quidem ipsam ad totam repudiandae suscipit
+														eligendi error
+														dolore. Autem
+														qui est velit quidem ipsam ad totam repudiandae suscipit
+														eligendi error
+														dolore.
+													</p>
+													<div class="d-flex justify-content-center">
+														<button class="btn btn-blue xs">Full Review</button>
+													</div>
+
+												</div>
+
+											</div>
+
+										</div>
+									</div>
+								</div>
+								<div class="row mb-4">
+									<div class="col-lg-3 mb-3">
+										<div class="d-flex flex-column justify-content-center h-100">
+											<img class="mb-2" src="img/spotify.png" style="width: 100%;" alt="logo">
+											<div class="d-flex justify-content-center px-2">
+												<div class="custom-control custom-checkbox py-2">
+													<input type="checkbox" class="custom-control-input"
+														id="customCheck1">
+													<label class="custom-control-label" for="customCheck1">Compare to
+														Asana</label>
+												</div>
+											</div>
+										</div>
+
+									</div>
+									<div class="col-lg-6 mb-3">
+										<h3>Spotify</h3>
+										<span class="rating mb-2">
+											<span class="icon_star star-rating"></span>
+											<span class="icon_star star-rating"></span>
+											<span class="icon_star star-rating"></span>
+											<span class="icon_star star-rating"></span>
+											<span class="icon_star-half star-rating"></span>
+											<span><strong>4.5</strong> out of <strong>5</strong></span>
+											<!-- <em>5.00/5.00</em> -->
+										</span>
+										<p class="long-p">Lorem ipsum dolor sit amet consectetur adipisicing elit. Quia
+											magnam repellat
+											quaerat voluptatum a et fugiat laudantium eaque nisi facere in atque eveniet
+											architecto, nulla delectus quos, veritatis possimus vero! Lorem ipsum dolor
+											sit amet consectetur adipisicing elit. Quia magnam repellat quaerat
+											voluptatum a et fugiat laudantium eaque nisi facere in atque eveniet
+											architecto, nulla delectus quos, veritatis possimus vero! Lorem ipsum dolor
+											sit amet consectetur adipisicing elit. Quia magnam repellat quaerat
+											voluptatum a et fugiat laudantium eaque nisi facere in atque eveniet
+											architecto, nulla delectus quos, veritatis possimus vero!</p>
+
+										<button class="btn btn-blue xs mr-3">Visit Profile</button>
+										<button class="btn btn-trans xs">Go to website</button>
+									</div>
+									<div class="col-lg-3">
+
+										<div class="right-box two mb-0">
+											<h5 class="text-blue mb-3">Spotify Review</h5>
 											<div class="row">
 												<div class="col-3 pr-1">
 													<div class="review-img small">
@@ -2053,7 +2309,7 @@
 													</div>
 												</div>
 												<div class="col-lg-6 col-12 py-5">
-													<h5>Asana Business Pack Coupon</h5>
+													<h5>Tinder Business Pack Coupon</h5>
 													<p class="m-0">Lorem ipsum dolor sit amet consectetur,
 														adipisicing elit.
 														Sint numquam voluptatibus unde porro iure.</p>
@@ -2071,7 +2327,7 @@
 													</div>
 												</div>
 												<div class="col-lg-6 col-12 py-5">
-													<h5>Asana Business Pack Coupon</h5>
+													<h5>Tinder Business Pack Coupon</h5>
 													<p class="m-0">Lorem ipsum dolor sit amet consectetur,
 														adipisicing elit.
 														Sint numquam voluptatibus unde porro iure.</p>
@@ -2089,7 +2345,7 @@
 													</div>
 												</div>
 												<div class="col-lg-6 col-12 py-5">
-													<h5>Asana Business Pack Coupon</h5>
+													<h5>Tinder Business Pack Coupon</h5>
 													<p class="m-0">Lorem ipsum dolor sit amet consectetur,
 														adipisicing elit.
 														Sint numquam voluptatibus unde porro iure.</p>
@@ -2107,7 +2363,7 @@
 													</div>
 												</div>
 												<div class="col-lg-6 col-12 py-5">
-													<h5>Asana Business Pack Coupon</h5>
+													<h5>Tinder Business Pack Coupon</h5>
 													<p class="m-0">Lorem ipsum dolor sit amet consectetur,
 														adipisicing elit.
 														Sint numquam voluptatibus unde porro iure.</p>
@@ -2303,7 +2559,8 @@
 				<div class="row">
 					<div class="col-lg-2 col-md-6 col-sm-6 py-3">
 						<div class="d-flex flex-column justify-content-center h-100">
-							<img src="img/spotify.png" style="width: 100%;" alt="logo">
+							<div class="p-4"><img src="img/logo.png" style="width: 100%;" alt="logo"></div>
+
 						</div>
 
 					</div>
@@ -2484,24 +2741,22 @@
 	<script src="js/common_scripts.js"></script>
 	<script src="js/functions.js"></script>
 	<script src="assets/validate.js"></script>
+	<script src="https://cdn.jsdelivr.net/gh/fancyapps/fancybox@3.5.7/dist/jquery.fancybox.min.js"></script>
 
 	<script src="js/tabs.js"></script>
 	<script src="https://cdn.jsdelivr.net/npm/chart.js@2.8.0"></script>
 	<script src="js/doughnut-chart.js"></script>
 	<script>new CBPFWTabs(document.getElementById('tabs'));</script>
-	<!-- Masonry Filtering -->
-	<script src="js/isotope.min.js"></script>
-	<script>
-		$(window).on('load', function () {
-			var $container = $('.isotope-wrapper');
-			$container.isotope({ itemSelector: '.isotope-item', layoutMode: 'masonry' });
-		});
 
-		$('.filters_listing').on('click', 'input', 'change', function () {
-			var selector = $(this).attr('data-filter');
-			$('.isotope-wrapper').isotope({ filter: selector });
+	<script>
+		$('[data-fancybox="video"]').fancybox({
+			// Options will go here
+		});
+		$('.[data-fancybox="gallery"]').fancybox({
+			// Options will go here
 		});
 	</script>
+
 
 </body>
 

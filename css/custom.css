@@ -549,6 +549,22 @@ li {
   -webkit-box-orient: vertical;
 }
 
+.logo_normal, .logo_sticky {
+    width: 45px;
+}
+
+.main-logo {
+    width: 170px;
+    margin-top: 50px;
+}
+
+.fancybox-caption__body {
+    color: white !important;
+}
+
+.fancybox-infobar span {
+    color: white !important;
+}
 
 
 
