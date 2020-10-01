@@ -34,6 +34,13 @@
 					<img src="img/spotify.png" width="140" alt="" class="logo_sticky">
 				</a>
 			</div>
+			<div class="search-box d-none d-md-block">
+				<input type="text" placeholder="search">
+				<div class="search-icon">
+					<span class="icon_search"></span>
+				</div>
+
+			</div>
 			<ul id="top_menu">
 				<li><a href="#sign-in-dialog" id="sign-in" class="btn_top">SIGN IN</a></li>
 				<li><a href="#sign-in-dialog" id="log-in" class="login" title="Sign In">Sign
@@ -134,6 +141,9 @@
 				</div>
 			</section>
 			<!-- /hero_single -->
+			<div class="bg-wave">
+
+			</div>
 			<section>
 				<div class="bg-blue py-5">
 					<div class="container py-5">
@@ -1850,12 +1860,27 @@
 								<div class="row mb-4">
 									<div class="sort-box p-3">
 										<span class="mr-2">Sort By: </span>
-										<div class="sort-box-inside">
-											<a href="#" class="sort-alternatives">All</a>
-											<a href="#" class="sort-alternatives active">Most Popular</a>
-											<a href="#" class="sort-alternatives">Best Rated</a>
-											<a href="#" class="sort-alternatives">Alphabetical</a>
-										</div>
+										<ul class="sort-box-inside">
+											<li>
+												<div class="sort-box-inside">
+													<input type="radio" id="all" name="listing_filter" value="all"
+														checked data-filter="*" class="selected">
+													<label for="all">All</label>
+
+													<input type="radio" id="alphabetical" name="listing_filter"
+														value="alphabetical" data-filter=".alphabetical">
+													<label for="alphabetical">Alphabetical</label>
+
+													<input type="radio" id="best" name="listing_filter" value="best"
+														data-filter=".best">
+													<label for="best">Best Rated</label>
+
+													<input type="radio" id="popular" name="listing_filter"
+														value="popular" data-filter=".popular">
+													<label for="popular">Most Popular</label>
+												</div>
+											</li>
+										</ul>
 
 									</div>
 								</div>
@@ -2521,6 +2546,19 @@
 	<script src="https://cdn.jsdelivr.net/npm/chart.js@2.8.0"></script>
 	<script src="js/doughnut-chart.js"></script>
 	<script>new CBPFWTabs(document.getElementById('tabs'));</script>
+	<!-- Masonry Filtering -->
+	<script src="js/isotope.min.js"></script>
+	<script>
+		$(window).on('load', function () {
+			var $container = $('.isotope-wrapper');
+			$container.isotope({ itemSelector: '.isotope-item', layoutMode: 'masonry' });
+		});
+
+		$('.filters_listing').on('click', 'input', 'change', function () {
+			var selector = $(this).attr('data-filter');
+			$('.isotope-wrapper').isotope({ filter: selector });
+		});
+	</script>
 
 </body>
 
