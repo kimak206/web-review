@@ -88,6 +88,17 @@
 		closeMarkup: '<button title="%title%" type="button" class="mfp-close"></button>',
 		mainClass: 'my-mfp-zoom-in'
 	});
+
+	$('#register-button').on('click', function () {
+		$('#custom-login').addClass('d-none');
+		$('#custom-register').removeClass('d-none');
+	});
+
+	$('#login-button').on('click', function () {
+		$('#custom-register').addClass('d-none');
+		$('#custom-login').removeClass('d-none');
+	});
+
 	// Show Password
 	$('#password, #password_in, #password1, #password2').hidePassword('focus', {
 		toggle: {

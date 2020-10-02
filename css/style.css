@@ -444,7 +444,7 @@ a.btn_1,
 .btn_1 {
   border: none;
   color: #fff;
-  background: #3578fa;
+  background: #41d3bd;
   outline: none;
   cursor: pointer;
   display: inline-block;
@@ -477,6 +477,7 @@ a.btn_1.full-width,
   width: 100%;
   text-align: center;
   margin-bottom: 5px;
+  border-radius: 10px;
 }
 a.btn_1.full-width.purchase,
 .btn_1.full-width.purchase {
@@ -3319,7 +3320,7 @@ a.social_bt {
   -webkit-border-radius: 3px;
   -moz-border-radius: 3px;
   -ms-border-radius: 3px;
-  border-radius: 3px;
+  border-radius: 10px;
   text-align: center;
   color: #fff;
   min-width: 200px;
@@ -3350,12 +3351,14 @@ a.social_bt.facebook:before, a.social_bt.google:before, a.social_bt.linkedin:bef
 }
 a.social_bt.facebook {
   background-color: #3B5998;
+  font-weight: 600;
 }
 a.social_bt.facebook:before {
   content: "\e093";
 }
 a.social_bt.google {
   background-color: #DC4E41;
+  font-weight: 600;
 }
 a.social_bt.google:before {
   content: "\e096";
@@ -5285,17 +5288,17 @@ a.btn_support:before {
   margin: 40px auto;
   position: relative;
   box-sizing: border-box;
-  -webkit-border-radius: 4px;
-  -moz-border-radius: 4px;
-  -ms-border-radius: 4px;
-  border-radius: 4px;
+  -webkit-border-radius: 30px;
+  -moz-border-radius: 30px;
+  -ms-border-radius: 30px;
+  border-radius: 30px;
 }
 
 /* Popup close button*/
 #sign-in-dialog .mfp-close,
 #lang-dialog .mfp-close {
-  color: #666;
-  background-color: #e4e4e4;
+  color: white;
+  background-color:#41d3bd;
   -webkit-border-radius: 50%;
   -moz-border-radius: 50%;
   -ms-border-radius: 50%;
@@ -5325,21 +5328,18 @@ a.btn_support:before {
   position: relative;
   left: -30px;
   top: 0;
-  -webkit-border-radius: 4px 4px;
-  -moz-border-radius: 4px 4px;
-  -ms-border-radius: 4px 4px;
-  border-radius: 4px 4px;
   display: inline-block;
-  background-color: #f6f6f6;
+  background-color: #e2f0f9;
   padding: 18px 20px 15px 20px;
   margin-bottom: 30px;
+  border-radius: 30px 30px 0 0;
 }
 .small-dialog-header h3 {
   padding: 0;
   margin: 0;
   font-size: 18px;
   font-size: 1.125rem;
-  font-weight: 500;
+  font-weight: 900;
 }
 
 #sign-in-dialog .form-group {
@@ -5348,6 +5348,7 @@ a.btn_support:before {
 
 #sign-in-dialog .form-group input.form-control {
   padding-left: 40px;
+  border-radius: 10px;
 }
 
 #sign-in-dialog .form-group i {
@@ -5443,7 +5444,7 @@ a#forgot:hover {
   text-align: center;
   height: 1px;
   margin: 30px 0 20px 0;
-  background-color: #e1e8ed;
+  background-color: transparent;
 }
 .divider span {
   position: relative;

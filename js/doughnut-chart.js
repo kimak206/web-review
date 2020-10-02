@@ -34,8 +34,8 @@ var chart = new Chart(ctx, {
         labels: ['January', 'February', 'March'],
         datasets: [{
             label: 'My First dataset',
-            backgroundColor: ['red', 'green', 'blue'],
-            data: [20, 30, 45],
+            backgroundColor: ['#3c84e8', '#a6c5ee', '#cccccc'],
+            data: [20, 10, 60],
 
         }]
     },
@@ -59,8 +59,8 @@ var chart = new Chart(ctx, {
         labels: ['January', 'February', 'March'],
         datasets: [{
             label: 'My First dataset',
-            backgroundColor: ['yellow', 'purple', 'cyan'],
-            data: [20, 30, 45],
+            backgroundColor: ['#3c84e8', '#a6c5ee', '#cccccc'],
+            data: [50, 10, 40],
 
         }]
     },

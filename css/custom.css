@@ -45,6 +45,12 @@
     color: #3578fa;
 }
 
+.text-lightblue {
+    color: #a6c5ee;
+}
+.text-grey {
+    color: #cccccc;
+}
 .bg-blue {
     background-color: #1c60d5;
 }
@@ -566,6 +572,19 @@ li {
     color: white !important;
 }
 
+.or {
+    font-weight: 800;
+    color: #3c84e8;
+    font-style: normal !important;
+}
 
+#custom-register {
+    transition: all 1s ease-out;
+}
+
+
+#custom-login {
+    transition: all 1s ease-out;
+}
 
 
