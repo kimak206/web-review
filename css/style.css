@@ -4559,6 +4559,7 @@ a.btn_support:before {
   font-size: 0.8125rem;
   font-weight: 300;
   margin-top: 3px;
+  color: #00dfaa;
 }
 #carousel .item a {
   position: relative;
