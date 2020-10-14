@@ -11,7 +11,9 @@
 
 
 	<!-- GOOGLE WEB FONT -->
-	<link href="https://fonts.googleapis.com/css?family=Roboto:300,400,500,700" rel="stylesheet">
+	<link
+		href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap"
+		rel="stylesheet">
 
 	<!-- BASE CSS -->
 	<link href="css/bootstrap.min.css" rel="stylesheet">
@@ -36,13 +38,13 @@
 					<img src="img/logo.png" alt="" class="logo_sticky">
 				</a>
 			</div>
-			<div class="search-box d-none d-lg-block">
-				<input type="text" placeholder="search">
-				<div class="search-icon">
-					<span class="icon_search"></span>
-				</div>
+			<!-- <div class="search-box d-none d-lg-block">
+                <input type="text" placeholder="search">
+                <div class="search-icon">
+                    <span class="icon_search"></span>
+                </div>
 
-			</div>
+            </div> -->
 			<ul id="top_menu">
 				<li><a href="#sign-in-dialog" id="sign-in" class="btn_top">SIGN IN</a></li>
 				<li><a href="#sign-in-dialog" id="log-in" class="login" title="Sign In">Sign
@@ -102,174 +104,1507 @@
 		<!-- /header -->
 
 		<main>
-			<section class="hero_single version_1">
+			<section class="home-top">
 				<div class="wrapper">
 					<div class="container">
-						<div class="row mt-170">
-							<div class="col-12 col-md-6 col-lg-6 mb-5 order-md-2">
-								<div class="top-box-right">
-									<img src="img/asana.png" class="main-logo" alt="logo">
+						<div class="row mt-170 mb-5">
+							<div class="col-12 col-lg-5 mb-5">
+								<div class="big-search">
+									<h1 class="mb-5">Serving You<br> The <span class="text-blue">Best Software</span>
+										<br>You Can Get
+									</h1>
+									<input type="text" class="input-big" placeholder="What are you looking for..">
+									<button type="submit" class="btn btn-blue btn-search">Search</button>
 								</div>
 							</div>
-							<div class="col-12 col-md-6 col-lg-6 mb-5 order-md-1">
-								<h1 class="text-left m-0">ASANA</h1>
-								<p class="text-left">by Asana Corp</p>
-								<p class="text-left">Lorem ipsum dolor sit amet consectetur, adipisicing elit.
-									Necessitatibus cumque corporis
-									tempore. Qui dicta repellat voluptatibus dolorum dolore fugit atque incidunt iure.
-									Dolorum ex, suscipit libero laudantium cum minus itaque?</p>
-								<div class="mt-5">
-									<button class="btn btn-blue long mr-3">Trial</button>
-									<button class="btn btn-trans long">Website</button>
+							<div class="col-12 col-lg-6 offset-lg-1">
+								<img src="img/computer.png" class="computer-img" alt="stackbutler">
+							</div>
+						</div>
+
+						<div class="row py-4 mb-5">
+
+							<div class="col-lg-6">
+								<h2 class="mb-4 text-blue">Most Popular Categories</h2>
+								<ul id="most-popular-app" class="most-pop-tabs nav nav-tabs flex-column" role="tablist">
+									<li class="nav-item" role="presentation">
+										<a class="nav-link active" role="tab" data-toggle="tab" aria-selected="true"
+											href="#project_m">Project Management</a>
+									</li>
+									<li class="nav-item" role="presentation">
+										<a class="nav-link" role="tab" data-toggle="tab" aria-selected="false"
+											href="#video_c">Video Convercing</a>
+									</li>
+									<li class="nav-item" role="presentation">
+										<a class="nav-link" role="tab" data-toggle="tab" aria-selected="false"
+											href="#ecommerce">E-Commerce Platforms</a>
+									</li>
+									<li class="nav-item" role="presentation">
+										<a class="nav-link" role="tab" data-toggle="tab" aria-selected="false"
+											href="#marketing">Marketing Automation</a>
+									</li>
+									<li class="nav-item" role="presentation">
+										<a class="nav-link" role="tab" data-toggle="tab" aria-selected="true"
+											href="#accounting">Accounting</a>
+									</li>
+									<li class="nav-item" role="presentation">
+										<a class="nav-link" role="tab" data-toggle="tab" aria-selected="false"
+											href="#crm">CRM</a>
+									</li>
+									<li class="nav-item" role="presentation">
+										<a class="nav-link" role="tab" data-toggle="tab" aria-selected="false"
+											href="#expense">Expense Management</a>
+									</li>
+									<li class="nav-item" role="presentation">
+										<a class="nav-link" role="tab" data-toggle="tab" aria-selected="false"
+											href="#erp">ERP Systems</a>
+									</li>
+									<li class="nav-item" role="presentation">
+										<a class="nav-link" role="tab" data-toggle="tab" aria-selected="false"
+											href="#backup">Online Backup</a>
+									</li>
+								</ul>
+							</div>
+							<div class="col-lg-6">
+								<div class="tab-content mb-3" id="myTabContent">
+									<div class="tab-pane fade show active" id="project_m" role="tabpanel"
+										aria-labelledby="project-tab">
+										<div class="row">
+											<div class="col-lg-4 col-6 mb-4">
+												<div class="most-pop-box">
+													<strong>Trello</strong>
+													<div class="star-popular">
+														<span class="icon_star"></span>
+														<span class="icon_star"></span>
+														<span class="icon_star"></span>
+														<span class="icon_star"></span>
+														<span class="icon_star-half_alt"></span>
+														<div class="rated-text"> (1,920)</div>
+													</div>
+													<img src="img/logo/trello.png" alt="stackbutler">
+												</div>
+											</div>
+											<div class="col-lg-4 col-6 mb-4">
+												<div class="most-pop-box">
+													<strong>Basecamp</strong>
+													<div class="star-popular">
+														<span class="icon_star"></span>
+														<span class="icon_star"></span>
+														<span class="icon_star"></span>
+														<span class="icon_star"></span>
+														<span class="icon_star-half_alt"></span>
+														<div class="rated-text"> (1,920)</div>
+													</div>
+													<img src="img/logo/basecamp.png" alt="stackbutler">
+												</div>
+											</div>
+											<div class="col-lg-4 col-6 mb-4">
+												<div class="most-pop-box">
+													<strong>Smartsheet</strong>
+													<div class="star-popular">
+														<span class="icon_star"></span>
+														<span class="icon_star"></span>
+														<span class="icon_star"></span>
+														<span class="icon_star"></span>
+														<span class="icon_star-half_alt"></span>
+														<div class="rated-text"> (1,920)</div>
+													</div>
+													<img src="img/logo/smartsheet.png" alt="stackbutler">
+												</div>
+											</div>
+											<div class="col-lg-4 col-6 mb-4">
+												<div class="most-pop-box">
+													<strong>Monday.com</strong>
+													<div class="star-popular">
+														<span class="icon_star"></span>
+														<span class="icon_star"></span>
+														<span class="icon_star"></span>
+														<span class="icon_star"></span>
+														<span class="icon_star-half_alt"></span>
+														<div class="rated-text"> (1,920)</div>
+													</div>
+													<img src="img/logo/monday.png" alt="stackbutler">
+												</div>
+											</div>
+											<div class="col-lg-4 col-6 mb-4">
+												<div class="most-pop-box">
+													<strong>ClickUp</strong>
+													<div class="star-popular">
+														<span class="icon_star"></span>
+														<span class="icon_star"></span>
+														<span class="icon_star"></span>
+														<span class="icon_star"></span>
+														<span class="icon_star-half_alt"></span>
+														<div class="rated-text"> (1,920)</div>
+													</div>
+													<img src="img/logo/clickup.png" alt="stackbutler">
+												</div>
+											</div>
+											<div class="col-lg-4 col-6 mb-4">
+												<div class="most-pop-box">
+													<strong>Workfront</strong>
+													<div class="star-popular">
+														<span class="icon_star"></span>
+														<span class="icon_star"></span>
+														<span class="icon_star"></span>
+														<span class="icon_star"></span>
+														<span class="icon_star-half_alt"></span>
+														<div class="rated-text"> (1,920)</div>
+													</div>
+													<img src="img/logo/workfront.png" alt="stackbutler">
+												</div>
+											</div>
+											<div class="col-lg-4 col-6 mb-4">
+												<div class="most-pop-box">
+													<strong>Team Gantt</strong>
+													<div class="star-popular">
+														<span class="icon_star"></span>
+														<span class="icon_star"></span>
+														<span class="icon_star"></span>
+														<span class="icon_star"></span>
+														<span class="icon_star-half_alt"></span>
+														<div class="rated-text"> (1,920)</div>
+													</div>
+													<img src="img/logo/teamgantt.png" alt="stackbutler">
+												</div>
+											</div>
+											<div class="col-lg-4 col-6 mb-4">
+												<div class="most-pop-box">
+													<strong>Clarizen One</strong>
+													<div class="star-popular">
+														<span class="icon_star"></span>
+														<span class="icon_star"></span>
+														<span class="icon_star"></span>
+														<span class="icon_star"></span>
+														<span class="icon_star-half_alt"></span>
+														<div class="rated-text"> (1,920)</div>
+													</div>
+													<img src="img/logo/clarizenone.png" alt="stackbutler">
+												</div>
+											</div>
+											<div class="col-lg-4 col-6 mb-4">
+												<div class="most-pop-box">
+													<strong>Mavelink</strong>
+													<div class="star-popular">
+														<span class="icon_star"></span>
+														<span class="icon_star"></span>
+														<span class="icon_star"></span>
+														<span class="icon_star"></span>
+														<span class="icon_star-half_alt"></span>
+														<div class="rated-text"> (1,920)</div>
+													</div>
+													<img src="img/logo/mavelink.png" alt="stackbutler">
+												</div>
+											</div>
+
+										</div>
+									</div>
+									<div class="tab-pane fade" id="video_c" role="tabpanel" aria-labelledby="video-tab">
+										<div class="row">
+											<div class="col-lg-4 col-6 mb-4">
+												<div class="most-pop-box">
+													<strong>Trello</strong>
+													<div class="star-popular">
+														<span class="icon_star"></span>
+														<span class="icon_star"></span>
+														<span class="icon_star"></span>
+														<span class="icon_star"></span>
+														<span class="icon_star-half_alt"></span>
+														<div class="rated-text"> (1,920)</div>
+													</div>
+													<img src="img/logo/trello.png" alt="stackbutler">
+												</div>
+											</div>
+											<div class="col-lg-4 col-6 mb-4">
+												<div class="most-pop-box">
+													<strong>Basecamp</strong>
+													<div class="star-popular">
+														<span class="icon_star"></span>
+														<span class="icon_star"></span>
+														<span class="icon_star"></span>
+														<span class="icon_star"></span>
+														<span class="icon_star-half_alt"></span>
+														<div class="rated-text"> (1,920)</div>
+													</div>
+													<img src="img/logo/basecamp.png" alt="stackbutler">
+												</div>
+											</div>
+											<div class="col-lg-4 col-6 mb-4">
+												<div class="most-pop-box">
+													<strong>Smartsheet</strong>
+													<div class="star-popular">
+														<span class="icon_star"></span>
+														<span class="icon_star"></span>
+														<span class="icon_star"></span>
+														<span class="icon_star"></span>
+														<span class="icon_star-half_alt"></span>
+														<div class="rated-text"> (1,920)</div>
+													</div>
+													<img src="img/logo/smartsheet.png" alt="stackbutler">
+												</div>
+											</div>
+											<div class="col-lg-4 col-6 mb-4">
+												<div class="most-pop-box">
+													<strong>Monday.com</strong>
+													<div class="star-popular">
+														<span class="icon_star"></span>
+														<span class="icon_star"></span>
+														<span class="icon_star"></span>
+														<span class="icon_star"></span>
+														<span class="icon_star-half_alt"></span>
+														<div class="rated-text"> (1,920)</div>
+													</div>
+													<img src="img/logo/monday.png" alt="stackbutler">
+												</div>
+											</div>
+											<div class="col-lg-4 col-6 mb-4">
+												<div class="most-pop-box">
+													<strong>ClickUp</strong>
+													<div class="star-popular">
+														<span class="icon_star"></span>
+														<span class="icon_star"></span>
+														<span class="icon_star"></span>
+														<span class="icon_star"></span>
+														<span class="icon_star-half_alt"></span>
+														<div class="rated-text"> (1,920)</div>
+													</div>
+													<img src="img/logo/clickup.png" alt="stackbutler">
+												</div>
+											</div>
+											<div class="col-lg-4 col-6 mb-4">
+												<div class="most-pop-box">
+													<strong>Workfront</strong>
+													<div class="star-popular">
+														<span class="icon_star"></span>
+														<span class="icon_star"></span>
+														<span class="icon_star"></span>
+														<span class="icon_star"></span>
+														<span class="icon_star-half_alt"></span>
+														<div class="rated-text"> (1,920)</div>
+													</div>
+													<img src="img/logo/workfront.png" alt="stackbutler">
+												</div>
+											</div>
+											<div class="col-lg-4 col-6 mb-4">
+												<div class="most-pop-box">
+													<strong>Team Gantt</strong>
+													<div class="star-popular">
+														<span class="icon_star"></span>
+														<span class="icon_star"></span>
+														<span class="icon_star"></span>
+														<span class="icon_star"></span>
+														<span class="icon_star-half_alt"></span>
+														<div class="rated-text"> (1,920)</div>
+													</div>
+													<img src="img/logo/teamgantt.png" alt="stackbutler">
+												</div>
+											</div>
+											<div class="col-lg-4 col-6 mb-4">
+												<div class="most-pop-box">
+													<strong>Clarizen One</strong>
+													<div class="star-popular">
+														<span class="icon_star"></span>
+														<span class="icon_star"></span>
+														<span class="icon_star"></span>
+														<span class="icon_star"></span>
+														<span class="icon_star-half_alt"></span>
+														<div class="rated-text"> (1,920)</div>
+													</div>
+													<img src="img/logo/clarizenone.png" alt="stackbutler">
+												</div>
+											</div>
+											<div class="col-lg-4 col-6 mb-4">
+												<div class="most-pop-box">
+													<strong>Mavelink</strong>
+													<div class="star-popular">
+														<span class="icon_star"></span>
+														<span class="icon_star"></span>
+														<span class="icon_star"></span>
+														<span class="icon_star"></span>
+														<span class="icon_star-half_alt"></span>
+														<div class="rated-text"> (1,920)</div>
+													</div>
+													<img src="img/logo/mavelink.png" alt="stackbutler">
+												</div>
+											</div>
+
+										</div>
+									</div>
+									<div class="tab-pane fade" id="ecommerce" role="tabpanel"
+										aria-labelledby="ecommerce-tab">
+										<div class="row">
+											<div class="col-lg-4 col-6 mb-4">
+												<div class="most-pop-box">
+													<strong>Trello</strong>
+													<div class="star-popular">
+														<span class="icon_star"></span>
+														<span class="icon_star"></span>
+														<span class="icon_star"></span>
+														<span class="icon_star"></span>
+														<span class="icon_star-half_alt"></span>
+														<div class="rated-text"> (1,920)</div>
+													</div>
+													<img src="img/logo/trello.png" alt="stackbutler">
+												</div>
+											</div>
+											<div class="col-lg-4 col-6 mb-4">
+												<div class="most-pop-box">
+													<strong>Basecamp</strong>
+													<div class="star-popular">
+														<span class="icon_star"></span>
+														<span class="icon_star"></span>
+														<span class="icon_star"></span>
+														<span class="icon_star"></span>
+														<span class="icon_star-half_alt"></span>
+														<div class="rated-text"> (1,920)</div>
+													</div>
+													<img src="img/logo/basecamp.png" alt="stackbutler">
+												</div>
+											</div>
+											<div class="col-lg-4 col-6 mb-4">
+												<div class="most-pop-box">
+													<strong>Smartsheet</strong>
+													<div class="star-popular">
+														<span class="icon_star"></span>
+														<span class="icon_star"></span>
+														<span class="icon_star"></span>
+														<span class="icon_star"></span>
+														<span class="icon_star-half_alt"></span>
+														<div class="rated-text"> (1,920)</div>
+													</div>
+													<img src="img/logo/smartsheet.png" alt="stackbutler">
+												</div>
+											</div>
+											<div class="col-lg-4 col-6 mb-4">
+												<div class="most-pop-box">
+													<strong>Monday.com</strong>
+													<div class="star-popular">
+														<span class="icon_star"></span>
+														<span class="icon_star"></span>
+														<span class="icon_star"></span>
+														<span class="icon_star"></span>
+														<span class="icon_star-half_alt"></span>
+														<div class="rated-text"> (1,920)</div>
+													</div>
+													<img src="img/logo/monday.png" alt="stackbutler">
+												</div>
+											</div>
+											<div class="col-lg-4 col-6 mb-4">
+												<div class="most-pop-box">
+													<strong>ClickUp</strong>
+													<div class="star-popular">
+														<span class="icon_star"></span>
+														<span class="icon_star"></span>
+														<span class="icon_star"></span>
+														<span class="icon_star"></span>
+														<span class="icon_star-half_alt"></span>
+														<div class="rated-text"> (1,920)</div>
+													</div>
+													<img src="img/logo/clickup.png" alt="stackbutler">
+												</div>
+											</div>
+											<div class="col-lg-4 col-6 mb-4">
+												<div class="most-pop-box">
+													<strong>Workfront</strong>
+													<div class="star-popular">
+														<span class="icon_star"></span>
+														<span class="icon_star"></span>
+														<span class="icon_star"></span>
+														<span class="icon_star"></span>
+														<span class="icon_star-half_alt"></span>
+														<div class="rated-text"> (1,920)</div>
+													</div>
+													<img src="img/logo/workfront.png" alt="stackbutler">
+												</div>
+											</div>
+											<div class="col-lg-4 col-6 mb-4">
+												<div class="most-pop-box">
+													<strong>Team Gantt</strong>
+													<div class="star-popular">
+														<span class="icon_star"></span>
+														<span class="icon_star"></span>
+														<span class="icon_star"></span>
+														<span class="icon_star"></span>
+														<span class="icon_star-half_alt"></span>
+														<div class="rated-text"> (1,920)</div>
+													</div>
+													<img src="img/logo/teamgantt.png" alt="stackbutler">
+												</div>
+											</div>
+											<div class="col-lg-4 col-6 mb-4">
+												<div class="most-pop-box">
+													<strong>Clarizen One</strong>
+													<div class="star-popular">
+														<span class="icon_star"></span>
+														<span class="icon_star"></span>
+														<span class="icon_star"></span>
+														<span class="icon_star"></span>
+														<span class="icon_star-half_alt"></span>
+														<div class="rated-text"> (1,920)</div>
+													</div>
+													<img src="img/logo/clarizenone.png" alt="stackbutler">
+												</div>
+											</div>
+											<div class="col-lg-4 col-6 mb-4">
+												<div class="most-pop-box">
+													<strong>Mavelink</strong>
+													<div class="star-popular">
+														<span class="icon_star"></span>
+														<span class="icon_star"></span>
+														<span class="icon_star"></span>
+														<span class="icon_star"></span>
+														<span class="icon_star-half_alt"></span>
+														<div class="rated-text"> (1,920)</div>
+													</div>
+													<img src="img/logo/mavelink.png" alt="stackbutler">
+												</div>
+											</div>
+
+										</div>
+									</div>
+									<div class="tab-pane fade" id="marketing" role="tabpanel"
+										aria-labelledby="marketing-tab">
+										<div class="row">
+											<div class="col-lg-4 col-6 mb-4">
+												<div class="most-pop-box">
+													<strong>Trello</strong>
+													<div class="star-popular">
+														<span class="icon_star"></span>
+														<span class="icon_star"></span>
+														<span class="icon_star"></span>
+														<span class="icon_star"></span>
+														<span class="icon_star-half_alt"></span>
+														<div class="rated-text"> (1,920)</div>
+													</div>
+													<img src="img/logo/trello.png" alt="stackbutler">
+												</div>
+											</div>
+											<div class="col-lg-4 col-6 mb-4">
+												<div class="most-pop-box">
+													<strong>Basecamp</strong>
+													<div class="star-popular">
+														<span class="icon_star"></span>
+														<span class="icon_star"></span>
+														<span class="icon_star"></span>
+														<span class="icon_star"></span>
+														<span class="icon_star-half_alt"></span>
+														<div class="rated-text"> (1,920)</div>
+													</div>
+													<img src="img/logo/basecamp.png" alt="stackbutler">
+												</div>
+											</div>
+											<div class="col-lg-4 col-6 mb-4">
+												<div class="most-pop-box">
+													<strong>Smartsheet</strong>
+													<div class="star-popular">
+														<span class="icon_star"></span>
+														<span class="icon_star"></span>
+														<span class="icon_star"></span>
+														<span class="icon_star"></span>
+														<span class="icon_star-half_alt"></span>
+														<div class="rated-text"> (1,920)</div>
+													</div>
+													<img src="img/logo/smartsheet.png" alt="stackbutler">
+												</div>
+											</div>
+											<div class="col-lg-4 col-6 mb-4">
+												<div class="most-pop-box">
+													<strong>Monday.com</strong>
+													<div class="star-popular">
+														<span class="icon_star"></span>
+														<span class="icon_star"></span>
+														<span class="icon_star"></span>
+														<span class="icon_star"></span>
+														<span class="icon_star-half_alt"></span>
+														<div class="rated-text"> (1,920)</div>
+													</div>
+													<img src="img/logo/monday.png" alt="stackbutler">
+												</div>
+											</div>
+											<div class="col-lg-4 col-6 mb-4">
+												<div class="most-pop-box">
+													<strong>ClickUp</strong>
+													<div class="star-popular">
+														<span class="icon_star"></span>
+														<span class="icon_star"></span>
+														<span class="icon_star"></span>
+														<span class="icon_star"></span>
+														<span class="icon_star-half_alt"></span>
+														<div class="rated-text"> (1,920)</div>
+													</div>
+													<img src="img/logo/clickup.png" alt="stackbutler">
+												</div>
+											</div>
+											<div class="col-lg-4 col-6 mb-4">
+												<div class="most-pop-box">
+													<strong>Workfront</strong>
+													<div class="star-popular">
+														<span class="icon_star"></span>
+														<span class="icon_star"></span>
+														<span class="icon_star"></span>
+														<span class="icon_star"></span>
+														<span class="icon_star-half_alt"></span>
+														<div class="rated-text"> (1,920)</div>
+													</div>
+													<img src="img/logo/workfront.png" alt="stackbutler">
+												</div>
+											</div>
+											<div class="col-lg-4 col-6 mb-4">
+												<div class="most-pop-box">
+													<strong>Team Gantt</strong>
+													<div class="star-popular">
+														<span class="icon_star"></span>
+														<span class="icon_star"></span>
+														<span class="icon_star"></span>
+														<span class="icon_star"></span>
+														<span class="icon_star-half_alt"></span>
+														<div class="rated-text"> (1,920)</div>
+													</div>
+													<img src="img/logo/teamgantt.png" alt="stackbutler">
+												</div>
+											</div>
+											<div class="col-lg-4 col-6 mb-4">
+												<div class="most-pop-box">
+													<strong>Clarizen One</strong>
+													<div class="star-popular">
+														<span class="icon_star"></span>
+														<span class="icon_star"></span>
+														<span class="icon_star"></span>
+														<span class="icon_star"></span>
+														<span class="icon_star-half_alt"></span>
+														<div class="rated-text"> (1,920)</div>
+													</div>
+													<img src="img/logo/clarizenone.png" alt="stackbutler">
+												</div>
+											</div>
+											<div class="col-lg-4 col-6 mb-4">
+												<div class="most-pop-box">
+													<strong>Mavelink</strong>
+													<div class="star-popular">
+														<span class="icon_star"></span>
+														<span class="icon_star"></span>
+														<span class="icon_star"></span>
+														<span class="icon_star"></span>
+														<span class="icon_star-half_alt"></span>
+														<div class="rated-text"> (1,920)</div>
+													</div>
+													<img src="img/logo/mavelink.png" alt="stackbutler">
+												</div>
+											</div>
+
+										</div>
+									</div>
+									<div class="tab-pane fade" id="accounting" role="tabpanel"
+										aria-labelledby="accounting-tab">
+										<div class="row">
+											<div class="col-lg-4 col-6 mb-4">
+												<div class="most-pop-box">
+													<strong>Trello</strong>
+													<div class="star-popular">
+														<span class="icon_star"></span>
+														<span class="icon_star"></span>
+														<span class="icon_star"></span>
+														<span class="icon_star"></span>
+														<span class="icon_star-half_alt"></span>
+														<div class="rated-text"> (1,920)</div>
+													</div>
+													<img src="img/logo/trello.png" alt="stackbutler">
+												</div>
+											</div>
+											<div class="col-lg-4 col-6 mb-4">
+												<div class="most-pop-box">
+													<strong>Basecamp</strong>
+													<div class="star-popular">
+														<span class="icon_star"></span>
+														<span class="icon_star"></span>
+														<span class="icon_star"></span>
+														<span class="icon_star"></span>
+														<span class="icon_star-half_alt"></span>
+														<div class="rated-text"> (1,920)</div>
+													</div>
+													<img src="img/logo/basecamp.png" alt="stackbutler">
+												</div>
+											</div>
+											<div class="col-lg-4 col-6 mb-4">
+												<div class="most-pop-box">
+													<strong>Smartsheet</strong>
+													<div class="star-popular">
+														<span class="icon_star"></span>
+														<span class="icon_star"></span>
+														<span class="icon_star"></span>
+														<span class="icon_star"></span>
+														<span class="icon_star-half_alt"></span>
+														<div class="rated-text"> (1,920)</div>
+													</div>
+													<img src="img/logo/smartsheet.png" alt="stackbutler">
+												</div>
+											</div>
+											<div class="col-lg-4 col-6 mb-4">
+												<div class="most-pop-box">
+													<strong>Monday.com</strong>
+													<div class="star-popular">
+														<span class="icon_star"></span>
+														<span class="icon_star"></span>
+														<span class="icon_star"></span>
+														<span class="icon_star"></span>
+														<span class="icon_star-half_alt"></span>
+														<div class="rated-text"> (1,920)</div>
+													</div>
+													<img src="img/logo/monday.png" alt="stackbutler">
+												</div>
+											</div>
+											<div class="col-lg-4 col-6 mb-4">
+												<div class="most-pop-box">
+													<strong>ClickUp</strong>
+													<div class="star-popular">
+														<span class="icon_star"></span>
+														<span class="icon_star"></span>
+														<span class="icon_star"></span>
+														<span class="icon_star"></span>
+														<span class="icon_star-half_alt"></span>
+														<div class="rated-text"> (1,920)</div>
+													</div>
+													<img src="img/logo/clickup.png" alt="stackbutler">
+												</div>
+											</div>
+											<div class="col-lg-4 col-6 mb-4">
+												<div class="most-pop-box">
+													<strong>Workfront</strong>
+													<div class="star-popular">
+														<span class="icon_star"></span>
+														<span class="icon_star"></span>
+														<span class="icon_star"></span>
+														<span class="icon_star"></span>
+														<span class="icon_star-half_alt"></span>
+														<div class="rated-text"> (1,920)</div>
+													</div>
+													<img src="img/logo/workfront.png" alt="stackbutler">
+												</div>
+											</div>
+											<div class="col-lg-4 col-6 mb-4">
+												<div class="most-pop-box">
+													<strong>Team Gantt</strong>
+													<div class="star-popular">
+														<span class="icon_star"></span>
+														<span class="icon_star"></span>
+														<span class="icon_star"></span>
+														<span class="icon_star"></span>
+														<span class="icon_star-half_alt"></span>
+														<div class="rated-text"> (1,920)</div>
+													</div>
+													<img src="img/logo/teamgantt.png" alt="stackbutler">
+												</div>
+											</div>
+											<div class="col-lg-4 col-6 mb-4">
+												<div class="most-pop-box">
+													<strong>Clarizen One</strong>
+													<div class="star-popular">
+														<span class="icon_star"></span>
+														<span class="icon_star"></span>
+														<span class="icon_star"></span>
+														<span class="icon_star"></span>
+														<span class="icon_star-half_alt"></span>
+														<div class="rated-text"> (1,920)</div>
+													</div>
+													<img src="img/logo/clarizenone.png" alt="stackbutler">
+												</div>
+											</div>
+											<div class="col-lg-4 col-6 mb-4">
+												<div class="most-pop-box">
+													<strong>Mavelink</strong>
+													<div class="star-popular">
+														<span class="icon_star"></span>
+														<span class="icon_star"></span>
+														<span class="icon_star"></span>
+														<span class="icon_star"></span>
+														<span class="icon_star-half_alt"></span>
+														<div class="rated-text"> (1,920)</div>
+													</div>
+													<img src="img/logo/mavelink.png" alt="stackbutler">
+												</div>
+											</div>
+
+										</div>
+									</div>
+									<div class="tab-pane fade" id="crm" role="tabpanel" aria-labelledby="crm-tab">
+										<div class="row">
+											<div class="col-lg-4 col-6 mb-4">
+												<div class="most-pop-box">
+													<strong>Trello</strong>
+													<div class="star-popular">
+														<span class="icon_star"></span>
+														<span class="icon_star"></span>
+														<span class="icon_star"></span>
+														<span class="icon_star"></span>
+														<span class="icon_star-half_alt"></span>
+														<div class="rated-text"> (1,920)</div>
+													</div>
+													<img src="img/logo/trello.png" alt="stackbutler">
+												</div>
+											</div>
+											<div class="col-lg-4 col-6 mb-4">
+												<div class="most-pop-box">
+													<strong>Basecamp</strong>
+													<div class="star-popular">
+														<span class="icon_star"></span>
+														<span class="icon_star"></span>
+														<span class="icon_star"></span>
+														<span class="icon_star"></span>
+														<span class="icon_star-half_alt"></span>
+														<div class="rated-text"> (1,920)</div>
+													</div>
+													<img src="img/logo/basecamp.png" alt="stackbutler">
+												</div>
+											</div>
+											<div class="col-lg-4 col-6 mb-4">
+												<div class="most-pop-box">
+													<strong>Smartsheet</strong>
+													<div class="star-popular">
+														<span class="icon_star"></span>
+														<span class="icon_star"></span>
+														<span class="icon_star"></span>
+														<span class="icon_star"></span>
+														<span class="icon_star-half_alt"></span>
+														<div class="rated-text"> (1,920)</div>
+													</div>
+													<img src="img/logo/smartsheet.png" alt="stackbutler">
+												</div>
+											</div>
+											<div class="col-lg-4 col-6 mb-4">
+												<div class="most-pop-box">
+													<strong>Monday.com</strong>
+													<div class="star-popular">
+														<span class="icon_star"></span>
+														<span class="icon_star"></span>
+														<span class="icon_star"></span>
+														<span class="icon_star"></span>
+														<span class="icon_star-half_alt"></span>
+														<div class="rated-text"> (1,920)</div>
+													</div>
+													<img src="img/logo/monday.png" alt="stackbutler">
+												</div>
+											</div>
+											<div class="col-lg-4 col-6 mb-4">
+												<div class="most-pop-box">
+													<strong>ClickUp</strong>
+													<div class="star-popular">
+														<span class="icon_star"></span>
+														<span class="icon_star"></span>
+														<span class="icon_star"></span>
+														<span class="icon_star"></span>
+														<span class="icon_star-half_alt"></span>
+														<div class="rated-text"> (1,920)</div>
+													</div>
+													<img src="img/logo/clickup.png" alt="stackbutler">
+												</div>
+											</div>
+											<div class="col-lg-4 col-6 mb-4">
+												<div class="most-pop-box">
+													<strong>Workfront</strong>
+													<div class="star-popular">
+														<span class="icon_star"></span>
+														<span class="icon_star"></span>
+														<span class="icon_star"></span>
+														<span class="icon_star"></span>
+														<span class="icon_star-half_alt"></span>
+														<div class="rated-text"> (1,920)</div>
+													</div>
+													<img src="img/logo/workfront.png" alt="stackbutler">
+												</div>
+											</div>
+											<div class="col-lg-4 col-6 mb-4">
+												<div class="most-pop-box">
+													<strong>Team Gantt</strong>
+													<div class="star-popular">
+														<span class="icon_star"></span>
+														<span class="icon_star"></span>
+														<span class="icon_star"></span>
+														<span class="icon_star"></span>
+														<span class="icon_star-half_alt"></span>
+														<div class="rated-text"> (1,920)</div>
+													</div>
+													<img src="img/logo/teamgantt.png" alt="stackbutler">
+												</div>
+											</div>
+											<div class="col-lg-4 col-6 mb-4">
+												<div class="most-pop-box">
+													<strong>Clarizen One</strong>
+													<div class="star-popular">
+														<span class="icon_star"></span>
+														<span class="icon_star"></span>
+														<span class="icon_star"></span>
+														<span class="icon_star"></span>
+														<span class="icon_star-half_alt"></span>
+														<div class="rated-text"> (1,920)</div>
+													</div>
+													<img src="img/logo/clarizenone.png" alt="stackbutler">
+												</div>
+											</div>
+											<div class="col-lg-4 col-6 mb-4">
+												<div class="most-pop-box">
+													<strong>Mavelink</strong>
+													<div class="star-popular">
+														<span class="icon_star"></span>
+														<span class="icon_star"></span>
+														<span class="icon_star"></span>
+														<span class="icon_star"></span>
+														<span class="icon_star-half_alt"></span>
+														<div class="rated-text"> (1,920)</div>
+													</div>
+													<img src="img/logo/mavelink.png" alt="stackbutler">
+												</div>
+											</div>
+
+										</div>
+									</div>
+									<div class="tab-pane fade" id="expense" role="tabpanel"
+										aria-labelledby="expense-tab">
+										<div class="row">
+											<div class="col-lg-4 col-6 mb-4">
+												<div class="most-pop-box">
+													<strong>Trello</strong>
+													<div class="star-popular">
+														<span class="icon_star"></span>
+														<span class="icon_star"></span>
+														<span class="icon_star"></span>
+														<span class="icon_star"></span>
+														<span class="icon_star-half_alt"></span>
+														<div class="rated-text"> (1,920)</div>
+													</div>
+													<img src="img/logo/trello.png" alt="stackbutler">
+												</div>
+											</div>
+											<div class="col-lg-4 col-6 mb-4">
+												<div class="most-pop-box">
+													<strong>Basecamp</strong>
+													<div class="star-popular">
+														<span class="icon_star"></span>
+														<span class="icon_star"></span>
+														<span class="icon_star"></span>
+														<span class="icon_star"></span>
+														<span class="icon_star-half_alt"></span>
+														<div class="rated-text"> (1,920)</div>
+													</div>
+													<img src="img/logo/basecamp.png" alt="stackbutler">
+												</div>
+											</div>
+											<div class="col-lg-4 col-6 mb-4">
+												<div class="most-pop-box">
+													<strong>Smartsheet</strong>
+													<div class="star-popular">
+														<span class="icon_star"></span>
+														<span class="icon_star"></span>
+														<span class="icon_star"></span>
+														<span class="icon_star"></span>
+														<span class="icon_star-half_alt"></span>
+														<div class="rated-text"> (1,920)</div>
+													</div>
+													<img src="img/logo/smartsheet.png" alt="stackbutler">
+												</div>
+											</div>
+											<div class="col-lg-4 col-6 mb-4">
+												<div class="most-pop-box">
+													<strong>Monday.com</strong>
+													<div class="star-popular">
+														<span class="icon_star"></span>
+														<span class="icon_star"></span>
+														<span class="icon_star"></span>
+														<span class="icon_star"></span>
+														<span class="icon_star-half_alt"></span>
+														<div class="rated-text"> (1,920)</div>
+													</div>
+													<img src="img/logo/monday.png" alt="stackbutler">
+												</div>
+											</div>
+											<div class="col-lg-4 col-6 mb-4">
+												<div class="most-pop-box">
+													<strong>ClickUp</strong>
+													<div class="star-popular">
+														<span class="icon_star"></span>
+														<span class="icon_star"></span>
+														<span class="icon_star"></span>
+														<span class="icon_star"></span>
+														<span class="icon_star-half_alt"></span>
+														<div class="rated-text"> (1,920)</div>
+													</div>
+													<img src="img/logo/clickup.png" alt="stackbutler">
+												</div>
+											</div>
+											<div class="col-lg-4 col-6 mb-4">
+												<div class="most-pop-box">
+													<strong>Workfront</strong>
+													<div class="star-popular">
+														<span class="icon_star"></span>
+														<span class="icon_star"></span>
+														<span class="icon_star"></span>
+														<span class="icon_star"></span>
+														<span class="icon_star-half_alt"></span>
+														<div class="rated-text"> (1,920)</div>
+													</div>
+													<img src="img/logo/workfront.png" alt="stackbutler">
+												</div>
+											</div>
+											<div class="col-lg-4 col-6 mb-4">
+												<div class="most-pop-box">
+													<strong>Team Gantt</strong>
+													<div class="star-popular">
+														<span class="icon_star"></span>
+														<span class="icon_star"></span>
+														<span class="icon_star"></span>
+														<span class="icon_star"></span>
+														<span class="icon_star-half_alt"></span>
+														<div class="rated-text"> (1,920)</div>
+													</div>
+													<img src="img/logo/teamgantt.png" alt="stackbutler">
+												</div>
+											</div>
+											<div class="col-lg-4 col-6 mb-4">
+												<div class="most-pop-box">
+													<strong>Clarizen One</strong>
+													<div class="star-popular">
+														<span class="icon_star"></span>
+														<span class="icon_star"></span>
+														<span class="icon_star"></span>
+														<span class="icon_star"></span>
+														<span class="icon_star-half_alt"></span>
+														<div class="rated-text"> (1,920)</div>
+													</div>
+													<img src="img/logo/clarizenone.png" alt="stackbutler">
+												</div>
+											</div>
+											<div class="col-lg-4 col-6 mb-4">
+												<div class="most-pop-box">
+													<strong>Mavelink</strong>
+													<div class="star-popular">
+														<span class="icon_star"></span>
+														<span class="icon_star"></span>
+														<span class="icon_star"></span>
+														<span class="icon_star"></span>
+														<span class="icon_star-half_alt"></span>
+														<div class="rated-text"> (1,920)</div>
+													</div>
+													<img src="img/logo/mavelink.png" alt="stackbutler">
+												</div>
+											</div>
+
+										</div>
+									</div>
+									<div class="tab-pane fade" id="erp" role="tabpanel" aria-labelledby="erp-tab">
+										<div class="row">
+											<div class="col-lg-4 col-6 mb-4">
+												<div class="most-pop-box">
+													<strong>Trello</strong>
+													<div class="star-popular">
+														<span class="icon_star"></span>
+														<span class="icon_star"></span>
+														<span class="icon_star"></span>
+														<span class="icon_star"></span>
+														<span class="icon_star-half_alt"></span>
+														<div class="rated-text"> (1,920)</div>
+													</div>
+													<img src="img/logo/trello.png" alt="stackbutler">
+												</div>
+											</div>
+											<div class="col-lg-4 col-6 mb-4">
+												<div class="most-pop-box">
+													<strong>Basecamp</strong>
+													<div class="star-popular">
+														<span class="icon_star"></span>
+														<span class="icon_star"></span>
+														<span class="icon_star"></span>
+														<span class="icon_star"></span>
+														<span class="icon_star-half_alt"></span>
+														<div class="rated-text"> (1,920)</div>
+													</div>
+													<img src="img/logo/basecamp.png" alt="stackbutler">
+												</div>
+											</div>
+											<div class="col-lg-4 col-6 mb-4">
+												<div class="most-pop-box">
+													<strong>Smartsheet</strong>
+													<div class="star-popular">
+														<span class="icon_star"></span>
+														<span class="icon_star"></span>
+														<span class="icon_star"></span>
+														<span class="icon_star"></span>
+														<span class="icon_star-half_alt"></span>
+														<div class="rated-text"> (1,920)</div>
+													</div>
+													<img src="img/logo/smartsheet.png" alt="stackbutler">
+												</div>
+											</div>
+											<div class="col-lg-4 col-6 mb-4">
+												<div class="most-pop-box">
+													<strong>Monday.com</strong>
+													<div class="star-popular">
+														<span class="icon_star"></span>
+														<span class="icon_star"></span>
+														<span class="icon_star"></span>
+														<span class="icon_star"></span>
+														<span class="icon_star-half_alt"></span>
+														<div class="rated-text"> (1,920)</div>
+													</div>
+													<img src="img/logo/monday.png" alt="stackbutler">
+												</div>
+											</div>
+											<div class="col-lg-4 col-6 mb-4">
+												<div class="most-pop-box">
+													<strong>ClickUp</strong>
+													<div class="star-popular">
+														<span class="icon_star"></span>
+														<span class="icon_star"></span>
+														<span class="icon_star"></span>
+														<span class="icon_star"></span>
+														<span class="icon_star-half_alt"></span>
+														<div class="rated-text"> (1,920)</div>
+													</div>
+													<img src="img/logo/clickup.png" alt="stackbutler">
+												</div>
+											</div>
+											<div class="col-lg-4 col-6 mb-4">
+												<div class="most-pop-box">
+													<strong>Workfront</strong>
+													<div class="star-popular">
+														<span class="icon_star"></span>
+														<span class="icon_star"></span>
+														<span class="icon_star"></span>
+														<span class="icon_star"></span>
+														<span class="icon_star-half_alt"></span>
+														<div class="rated-text"> (1,920)</div>
+													</div>
+													<img src="img/logo/workfront.png" alt="stackbutler">
+												</div>
+											</div>
+											<div class="col-lg-4 col-6 mb-4">
+												<div class="most-pop-box">
+													<strong>Team Gantt</strong>
+													<div class="star-popular">
+														<span class="icon_star"></span>
+														<span class="icon_star"></span>
+														<span class="icon_star"></span>
+														<span class="icon_star"></span>
+														<span class="icon_star-half_alt"></span>
+														<div class="rated-text"> (1,920)</div>
+													</div>
+													<img src="img/logo/teamgantt.png" alt="stackbutler">
+												</div>
+											</div>
+											<div class="col-lg-4 col-6 mb-4">
+												<div class="most-pop-box">
+													<strong>Clarizen One</strong>
+													<div class="star-popular">
+														<span class="icon_star"></span>
+														<span class="icon_star"></span>
+														<span class="icon_star"></span>
+														<span class="icon_star"></span>
+														<span class="icon_star-half_alt"></span>
+														<div class="rated-text"> (1,920)</div>
+													</div>
+													<img src="img/logo/clarizenone.png" alt="stackbutler">
+												</div>
+											</div>
+											<div class="col-lg-4 col-6 mb-4">
+												<div class="most-pop-box">
+													<strong>Mavelink</strong>
+													<div class="star-popular">
+														<span class="icon_star"></span>
+														<span class="icon_star"></span>
+														<span class="icon_star"></span>
+														<span class="icon_star"></span>
+														<span class="icon_star-half_alt"></span>
+														<div class="rated-text"> (1,920)</div>
+													</div>
+													<img src="img/logo/mavelink.png" alt="stackbutler">
+												</div>
+											</div>
+
+										</div>
+									</div>
+									<div class="tab-pane fade" id="backup" role="tabpanel" aria-labelledby="backup-tab">
+										<div class="row">
+											<div class="col-lg-4 col-6 mb-4">
+												<div class="most-pop-box">
+													<strong>Trello</strong>
+													<div class="star-popular">
+														<span class="icon_star"></span>
+														<span class="icon_star"></span>
+														<span class="icon_star"></span>
+														<span class="icon_star"></span>
+														<span class="icon_star-half_alt"></span>
+														<div class="rated-text"> (1,920)</div>
+													</div>
+													<img src="img/logo/trello.png" alt="stackbutler">
+												</div>
+											</div>
+											<div class="col-lg-4 col-6 mb-4">
+												<div class="most-pop-box">
+													<strong>Basecamp</strong>
+													<div class="star-popular">
+														<span class="icon_star"></span>
+														<span class="icon_star"></span>
+														<span class="icon_star"></span>
+														<span class="icon_star"></span>
+														<span class="icon_star-half_alt"></span>
+														<div class="rated-text"> (1,920)</div>
+													</div>
+													<img src="img/logo/basecamp.png" alt="stackbutler">
+												</div>
+											</div>
+											<div class="col-lg-4 col-6 mb-4">
+												<div class="most-pop-box">
+													<strong>Smartsheet</strong>
+													<div class="star-popular">
+														<span class="icon_star"></span>
+														<span class="icon_star"></span>
+														<span class="icon_star"></span>
+														<span class="icon_star"></span>
+														<span class="icon_star-half_alt"></span>
+														<div class="rated-text"> (1,920)</div>
+													</div>
+													<img src="img/logo/smartsheet.png" alt="stackbutler">
+												</div>
+											</div>
+											<div class="col-lg-4 col-6 mb-4">
+												<div class="most-pop-box">
+													<strong>Monday.com</strong>
+													<div class="star-popular">
+														<span class="icon_star"></span>
+														<span class="icon_star"></span>
+														<span class="icon_star"></span>
+														<span class="icon_star"></span>
+														<span class="icon_star-half_alt"></span>
+														<div class="rated-text"> (1,920)</div>
+													</div>
+													<img src="img/logo/monday.png" alt="stackbutler">
+												</div>
+											</div>
+											<div class="col-lg-4 col-6 mb-4">
+												<div class="most-pop-box">
+													<strong>ClickUp</strong>
+													<div class="star-popular">
+														<span class="icon_star"></span>
+														<span class="icon_star"></span>
+														<span class="icon_star"></span>
+														<span class="icon_star"></span>
+														<span class="icon_star-half_alt"></span>
+														<div class="rated-text"> (1,920)</div>
+													</div>
+													<img src="img/logo/clickup.png" alt="stackbutler">
+												</div>
+											</div>
+											<div class="col-lg-4 col-6 mb-4">
+												<div class="most-pop-box">
+													<strong>Workfront</strong>
+													<div class="star-popular">
+														<span class="icon_star"></span>
+														<span class="icon_star"></span>
+														<span class="icon_star"></span>
+														<span class="icon_star"></span>
+														<span class="icon_star-half_alt"></span>
+														<div class="rated-text"> (1,920)</div>
+													</div>
+													<img src="img/logo/workfront.png" alt="stackbutler">
+												</div>
+											</div>
+											<div class="col-lg-4 col-6 mb-4">
+												<div class="most-pop-box">
+													<strong>Team Gantt</strong>
+													<div class="star-popular">
+														<span class="icon_star"></span>
+														<span class="icon_star"></span>
+														<span class="icon_star"></span>
+														<span class="icon_star"></span>
+														<span class="icon_star-half_alt"></span>
+														<div class="rated-text"> (1,920)</div>
+													</div>
+													<img src="img/logo/teamgantt.png" alt="stackbutler">
+												</div>
+											</div>
+											<div class="col-lg-4 col-6 mb-4">
+												<div class="most-pop-box">
+													<strong>Clarizen One</strong>
+													<div class="star-popular">
+														<span class="icon_star"></span>
+														<span class="icon_star"></span>
+														<span class="icon_star"></span>
+														<span class="icon_star"></span>
+														<span class="icon_star-half_alt"></span>
+														<div class="rated-text"> (1,920)</div>
+													</div>
+													<img src="img/logo/clarizenone.png" alt="stackbutler">
+												</div>
+											</div>
+											<div class="col-lg-4 col-6 mb-4">
+												<div class="most-pop-box">
+													<strong>Mavelink</strong>
+													<div class="star-popular">
+														<span class="icon_star"></span>
+														<span class="icon_star"></span>
+														<span class="icon_star"></span>
+														<span class="icon_star"></span>
+														<span class="icon_star-half_alt"></span>
+														<div class="rated-text"> (1,920)</div>
+													</div>
+													<img src="img/logo/mavelink.png" alt="stackbutler">
+												</div>
+											</div>
+
+										</div>
+									</div>
 								</div>
+								<div class="row">
+									<div class="col-12 col-lg-4 offset-lg-8">
+										<a class="btn btn-blue xs text-right w-100 text-center">See All</a>
+									</div>
+								</div>
+
 							</div>
 
 						</div>
-
 
 					</div>
 				</div>
+
 			</section>
-			<!-- /hero_single -->
-			<div class="bg-wave">
+			<section class="sotw">
+				<div class="bg-blue">
+					<div class="container">
+						<h2 class="sotw-h2">Software of the week</h2>
+					</div>
 
-			</div>
-			<section>
-				<div class="bg-blue py-5">
-					<div class="container pb-5">
-						<h1 class="text-center text-white">REVIEWS<br><span class="icon-angle-down text-green"></span>
-						</h1>
-						<div class="d-none d-sm-block">
-							<div class="row">
-								<div class="col-lg-3 col-md-6 col-xs-12">
-									<div class="front-card">
-										<h3>Crowd</h3>
-										<h2 class="box-rate">4.5<span>/5</span></h2>
-										<div class="front-card-star">
-											<span class="icon_star"></span>
-											<span class="icon_star"></span>
-											<span class="icon_star"></span>
-											<span class="icon_star"></span>
-											<span class="icon_star-half"></span>
-										</div>
-										<small>1,328 Reviews</small>
+				</div>
+				<div class="bg-soft py-5">
+					<div class="container">
+						<div class="row mb-4">
+							<div class="col-lg-3 mb-3">
+								<div class="d-flex flex-column justify-content-center h-100">
+									<img class="mb-2" src="img/spotify.png" style="width: 100%;" alt="logo">
 
-									</div>
 								</div>
-								<div class="col-lg-3 col-md-6 col-xs-12">
-									<div class="front-card">
-										<h3>Crowd</h3>
-										<h2 class="box-rate">4.5<span>/5</span></h2>
-										<div class="front-card-star">
-											<span class="icon_star"></span>
-											<span class="icon_star"></span>
-											<span class="icon_star"></span>
-											<span class="icon_star"></span>
-											<span class="icon_star-half"></span>
-										</div>
-										<small>1,328 Reviews</small>
 
-									</div>
-								</div>
-								<div class="col-lg-3 col-md-6 col-xs-12">
-									<div class="front-card">
-										<h3>Crowd</h3>
-										<h2 class="box-rate">4.5<span>/5</span></h2>
-										<div class="front-card-star">
-											<span class="icon_star"></span>
-											<span class="icon_star"></span>
-											<span class="icon_star"></span>
-											<span class="icon_star"></span>
-											<span class="icon_star-half"></span>
-										</div>
-										<small>1,328 Reviews</small>
+							</div>
+							<div class="col-lg-6 mb-3">
+								<div class="title-apps">Spotify</div>
+								<span class="rating mb-2">
+									<span class="icon_star star-rating"></span>
+									<span class="icon_star star-rating"></span>
+									<span class="icon_star star-rating"></span>
+									<span class="icon_star star-rating"></span>
+									<span class="icon_star-half_alt star-rating"></span>
+									<span><strong>4.5</strong> out of <strong>5</strong></span>
+									<!-- <em>5.00/5.00</em> -->
+								</span>
+								<p class="long-p">Lorem ipsum dolor sit amet consectetur adipisicing elit. Quia
+									magnam repellat
+									quaerat voluptatum a et fugiat laudantium eaque nisi facere in atque eveniet
+									architecto, nulla delectus quos, veritatis possimus vero! Lorem ipsum dolor
+									sit amet consectetur adipisicing elit. Quia magnam repellat quaerat
+									voluptatum a et fugiat laudantium eaque nisi facere in atque eveniet
+									architecto, nulla delectus quos, veritatis possimus vero! Lorem ipsum dolor
+									sit amet consectetur adipisicing elit. Quia magnam repellat quaerat
+									voluptatum a et fugiat laudantium eaque nisi facere in atque eveniet
+									architecto, nulla delectus quos, veritatis possimus vero!</p>
 
-									</div>
-								</div>
-								<div class="col-lg-3 col-md-6 col-xs-12">
-									<div class="front-card">
-										<h3>Crowd</h3>
-										<h2 class="box-rate">4.5<span>/5</span></h2>
-										<div class="front-card-star">
-											<span class="icon_star"></span>
-											<span class="icon_star"></span>
-											<span class="icon_star"></span>
-											<span class="icon_star"></span>
-											<span class="icon_star-half"></span>
-										</div>
-										<small>1,328 Reviews</small>
+								<button class="btn btn-blue xs mr-3">Visit Profile</button>
+								<button class="btn btn-trans xs">Go to website</button>
+							</div>
+							<div class="col-lg-3">
 
+								<div class="right-box three mb-0">
+									<h5 class="text-blue mb-3">Spotify Review</h5>
+									<div class="row">
+										<div class="col-3 pr-1">
+											<div class="review-img small">
+												<img src="img/avatar.jpg" alt="avatar">
+
+											</div>
+										</div>
+										<div class="col-9 pr-1">
+											<div class="nickname m-0">Dikut Andi</div>
+											<p class="m-0">Small Business</p>
+										</div>
+										<div class="col-12">
+											<p class="mini-p">Lorem ipsum dolor sit amet consectetur adipisicing
+												elit. Autem
+												qui est velit quidem ipsam ad totam repudiandae suscipit
+												eligendi error
+												dolore. Autem
+												qui est velit quidem ipsam ad totam repudiandae suscipit
+												eligendi error
+												dolore.
+											</p>
+											<div class="d-flex justify-content-center">
+												<button class="btn btn-blue xs">Full Review</button>
+											</div>
+										</div>
 									</div>
 								</div>
 							</div>
 						</div>
-
-
-						<div class="row d-block d-sm-none m-5">
+					</div>
+				</div>
+			</section>
+			<section class="latest-sofware">
+				<div class="bg-grey">
+					<div class="container">
+						<div class="row pt-5">
+							<h2 class="latest-softwares-h2">Latest Softwares</h2>
+							<div class="custom-border-green"></div>
+						</div>
+						<div class="row pb-5">
 							<div id="reccomended" class="owl-carousel owl-theme">
 								<div class="item">
-									<div class="front-card">
-										<h3>Crowd</h3>
-										<h2 class="box-rate">4.5<span>/5</span></h2>
-										<div class="front-card-star">
-											<span class="icon_star"></span>
-											<span class="icon_star"></span>
-											<span class="icon_star"></span>
-											<span class="icon_star"></span>
-											<span class="icon_star-half"></span>
+									<div class="latest-carousel">
+										<div class="my-badge">
+											Project Management
 										</div>
-										<small>1,328 Reviews</small>
+										<div class="row">
+											<div class="col-5 pr-0">
+												<img src="img/logo/smartsheet.png" alt="stackbutler">
+
+											</div>
+											<div class="col-7 pl-0">
+												<strong>Smartsheet</strong>
+												<div class="star-popular">
+													<span class="icon_star"></span>
+													<span class="icon_star"></span>
+													<span class="icon_star"></span>
+													<span class="icon_star"></span>
+													<span class="icon_star-half_alt"></span>
+													<div class="rated-text"> (190 Reviews)</div>
+												</div>
+												<p class="entry-level">Entry level Price: <strong class="text-blue">$14
+														/ month</strong></p>
+
+											</div>
+											<div class="col-12">
+												<p class="carousel-desc">Lorem ipsum dolor sit amet consectetur
+													adipisicing elit. Repellat
+													veniam, dolorem accusantium nesciunt qui rerum quos excepturi saepe
+													mollitia veritatis inventore tempora possimus consequuntur itaque
+													ea, esse distinctio in odit.</p>
+												<a href="#" class="btn btn-blue xs float-right">Visit Profile</a>
+											</div>
+										</div>
+
 
 									</div>
 								</div>
 								<div class="item">
-									<div class="front-card">
-										<h3>Crowd</h3>
-										<h2 class="box-rate">4.5<span>/5</span></h2>
-										<div class="front-card-star">
-											<span class="icon_star"></span>
-											<span class="icon_star"></span>
-											<span class="icon_star"></span>
-											<span class="icon_star"></span>
-											<span class="icon_star-half"></span>
+									<div class="latest-carousel">
+										<div class="my-badge">
+											Project Management
 										</div>
-										<small>1,328 Reviews</small>
+										<div class="row">
+											<div class="col-5 pr-0">
+												<img src="img/logo/workfront.png" alt="stackbutler">
+
+											</div>
+											<div class="col-7 pl-0">
+												<strong>Workfront</strong>
+												<div class="star-popular">
+													<span class="icon_star"></span>
+													<span class="icon_star"></span>
+													<span class="icon_star"></span>
+													<span class="icon_star"></span>
+													<span class="icon_star-half_alt"></span>
+													<div class="rated-text"> (190 Reviews)</div>
+												</div>
+												<p class="entry-level">Entry level Price: <strong class="text-blue">$14
+														/ month</strong></p>
+
+											</div>
+											<div class="col-12">
+												<p class="carousel-desc">Lorem ipsum dolor sit amet consectetur
+													adipisicing elit. Repellat
+													veniam, dolorem accusantium nesciunt qui rerum quos excepturi saepe
+													mollitia veritatis inventore tempora possimus consequuntur itaque
+													ea, esse distinctio in odit.</p>
+												<a href="#" class="btn btn-blue xs float-right">Visit Profile</a>
+											</div>
+										</div>
+
 
 									</div>
 								</div>
 								<div class="item">
-									<div class="front-card">
-										<h3>Crowd</h3>
-										<h2 class="box-rate">4.5<span>/5</span></h2>
-										<div class="front-card-star">
-											<span class="icon_star"></span>
-											<span class="icon_star"></span>
-											<span class="icon_star"></span>
-											<span class="icon_star"></span>
-											<span class="icon_star-half"></span>
+									<div class="latest-carousel">
+										<div class="my-badge">
+											Project Management
 										</div>
-										<small>1,328 Reviews</small>
+										<div class="row">
+											<div class="col-5 pr-0">
+												<img src="img/logo/clarizenone.png" alt="stackbutler">
+
+											</div>
+											<div class="col-7 pl-0">
+												<strong>Clarizen One</strong>
+												<div class="star-popular">
+													<span class="icon_star"></span>
+													<span class="icon_star"></span>
+													<span class="icon_star"></span>
+													<span class="icon_star"></span>
+													<span class="icon_star-half_alt"></span>
+													<div class="rated-text"> (190 Reviews)</div>
+												</div>
+												<p class="entry-level">Entry level Price: <strong class="text-blue">$14
+														/ month</strong></p>
+
+											</div>
+											<div class="col-12">
+												<p class="carousel-desc">Lorem ipsum dolor sit amet consectetur
+													adipisicing elit. Repellat
+													veniam, dolorem accusantium nesciunt qui rerum quos excepturi saepe
+													mollitia veritatis inventore tempora possimus consequuntur itaque
+													ea, esse distinctio in odit.</p>
+												<a href="#" class="btn btn-blue xs float-right">Visit Profile</a>
+											</div>
+										</div>
+
 
 									</div>
 								</div>
 								<div class="item">
-									<div class="front-card">
-										<h3>Crowd</h3>
-										<h2 class="box-rate">4.5<span>/5</span></h2>
-										<div class="front-card-star">
-											<span class="icon_star"></span>
-											<span class="icon_star"></span>
-											<span class="icon_star"></span>
-											<span class="icon_star"></span>
-											<span class="icon_star-half"></span>
+									<div class="latest-carousel">
+										<div class="my-badge">
+											Project Management
 										</div>
-										<small>1,328 Reviews</small>
+										<div class="row">
+											<div class="col-5 pr-0">
+												<img src="img/logo/clickup.png" alt="stackbutler">
+
+											</div>
+											<div class="col-7 pl-0">
+												<strong>ClickUp</strong>
+												<div class="star-popular">
+													<span class="icon_star"></span>
+													<span class="icon_star"></span>
+													<span class="icon_star"></span>
+													<span class="icon_star"></span>
+													<span class="icon_star-half_alt"></span>
+													<div class="rated-text"> (190 Reviews)</div>
+												</div>
+												<p class="entry-level">Entry level Price: <strong class="text-blue">$14
+														/ month</strong></p>
+
+											</div>
+											<div class="col-12">
+												<p class="carousel-desc">Lorem ipsum dolor sit amet consectetur
+													adipisicing elit. Repellat
+													veniam, dolorem accusantium nesciunt qui rerum quos excepturi saepe
+													mollitia veritatis inventore tempora possimus consequuntur itaque
+													ea, esse distinctio in odit.</p>
+												<a href="#" class="btn btn-blue xs float-right">Visit Profile</a>
+											</div>
+										</div>
+
 
 									</div>
 								</div>
 
-
-
+							</div>
+							<div class="col-lg-2 offset-lg-10">
+								<a href="#" class="btn btn-blue xs d-block w-100 my-4">See All</a>
 
 							</div>
 						</div>
@@ -277,2596 +1612,25 @@
 				</div>
 			</section>
 
-			<!-- section tabs -->
-			<section class="bg-white py-5">
-				<div class="container">
-					<div class="tabs">
-						<!--  add id="tabs" to make the nav works -->
-						<nav>
-							<ul>
-								<li class="tab-current"><a href="#section-1">Product Information</a></li>
-								<li><a href="pricing.html">Pricing</a></li>
-								<li><a href="features.html">Features</a></li>
-								<li><a href="reviews.html">Reviews</a></li>
-								<li><a href="alternatives.html">Alternatives</a></li>
-								<li><a href="comparison.html">Comparison</a></li>
-								<li><a href="coupon.html">Coupon</a></li>
-							</ul>
-						</nav>
-						<div class="content">
-							<section id="section-1" class="content-current">
-								<!-- PRODUCT INFORMATION -->
-								<div class="row">
-									<div class="col-md-12 col-lg-8">
-										<div class="row mb-4">
-											<div class="header-content p-3">
-												<h2>Asana <strong>Overview</strong></h2>
-												<span class="header-content-underline"></span>
-											</div>
-										</div>
-										<div class="row">
-											<div class="col-md-6 mb-5">
-												<h4>Contact Details</h4>
-												<li class="mt-3"> <strong>Company name:</strong> Asana</li>
-												<li class="mt-3"> <strong>Founded:</strong> 2008</li>
-												<li class="mt-3"> <strong>Website:</strong> www.asana.com</li>
-											</div>
-											<div class="col-md-6 mb-5">
-												<h4>Social Media</h4>
-
-												<div class="row sosmed">
-													<li class="col-md-6"> <span class="icon-linkedin"></span> Asana
-													</li>
-													<li class="col-md-6"> <span class="icon-facebook"></span> Asana
-													</li>
-													<li class="col-md-6"> <span class="icon-twitter"></span> @Asana
-													</li>
-												</div>
-											</div>
-										</div>
-										<div class="row">
-											<div class="col-md-12 col-12">
-												<h4>Details</h4>
-												<p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Magnam quia
-													aliquam architecto quaerat in eveniet sed dolorem magni. Nesciunt
-													ratione modi asperiores cum minus cumque, corrupti similique
-													doloremque repudiandae eos? Lorem ipsum dolor sit amet consectetur
-													adipisicing elit. Magnam quia
-													aliquam architecto quaerat in eveniet sed dolorem magni. Nesciunt
-													ratione modi asperiores cum minus cumque, corrupti similique
-													doloremque repudiandae eos?</p>
-											</div>
-										</div>
-
-										<div class="row mb-4">
-											<div class="header-content p-3">
-												<h2>Asana <strong>Videos</strong></h2>
-												<span class="header-content-underline"></span>
-											</div>
-										</div>
-										<div class="row mb-4">
-											<div class="col-md-4 col-6 mb-4">
-												<div class="videos">
-													<a data-fancybox="video" data-caption="caption for video #1"
-														class="fancy-video" title="image one"
-														href="https://www.youtube.com/watch?v=ioNng23DkIM&ab_channel=BLACKPINK">
-														<img src="img/vid-thumb.png" alt="videos">
-													</a>
-
-												</div>
-											</div>
-											<div class="col-md-4 col-6 mb-4">
-												<div class="videos">
-													<a data-fancybox="video" data-caption="caption for video #2"
-														class="fancy-video" title="image two"
-														href="https://www.youtube.com/watch?v=vRXZj0DzXIA&ab_channel=BLACKPINK">
-														<img src="img/vid-thumb.png" alt="videos">
-													</a>
-												</div>
-											</div>
-											<div class="col-md-4 col-6 mb-4">
-												<div class="videos">
-													<a data-fancybox="video" data-caption="caption for video #3"
-														class="fancy-video"
-														href="https://www.youtube.com/watch?v=uR8Mrt1IpXg&ab_channel=SMTOWN">
-														<img src="img/vid-thumb.png" alt="videos">
-													</a>
-												</div>
-											</div>
-											<div class="col-md-4 col-6 mb-4">
-												<div class="videos">
-													<a data-fancybox="video" data-caption="caption for video #4"
-														class="fancy-video"
-														href="https://www.youtube.com/watch?v=J_CFBjAyPWE&ab_channel=SMTOWN">
-														<img src="img/vid-thumb.png" alt="videos">
-													</a>
-												</div>
-											</div>
-											<div class="col-md-4 col-6 mb-4">
-												<div class="videos">
-													<a class="fancy-video" data-fancybox="video"
-														data-caption="caption for video #5"
-														href="https://www.youtube.com/watch?v=V2hlQkVJZhE&ab_channel=JYPEntertainment">
-														<img src="img/vid-thumb.png" alt="videos">
-													</a>
-												</div>
-											</div>
-										</div>
-
-										<div class="row mb-4">
-											<div class="header-content p-3">
-												<h2>Asana <strong>Screenshots</strong></h2>
-												<span class="header-content-underline"></span>
-											</div>
-										</div>
-										<div class="row mb-4">
-											<div class="col-md-3 col-6 mb-4">
-												<div class="screenshot">
-													<a data-fancybox="gallery" data-caption="Screenshot Number 1"
-														href="img/screenshot.jpg">
-														<img src="img/screenshot.jpg" alt="screenshot">
-													</a>
-												</div>
-											</div>
-											<div class="col-md-3 col-6 mb-4">
-												<div class="screenshot">
-													<a data-fancybox="gallery" data-caption="Screenshot Number 2"
-														href="img/screenshot.jpg">
-														<img src="img/screenshot.jpg" alt="screenshot">
-													</a>
-												</div>
-											</div>
-											<div class="col-md-3 col-6 mb-4">
-												<div class="screenshot">
-													<a data-fancybox="gallery" data-caption="Screenshot Number 3"
-														href="img/screenshot.jpg">
-														<img src="img/screenshot.jpg" alt="screenshot">
-													</a>
-												</div>
-											</div>
-											<div class="col-md-3 col-6 mb-4">
-												<div class="screenshot">
-													<a data-fancybox="gallery" data-caption="Screenshot Number 4"
-														href="img/screenshot.jpg">
-														<img src="img/screenshot.jpg" alt="screenshot">
-													</a>
-												</div>
-											</div>
-											<div class="col-md-3 col-6 mb-4">
-												<div class="screenshot">
-													<a data-fancybox="gallery" data-caption="Screenshot Number 5"
-														href="img/screenshot.jpg">
-														<img src="img/screenshot.jpg" alt="screenshot">
-													</a>
-												</div>
-											</div>
-											<div class="col-md-3 col-6 mb-4">
-												<div class="screenshot">
-													<a data-fancybox="gallery" data-caption="Screenshot Number 6"
-														href="img/screenshot.jpg">
-														<img src="img/screenshot.jpg" alt="screenshot">
-													</a>
-												</div>
-											</div>
-
-										</div>
-
-										<div class="row mb-4">
-											<div class="col-md-6 col-xs-12">
-												<div class="header-content w-100 p-3">
-													<h2>User <strong>Reviews</strong>
-													</h2>
-													<span class="header-content-underline"></span>
-
-												</div>
-											</div>
-
-											<div class="col-md-6 col-xs-12">
-												<div class="py-3 clearfix">
-													<button class="btn btn-blue xs float-right">Write Review</button>
-
-												</div>
-											</div>
-
-
-										</div>
-										<div class="review_card">
-											<div class="row">
-												<div class="col-md-3 col-sm-6 col-12 user_info">
-													<div class="d-flex justify-content-center">
-														<div class="review-img">
-															<img src="img/avatar.jpg" alt="">
-														</div>
-
-													</div>
-
-													<h4 class="text-center text-blue">Lukas</h4>
-													<p class="text-center m-0">Co-Founder</p>
-													<p class="text-center m-0">Small Business</p>
-													<p class="text-center m-0">(50 or fewer emp.)</p>
-													<div class="badge mt-3 w-100">
-														<p>Validated Reviewer</p>
-														<p>Validated Reviewer</p>
-														<p>Validated Reviewer</p>
-													</div>
-
-												</div>
-
-												<div class="col-md-9 col-sm-12 col-12 review_content">
-													<h4>"Asana is the perfect to start and finish the tasks of a Project
-														in an efficient way."</h4>
-													<div class="clearfix add_bottom_15">
-														<span class="rating">
-															<span class="icon_star star-rating"></span>
-															<span class="icon_star star-rating"></span>
-															<span class="icon_star star-rating"></span>
-															<span class="icon_star star-rating"></span>
-															<span class="icon_star-half star-rating"></span>
-															<span>Published 54 minutes ago</span>
-															<!-- <em>5.00/5.00</em> -->
-														</span>
-
-													</div>
-
-													<p>Eos tollit ancillae ea, lorem consulatu qui ne, eu eros eirmod
-														scaevola sea. Et nec tantas accusamus salutatus, sit commodo
-														veritus te, erat legere fabulas has ut. Rebum laudem cum ea, ius
-														essent fuisset ut. Viderer petentium cu his. Tollit molestie
-														suscipiantur his et.
-														<br><br>
-														Eos tollit ancillae ea, lorem consulatu qui ne, eu eros eirmod
-														scaevola sea. Et nec tantas accusamus salutatus, sit commodo
-														veritus te, erat legere fabulas has ut. Rebum laudem cum ea, ius
-														essent fuisset ut. Viderer petentium cu his. Tollit molestie
-														suscipiantur his et.
-													</p>
-													<!-- <ul>
-														<li><a href="#0"><i
-																	class="icon_like_alt"></i><span>Useful</span></a>
-														</li>
-														<li><a href="#0"><i class="icon_dislike_alt"></i><span>Not
-																	useful</span></a></li>
-														<li><span>Share</span> <a href="#0"><i
-																	class="ti-facebook"></i></a> <a href="#0"><i
-																	class="ti-twitter-alt"></i></a> <a href="#0"><i
-																	class="ti-google"></i></a></li>
-													</ul> -->
-												</div>
-											</div>
-											<!-- /row -->
-										</div>
-
-										<div class="review_card">
-											<div class="row">
-												<div class="col-md-3 col-12 user_info">
-													<div class="d-flex justify-content-center">
-														<div class="review-img">
-															<img src="img/avatar.jpg" alt="">
-														</div>
-													</div>
-													<h4 class="text-center text-blue">Lukas</h4>
-													<p class="text-center m-0">Co-Founder</p>
-													<p class="text-center m-0">Small Business</p>
-													<p class="text-center m-0">(50 or fewer emp.)</p>
-													<div class="badge mt-3 w-100">
-														<p>Validated Reviewer</p>
-														<p>Validated Reviewer</p>
-														<p>Validated Reviewer</p>
-													</div>
-
-												</div>
-
-												<div class="col-md-9 col-12 review_content">
-													<h4>"Asana is the perfect to start and finish the tasks of a Project
-														in an efficient way."</h4>
-													<div class="clearfix add_bottom_15">
-														<span class="rating">
-															<span class="icon_star star-rating"></span>
-															<span class="icon_star star-rating"></span>
-															<span class="icon_star star-rating"></span>
-															<span class="icon_star star-rating"></span>
-															<span class="icon_star-half star-rating"></span>
-															<span>Published 54 minutes ago</span>
-															<!-- <em>5.00/5.00</em> -->
-														</span>
-
-													</div>
-
-													<p>Eos tollit ancillae ea, lorem consulatu qui ne, eu eros eirmod
-														scaevola sea. Et nec tantas accusamus salutatus, sit commodo
-														veritus te, erat legere fabulas has ut. Rebum laudem cum ea, ius
-														essent fuisset ut. Viderer petentium cu his. Tollit molestie
-														suscipiantur his et.
-														<br><br>
-														Eos tollit ancillae ea, lorem consulatu qui ne, eu eros eirmod
-														scaevola sea. Et nec tantas accusamus salutatus, sit commodo
-														veritus te, erat legere fabulas has ut. Rebum laudem cum ea, ius
-														essent fuisset ut. Viderer petentium cu his. Tollit molestie
-														suscipiantur his et.
-													</p>
-													<!-- <ul>
-														<li><a href="#0"><i
-																	class="icon_like_alt"></i><span>Useful</span></a>
-														</li>
-														<li><a href="#0"><i class="icon_dislike_alt"></i><span>Not
-																	useful</span></a></li>
-														<li><span>Share</span> <a href="#0"><i
-																	class="ti-facebook"></i></a> <a href="#0"><i
-																	class="ti-twitter-alt"></i></a> <a href="#0"><i
-																	class="ti-google"></i></a></li>
-													</ul> -->
-												</div>
-											</div>
-											<!-- /row -->
-										</div>
-
-									</div>
-									<div class="col-md-12 col-lg-4 col-12 col-sm-12">
-										<div class="right-box">
-											<h2>Asana <br> <strong>Comparison</strong></h2>
-											<div class="row">
-												<div class="col-5 p-3">
-													<img class="w-100" src="img/logo-company.png" alt="logo-side">
-													<p class="text-center mt-2 mb-0">Asana</p>
-												</div>
-												<div class="col-2 p-1">
-													<div class="vs"> <span>VS</span> </div>
-												</div>
-												<div class="col-5 p-3">
-													<img class="w-100" src="img/logo-company.png" alt="logo-side">
-													<p class="text-center mt-2 mb-0">Winstrike</p>
-												</div>
-											</div>
-											<div class="row">
-												<div class="col-5 p-3">
-													<img class="w-100" src="img/logo-company.png" alt="logo-side">
-													<p class="text-center mt-2 mb-0">Asana</p>
-												</div>
-												<div class="col-2 p-1">
-													<div class="vs"> <span>VS</span> </div>
-												</div>
-												<div class="col-5 p-3">
-													<img class="w-100" src="img/logo-company.png" alt="logo-side">
-													<p class="text-center mt-2 mb-0">Winstrike</p>
-												</div>
-											</div>
-											<div class="row">
-												<div class="col-5 p-3">
-													<img class="w-100" src="img/logo-company.png" alt="logo-side">
-													<p class="text-center mt-2 mb-0">Asana</p>
-												</div>
-												<div class="col-2 p-1">
-													<div class="vs"> <span>VS</span> </div>
-												</div>
-												<div class="col-5 p-3">
-													<img class="w-100" src="img/logo-company.png" alt="logo-side">
-													<p class="text-center mt-2 mb-0">Winstrike</p>
-												</div>
-											</div>
-											<div class="row">
-												<div class="col-5 p-3">
-													<img class="w-100" src="img/logo-company.png" alt="logo-side">
-													<p class="text-center mt-2 mb-0">Asana</p>
-												</div>
-												<div class="col-2 p-1">
-													<div class="vs"> <span>VS</span> </div>
-												</div>
-												<div class="col-5 p-3">
-													<img class="w-100" src="img/logo-company.png" alt="logo-side">
-													<p class="text-center mt-2 mb-0">Winstrike</p>
-												</div>
-											</div>
-
-											<div class="row">
-												<div class="col-12">
-													<div class="p-3 clearfix">
-														<button class="btn btn-blue">Compare Asana Ratings
-															to similar
-															products</button>
-													</div>
-												</div>
-
-											</div>
-										</div>
-
-										<div class="right-box">
-											<h2>Top Rated Asana <br> <strong>Alternatives</strong></h2>
-											<div class="row">
-												<div class="col-7 p-3">
-													<img class="w-100 py-3" src="img/trello.JPG" alt="logo-side">
-												</div>
-												<div class="col-5 p-3">
-													<h3>Trello</h3>
-													<div class="rating">
-														<span class="icon_star star-rating"></span>
-														<span class="icon_star star-rating"></span>
-														<span class="icon_star star-rating"></span>
-														<span class="icon_star star-rating"></span>
-													</div>
-													<p class="m-0"><strong class="text-black">4.2 </strong>out of
-														<strong class="text-black">5</strong></p>
-													<p class="text-cyan">(1,216)</p>
-
-												</div>
-											</div>
-
-											<div class="row">
-												<div class="col-7 p-3">
-													<img class="w-100 py-3" src="img/trello.JPG" alt="logo-side">
-												</div>
-												<div class="col-5 p-3">
-													<h3>Trello</h3>
-													<div class="rating">
-														<span class="icon_star star-rating"></span>
-														<span class="icon_star star-rating"></span>
-														<span class="icon_star star-rating"></span>
-														<span class="icon_star star-rating"></span>
-													</div>
-													<p class="m-0"><strong class="text-black">4.2 </strong>out of
-														<strong class="text-black">5</strong></p>
-													<p class="text-cyan">(1,216)</p>
-
-												</div>
-											</div>
-
-
-											<div class="row">
-												<div class="col-12">
-													<div class="px-5 clearfix">
-														<button class="btn btn-blue">See all Asana alternatives</button>
-													</div>
-												</div>
-
-											</div>
-										</div>
-
-										<div class="right-box">
-											<h2>Asana <br> <strong>Pricing</strong></h2>
-											<div class="row">
-												<div class="col-12 p-3">
-													<div class="pricing-box">
-														<h3 class="mb-2">Asana Basic</h3>
-														<div class="row">
-															<div class="col-6 px-1">
-																<h1 class="m-0 text-right dollar">$20</h1>
-															</div>
-															<div class="col-6 px-1">
-																<p class="m-0 permonth">per user,<br>per
-																	month</p>
-															</div>
-														</div>
-													</div>
-
-													<div class="pricing-box">
-														<h3 class="mb-2">Asana Premium</h3>
-														<div class="row">
-															<div class="col-12">
-																<p class="m-0">
-																	Starts from
-																</p>
-															</div>
-															<div class="col-7 px-1">
-																<h1 class="m-0 text-right dollar">$22.10</h1>
-															</div>
-															<div class="col-5 px-1">
-																<p class="m-0 permonth">per user,<br>per
-																	month</p>
-															</div>
-														</div>
-													</div>
-												</div>
-											</div>
-
-
-
-
-											<div class="row">
-												<div class="col-12">
-													<div class="px-5 clearfix">
-														<button class="btn btn-blue">See all Pricing levels</button>
-													</div>
-												</div>
-
-											</div>
-										</div>
-									</div>
-								</div>
-								<!-- /row -->
-							</section>
-
-							<!-- pricing section -->
-							<section id="section-2">
-								<div class="row">
-									<div class="col-md-12 col-lg-8">
-										<div class="row mb-4">
-											<div class="header-content p-3">
-												<h2>Asana <strong>Pricing</strong></h2>
-												<span class="header-content-underline"></span>
-											</div>
-										</div>
-										<div class="row mb-4 p-3">
-											<div class="col-md-6 col-12 col-lg-3 p-0 price-bg">
-												<div class="price-column">
-													<div class="column-top text-center">
-														<h4>Basic</h4>
-														<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit.
-															Autem tenetur asperiores consequatur. Autem tenetur
-															asperiores. </p>
-														<div class="pricing-number">
-															<span>US$</span><strong>0</strong>
-															<p>free forever <br></p>
-														</div>
-														<div class="d-flex justify-content-center"><button
-																class="btn xs btn-blue">Get Started</button>
-														</div>
-
-													</div>
-													<div class="column-btm">
-														<div class="row m-0">
-															<div class="col-1 p-0">
-																<span class="icon-circle satu"></span>
-															</div>
-
-															<div class="col p-0">
-																<p class="mb-2 ml-1">Unlimited tasks,
-																	project and management</p>
-															</div>
-														</div>
-														<div class="row m-0">
-															<div class="col-1 p-0">
-																<span class="icon-circle satu"></span>
-															</div>
-
-															<div class="col p-0">
-																<p class="mb-2 ml-1">Unlimited tasks,
-																	project and management Unlimited tasks,
-																	project and management</p>
-															</div>
-														</div>
-														<div class="row m-0">
-															<div class="col-1 p-0">
-																<span class="icon-circle satu"></span>
-															</div>
-
-															<div class="col p-0">
-																<p class="mb-2 ml-1">Lorem ipsum dolor sit amet
-																	consectetur
-																	adipisicing elit. Odio architecto.</p>
-															</div>
-														</div>
-													</div>
-												</div>
-											</div>
-											<div class="col-md-6 col-12 col-lg-3 p-0 price-bg">
-												<div class="price-column">
-													<div class="column-top text-center">
-														<h4>Premium</h4>
-														<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit.
-															Autem tenetur asperiores consequatur.</p>
-														<div class="pricing-number">
-															<span>US$</span><strong>10.99</strong>
-															<p>per member,<br>per month</p>
-														</div>
-														<div class="d-flex justify-content-center"><button
-																class="btn xs btn-blue">Get Started</button>
-														</div>
-
-													</div>
-													<div class="column-btm">
-														<div class="row m-0">
-															<div class="col-1 p-0">
-																<span class="icon-circle satu"></span>
-															</div>
-
-															<div class="col p-0">
-																<p class="mb-2 ml-1">Unlimited tasks,
-																	project and management</p>
-															</div>
-														</div>
-														<div class="row m-0">
-															<div class="col-1 p-0">
-																<span class="icon-circle satu"></span>
-															</div>
-
-															<div class="col p-0">
-																<p class="mb-2 ml-1">Unlimited tasks,
-																	project and management Unlimited tasks,
-																	project and management</p>
-															</div>
-														</div>
-														<div class="row m-0">
-															<div class="col-1 p-0">
-																<span class="icon-circle satu"></span>
-															</div>
-
-															<div class="col p-0">
-																<p class="mb-2 ml-1">Lorem ipsum dolor sit amet
-																	consectetur
-																	adipisicing elit. Odio architecto.</p>
-															</div>
-														</div>
-													</div>
-												</div>
-											</div>
-											<div class="col-md-6 col-12 col-lg-3 p-0 price-bg">
-												<div class="price-column">
-													<div class="column-top text-center">
-														<h4>Business</h4>
-														<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit.
-															Autem tenetur asperiores consequatur.</p>
-														<div class="pricing-number">
-															<span>US$</span><strong>24.99</strong>
-															<p>per member,<br>per month</p>
-														</div>
-														<div class="d-flex justify-content-center"><button
-																class="btn xs btn-blue">Get Started</button>
-														</div>
-
-													</div>
-													<div class="column-btm">
-														<div class="row m-0">
-															<div class="col-1 p-0">
-																<span class="icon-circle satu"></span>
-															</div>
-
-															<div class="col p-0">
-																<p class="mb-2 ml-1">Unlimited tasks,
-																	project and management</p>
-															</div>
-														</div>
-														<div class="row m-0">
-															<div class="col-1 p-0">
-																<span class="icon-circle satu"></span>
-															</div>
-
-															<div class="col p-0">
-																<p class="mb-2 ml-1">Unlimited tasks,
-																	project and management Unlimited tasks,
-																	project and management</p>
-															</div>
-														</div>
-														<div class="row m-0">
-															<div class="col-1 p-0">
-																<span class="icon-circle satu"></span>
-															</div>
-
-															<div class="col p-0">
-																<p class="mb-2 ml-1">Lorem ipsum dolor sit amet
-																	consectetur
-																	adipisicing elit. Odio architecto.</p>
-															</div>
-														</div>
-													</div>
-												</div>
-											</div>
-											<div class="col-md-6 col-12 col-lg-3 p-0 price-bg">
-												<div class="price-column">
-													<div class="column-top text-center">
-														<h4>Enterprises</h4>
-														<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit.
-															Autem tenetur asperiores consequatur.</p>
-														<h3>Let's talk</h3>
-
-													</div>
-													<div class="column-btm">
-														<div class="row m-0">
-															<div class="col-1 p-0">
-																<span class="icon-circle satu"></span>
-															</div>
-
-															<div class="col p-0">
-																<p class="mb-2 ml-1">Unlimited tasks,
-																	project and management</p>
-															</div>
-														</div>
-														<div class="row m-0">
-															<div class="col-1 p-0">
-																<span class="icon-circle satu"></span>
-															</div>
-
-															<div class="col p-0">
-																<p class="mb-2 ml-1">Unlimited tasks,
-																	project and management Unlimited tasks,
-																	project and management</p>
-															</div>
-														</div>
-														<div class="row m-0">
-															<div class="col-1 p-0">
-																<span class="icon-circle satu"></span>
-															</div>
-
-															<div class="col p-0">
-																<p class="mb-2 ml-1">Lorem ipsum dolor sit amet
-																	consectetur
-																	adipisicing elit. Odio architecto.</p>
-															</div>
-														</div>
-													</div>
-												</div>
-											</div>
-
-										</div>
-
-										<div class="row mb-4">
-											<div class="header-content p-3">
-												<h2>Asana <strong>Pricing</strong></h2>
-												<span class="header-content-underline"></span>
-											</div>
-
-										</div>
-										<div class="row mb-4">
-											<div class="col-lg-3 col-12">
-												<div class="altp-left">
-													<img class="mb-3" src="img/trello.JPG" alt="logo">
-													<h5 class="m-0">Trello</h5>
-													<p>Professional</p>
-												</div>
-											</div>
-											<div class="col-lg-4 col-12">
-												<div class="altp-mid">
-													<div class="pricing-number">
-														<span>US$</span><strong>24.99</strong>
-														<p class="mb-1">per member,<br>per month</p>
-													</div>
-												</div>
-											</div>
-											<div class="col-lg-5 col-12">
-												<div class="altp-right">
-													<p class="mb-1">Lorem ipsum dolor sit amet consectetur, adipisicing
-														elit.</p>
-													<div class="row m-0">
-														<div class="col-1 p-0">
-															<span class="icon-circle satu"></span>
-														</div>
-
-														<div class="col p-0">
-															<p class="mb-2 ml-1">Unlimited tasks management</p>
-														</div>
-													</div>
-													<div class="row m-0">
-														<div class="col-1 p-0">
-															<span class="icon-circle satu"></span>
-														</div>
-
-														<div class="col p-0">
-															<p class="mb-2 ml-1">Gantt Chart</p>
-														</div>
-													</div>
-													<div class="row m-0">
-														<div class="col-1 p-0">
-															<span class="icon-circle satu"></span>
-														</div>
-
-														<div class="col p-0">
-															<p class="mb-2 ml-1">Advanced Integrations (MS
-																Project,Excel, etc)</p>
-														</div>
-													</div>
-												</div>
-											</div>
-										</div>
-										<div class="row mb-4">
-											<div class="col-lg-3 col-12">
-												<div class="altp-left">
-													<img class="mb-3" src="img/trello.JPG" alt="logo">
-													<h5 class="m-0">Trello</h5>
-													<p>Professional</p>
-												</div>
-											</div>
-											<div class="col-lg-4 col-12">
-												<div class="altp-mid">
-													<div class="pricing-number">
-														<span>US$</span><strong>24.99</strong>
-														<p class="mb-1">per member,<br>per month</p>
-													</div>
-												</div>
-											</div>
-											<div class="col-lg-5 col-12">
-												<div class="altp-right">
-													<p class="mb-1">Lorem ipsum dolor sit amet consectetur, adipisicing
-														elit.</p>
-													<div class="row m-0">
-														<div class="col-1 p-0">
-															<span class="icon-circle satu"></span>
-														</div>
-
-														<div class="col p-0">
-															<p class="mb-2 ml-1">Unlimited tasks management</p>
-														</div>
-													</div>
-													<div class="row m-0">
-														<div class="col-1 p-0">
-															<span class="icon-circle satu"></span>
-														</div>
-
-														<div class="col p-0">
-															<p class="mb-2 ml-1">Gantt Chart</p>
-														</div>
-													</div>
-													<div class="row m-0">
-														<div class="col-1 p-0">
-															<span class="icon-circle satu"></span>
-														</div>
-
-														<div class="col p-0">
-															<p class="mb-2 ml-1">Advanced Integrations (MS
-																Project,Excel, etc)</p>
-														</div>
-													</div>
-												</div>
-											</div>
-										</div>
-										<div class="row mb-4">
-											<div class="col-lg-3 col-12">
-												<div class="altp-left">
-													<img class="mb-3" src="img/trello.JPG" alt="logo">
-													<h5 class="m-0">Trello</h5>
-													<p>Professional</p>
-												</div>
-											</div>
-											<div class="col-lg-4 col-12">
-												<div class="altp-mid">
-													<div class="pricing-number">
-														<span>US$</span><strong>24.99</strong>
-														<p class="mb-1">per member,<br>per month</p>
-													</div>
-												</div>
-											</div>
-											<div class="col-lg-5 col-12">
-												<div class="altp-right">
-													<p class="mb-1">Lorem ipsum dolor sit amet consectetur, adipisicing
-														elit.</p>
-													<div class="row m-0">
-														<div class="col-1 p-0">
-															<span class="icon-circle satu"></span>
-														</div>
-
-														<div class="col p-0">
-															<p class="mb-2 ml-1">Unlimited tasks management</p>
-														</div>
-													</div>
-													<div class="row m-0">
-														<div class="col-1 p-0">
-															<span class="icon-circle satu"></span>
-														</div>
-
-														<div class="col p-0">
-															<p class="mb-2 ml-1">Gantt Chart</p>
-														</div>
-													</div>
-													<div class="row m-0">
-														<div class="col-1 p-0">
-															<span class="icon-circle satu"></span>
-														</div>
-
-														<div class="col p-0">
-															<p class="mb-2 ml-1">Advanced Integrations (MS
-																Project,Excel, etc)</p>
-														</div>
-													</div>
-												</div>
-											</div>
-										</div>
-									</div>
-									<div class="col-md-12 col-lg-4 col-12 col-sm-12">
-										<div class="right-box">
-											<h2 class="mb-4">Asana <br> <strong>Pricing at a glance</strong></h2>
-
-											<p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. In, dolores
-												quaerat aliquid quibusdam quasi eum assumenda possimus eius sit hic
-												maiores rerum porro commodi quos iure explicabo nesciunt doloremque
-												blanditiis!</p>
-										</div>
-										<div class="right-box">
-											<h2>Asana <br> <strong>Comparison</strong></h2>
-											<div class="row">
-												<div class="col-5 p-3">
-													<img class="w-100" src="img/logo-company.png" alt="logo-side">
-													<p class="text-center mt-2 mb-0">Asana</p>
-												</div>
-												<div class="col-2 p-1">
-													<div class="vs"> <span>VS</span> </div>
-												</div>
-												<div class="col-5 p-3">
-													<img class="w-100" src="img/logo-company.png" alt="logo-side">
-													<p class="text-center mt-2 mb-0">Winstrike</p>
-												</div>
-											</div>
-											<div class="row">
-												<div class="col-5 p-3">
-													<img class="w-100" src="img/logo-company.png" alt="logo-side">
-													<p class="text-center mt-2 mb-0">Asana</p>
-												</div>
-												<div class="col-2 p-1">
-													<div class="vs"> <span>VS</span> </div>
-												</div>
-												<div class="col-5 p-3">
-													<img class="w-100" src="img/logo-company.png" alt="logo-side">
-													<p class="text-center mt-2 mb-0">Winstrike</p>
-												</div>
-											</div>
-											<div class="row">
-												<div class="col-5 p-3">
-													<img class="w-100" src="img/logo-company.png" alt="logo-side">
-													<p class="text-center mt-2 mb-0">Asana</p>
-												</div>
-												<div class="col-2 p-1">
-													<div class="vs"> <span>VS</span> </div>
-												</div>
-												<div class="col-5 p-3">
-													<img class="w-100" src="img/logo-company.png" alt="logo-side">
-													<p class="text-center mt-2 mb-0">Winstrike</p>
-												</div>
-											</div>
-											<div class="row">
-												<div class="col-5 p-3">
-													<img class="w-100" src="img/logo-company.png" alt="logo-side">
-													<p class="text-center mt-2 mb-0">Asana</p>
-												</div>
-												<div class="col-2 p-1">
-													<div class="vs"> <span>VS</span> </div>
-												</div>
-												<div class="col-5 p-3">
-													<img class="w-100" src="img/logo-company.png" alt="logo-side">
-													<p class="text-center mt-2 mb-0">Winstrike</p>
-												</div>
-											</div>
-
-											<div class="row">
-												<div class="col-12">
-													<div class="p-3 clearfix">
-														<button class="btn btn-blue">Compare Asana Ratings
-															to similar
-															products</button>
-													</div>
-												</div>
-
-											</div>
-										</div>
-
-										<div class="right-box">
-											<h2>Top Rated Asana <br> <strong>Alternatives</strong></h2>
-											<div class="row">
-												<div class="col-7 p-3">
-													<img class="w-100 py-3" src="img/trello.JPG" alt="logo-side">
-												</div>
-												<div class="col-5 p-3">
-													<h3>Trello</h3>
-													<div class="rating">
-														<span class="icon_star star-rating"></span>
-														<span class="icon_star star-rating"></span>
-														<span class="icon_star star-rating"></span>
-														<span class="icon_star star-rating"></span>
-													</div>
-													<p class="m-0"><strong class="text-black">4.2 </strong>out of
-														<strong class="text-black">5</strong></p>
-													<p class="text-cyan">(1,216)</p>
-
-												</div>
-											</div>
-
-											<div class="row">
-												<div class="col-7 p-3">
-													<img class="w-100 py-3" src="img/trello.JPG" alt="logo-side">
-												</div>
-												<div class="col-5 p-3">
-													<h3>Trello</h3>
-													<div class="rating">
-														<span class="icon_star star-rating"></span>
-														<span class="icon_star star-rating"></span>
-														<span class="icon_star star-rating"></span>
-														<span class="icon_star star-rating"></span>
-													</div>
-													<p class="m-0"><strong class="text-black">4.2 </strong>out of
-														<strong class="text-black">5</strong></p>
-													<p class="text-cyan">(1,216)</p>
-
-												</div>
-											</div>
-
-
-											<div class="row">
-												<div class="col-12">
-													<div class="px-5 clearfix">
-														<button class="btn btn-blue">See all Asana alternatives</button>
-													</div>
-												</div>
-
-											</div>
-										</div>
-									</div>
-
-								</div>
-
-								<!-- /row -->
-							</section>
-							<section id="section-3">
-								<div class="row mb-4">
-									<div class="header-content p-3">
-										<h2>Asana <strong>Pricing</strong></h2>
-										<span class="header-content-underline"></span>
-									</div>
-								</div>
-								<div class="row mb-4">
-									<div class="col-lg-8 col-12 col-sm-12">
-										<div class="row">
-											<div class="col-lg-4 col-12 col-sm-4">
-												<div class="features">
-													<p class="m-0"><span class="icon-circle mr-1"></span> 2-factor
-														Authentification
-													</p>
-												</div>
-											</div>
-											<div class="col-lg-4 col-12 col-sm-4">
-												<div class="features">
-													<p class="m-0"><span class="icon-circle mr-1"></span> Accounts
-														Payable
-													</p>
-												</div>
-											</div>
-											<div class="col-lg-4 col-12 col-sm-4">
-												<div class="features">
-													<p class="m-0"><span class="icon-circle"></span> Account Receivable
-													</p>
-												</div>
-											</div>
-											<div class="col-lg-4 col-12 col-sm-4">
-												<div class="features disabled">
-													<p class="m-0"><span class="icon-circle"></span> Analytics
-													</p>
-												</div>
-											</div>
-											<div class="col-lg-4 col-12 col-sm-4">
-												<div class="features">
-													<p class="m-0"><span class="icon-circle"></span> API
-													</p>
-												</div>
-											</div>
-											<div class="col-lg-4 col-12 col-sm-4">
-												<div class="features">
-													<p class="m-0"><span class="icon-circle"></span> Batch & Permissions
-													</p>
-												</div>
-											</div>
-											<div class="col-lg-4 col-12 col-sm-4">
-												<div class="features disabled">
-													<p class="m-0"><span class="icon-circle"></span> Budgeting
-													</p>
-												</div>
-											</div>
-											<div class="col-lg-4 col-12 col-sm-4">
-												<div class="features disabled">
-													<p class="m-0"><span class="icon-circle"></span> Calendar Management
-													</p>
-												</div>
-											</div>
-											<div class="col-lg-4 col-12 col-sm-4">
-												<div class="features">
-													<p class="m-0"><span class="icon-circle mr-1"></span> Chat
-													</p>
-												</div>
-											</div>
-											<div class="col-lg-4 col-12 col-sm-4">
-												<div class="features">
-													<p class="m-0"><span class="icon-circle mr-1"></span> Contact
-														Management
-													</p>
-												</div>
-											</div>
-											<div class="col-lg-4 col-12 col-sm-4">
-												<div class="features">
-													<p class="m-0"><span class="icon-circle"></span> Contact Sharing
-													</p>
-												</div>
-											</div>
-											<div class="col-lg-4 col-12 col-sm-4">
-												<div class="features disabled">
-													<p class="m-0"><span class="icon-circle"></span> CRM Integration
-													</p>
-												</div>
-											</div>
-											<div class="col-lg-4 col-12 col-sm-4">
-												<div class="features">
-													<p class="m-0"><span class="icon-circle"></span> Customer Management
-													</p>
-												</div>
-											</div>
-											<div class="col-lg-4 col-12 col-sm-4">
-												<div class="features">
-													<p class="m-0"><span class="icon-circle"></span> Dashboard
-													</p>
-												</div>
-											</div>
-											<div class="col-lg-4 col-12 col-sm-4">
-												<div class="features disabled">
-													<p class="m-0"><span class="icon-circle"></span> Data Export
-													</p>
-												</div>
-											</div>
-											<div class="col-lg-4 col-12 col-sm-4">
-												<div class="features disabled">
-													<p class="m-0"><span class="icon-circle"></span> Data Import
-													</p>
-												</div>
-											</div>
-											<div class="col-lg-4 col-12 col-sm-4">
-												<div class="features">
-													<p class="m-0"><span class="icon-circle mr-1"></span> Data
-														Visualization
-													</p>
-												</div>
-											</div>
-											<div class="col-lg-4 col-12 col-sm-4">
-												<div class="features">
-													<p class="m-0"><span class="icon-circle mr-1"></span> Document
-														Comparison
-													</p>
-												</div>
-											</div>
-											<div class="col-lg-4 col-12 col-sm-4">
-												<div class="features">
-													<p class="m-0"><span class="icon-circle"></span> Email Integration
-													</p>
-												</div>
-											</div>
-											<div class="col-lg-4 col-12 col-sm-4">
-												<div class="features disabled">
-													<p class="m-0"><span class="icon-circle"></span> File Sharing
-													</p>
-												</div>
-											</div>
-											<div class="col-lg-4 col-12 col-sm-4">
-												<div class="features">
-													<p class="m-0"><span class="icon-circle"></span> File Transfer
-													</p>
-												</div>
-											</div>
-											<div class="col-lg-4 col-12 col-sm-4">
-												<div class="features">
-													<p class="m-0"><span class="icon-circle"></span> Forecasting
-													</p>
-												</div>
-											</div>
-											<div class="col-lg-4 col-12 col-sm-4">
-												<div class="features disabled">
-													<p class="m-0"><span class="icon-circle"></span> Gantt Chart
-													</p>
-												</div>
-											</div>
-											<div class="col-lg-4 col-12 col-sm-4">
-												<div class="features disabled">
-													<p class="m-0"><span class="icon-circle"></span> Gantt Chart
-													</p>
-												</div>
-											</div>
-											<div class="col-lg-4 col-12 col-sm-4">
-												<div class="features">
-													<p class="m-0"><span class="icon-circle mr-1"></span> General
-														Account
-														Ledger
-													</p>
-												</div>
-											</div>
-											<div class="col-lg-4 col-12 col-sm-4">
-												<div class="features">
-													<p class="m-0"><span class="icon-circle mr-1"></span> Google Apps
-														Integration
-													</p>
-												</div>
-											</div>
-											<div class="col-lg-4 col-12 col-sm-4">
-												<div class="features">
-													<p class="m-0"><span class="icon-circle"></span> History/Version
-														Control
-													</p>
-												</div>
-											</div>
-											<div class="col-lg-4 col-12 col-sm-4">
-												<div class="features disabled">
-													<p class="m-0"><span class="icon-circle"></span> Inventory Tracking
-													</p>
-												</div>
-											</div>
-											<div class="col-lg-4 col-12 col-sm-4">
-												<div class="features">
-													<p class="m-0"><span class="icon-circle"></span> Lead Management
-													</p>
-												</div>
-											</div>
-											<div class="col-lg-4 col-12 col-sm-4">
-												<div class="features">
-													<p class="m-0"><span class="icon-circle"></span> Lead Scoring
-													</p>
-												</div>
-											</div>
-											<div class="col-lg-4 col-12 col-sm-4">
-												<div class="features disabled">
-													<p class="m-0"><span class="icon-circle"></span> Marketing
-														Automation
-													</p>
-												</div>
-											</div>
-											<div class="col-lg-4 col-12 col-sm-4">
-												<div class="features disabled">
-													<p class="m-0"><span class="icon-circle"></span> Multi-Account
-													</p>
-												</div>
-											</div>
-											<div class="col-lg-4 col-12 col-sm-4">
-												<div class="features">
-													<p class="m-0"><span class="icon-circle"></span> Multi-App
-													</p>
-												</div>
-											</div>
-											<div class="col-lg-4 col-12 col-sm-4">
-												<div class="features disabled">
-													<p class="m-0"><span class="icon-circle"></span> Multi-Site
-													</p>
-												</div>
-											</div>
-											<div class="col-lg-4 col-12 col-sm-4">
-												<div class="features disabled">
-													<p class="m-0"><span class="icon-circle"></span> Zeroing Distance
-													</p>
-												</div>
-											</div>
-										</div>
-									</div>
-									<div class="col-md-12 col-lg-4 col-12 col-sm-12">
-										<div class="right-box">
-											<h2>Asana <br> <strong>Comparison</strong></h2>
-											<div class="row">
-												<div class="col-5 p-3">
-													<img class="w-100" src="img/logo-company.png" alt="logo-side">
-													<p class="text-center mt-2 mb-0">Asana</p>
-												</div>
-												<div class="col-2 p-1">
-													<div class="vs"> <span>VS</span> </div>
-												</div>
-												<div class="col-5 p-3">
-													<img class="w-100" src="img/logo-company.png" alt="logo-side">
-													<p class="text-center mt-2 mb-0">Winstrike</p>
-												</div>
-											</div>
-											<div class="row">
-												<div class="col-5 p-3">
-													<img class="w-100" src="img/logo-company.png" alt="logo-side">
-													<p class="text-center mt-2 mb-0">Asana</p>
-												</div>
-												<div class="col-2 p-1">
-													<div class="vs"> <span>VS</span> </div>
-												</div>
-												<div class="col-5 p-3">
-													<img class="w-100" src="img/logo-company.png" alt="logo-side">
-													<p class="text-center mt-2 mb-0">Winstrike</p>
-												</div>
-											</div>
-											<div class="row">
-												<div class="col-5 p-3">
-													<img class="w-100" src="img/logo-company.png" alt="logo-side">
-													<p class="text-center mt-2 mb-0">Asana</p>
-												</div>
-												<div class="col-2 p-1">
-													<div class="vs"> <span>VS</span> </div>
-												</div>
-												<div class="col-5 p-3">
-													<img class="w-100" src="img/logo-company.png" alt="logo-side">
-													<p class="text-center mt-2 mb-0">Winstrike</p>
-												</div>
-											</div>
-											<div class="row">
-												<div class="col-5 p-3">
-													<img class="w-100" src="img/logo-company.png" alt="logo-side">
-													<p class="text-center mt-2 mb-0">Asana</p>
-												</div>
-												<div class="col-2 p-1">
-													<div class="vs"> <span>VS</span> </div>
-												</div>
-												<div class="col-5 p-3">
-													<img class="w-100" src="img/logo-company.png" alt="logo-side">
-													<p class="text-center mt-2 mb-0">Winstrike</p>
-												</div>
-											</div>
-
-											<div class="row">
-												<div class="col-12">
-													<div class="p-3 clearfix">
-														<button class="btn btn-blue">Compare Asana Ratings
-															to similar
-															products</button>
-													</div>
-												</div>
-
-											</div>
-										</div>
-
-										<div class="right-box">
-											<h2>Top Rated Asana <br> <strong>Alternatives</strong></h2>
-											<div class="row">
-												<div class="col-7 p-3">
-													<img class="w-100 py-3" src="img/trello.JPG" alt="logo-side">
-												</div>
-												<div class="col-5 p-3">
-													<h3>Trello</h3>
-													<div class="rating">
-														<span class="icon_star star-rating"></span>
-														<span class="icon_star star-rating"></span>
-														<span class="icon_star star-rating"></span>
-														<span class="icon_star star-rating"></span>
-													</div>
-													<p class="m-0"><strong class="text-black">4.2 </strong>out of
-														<strong class="text-black">5</strong></p>
-													<p class="text-cyan">(1,216)</p>
-
-												</div>
-											</div>
-
-											<div class="row">
-												<div class="col-7 p-3">
-													<img class="w-100 py-3" src="img/trello.JPG" alt="logo-side">
-												</div>
-												<div class="col-5 p-3">
-													<h3>Trello</h3>
-													<div class="rating">
-														<span class="icon_star star-rating"></span>
-														<span class="icon_star star-rating"></span>
-														<span class="icon_star star-rating"></span>
-														<span class="icon_star star-rating"></span>
-													</div>
-													<p class="m-0"><strong class="text-black">4.2 </strong>out of
-														<strong class="text-black">5</strong></p>
-													<p class="text-cyan">(1,216)</p>
-
-												</div>
-											</div>
-
-
-											<div class="row">
-												<div class="col-12">
-													<div class="px-5 clearfix">
-														<button class="btn btn-blue">See all Asana alternatives</button>
-													</div>
-												</div>
-
-											</div>
-										</div>
-									</div>
-								</div>
-
-
-								<!-- /row -->
-							</section>
-							<section id="section-4">
-
-								<div class="row">
-									<div class="col-lg-8 col-12">
-										<div class="row mb-4">
-											<div class="col-md-6 col-xs-12">
-												<div class="header-content w-100 p-3">
-													<h2>Asana <strong>Reviews</strong>
-													</h2>
-													<span class="header-content-underline"></span>
-
-												</div>
-											</div>
-
-											<div class="col-md-6 col-xs-12">
-												<div class="py-3 clearfix">
-													<button class="btn btn-blue xs float-right">Write Review</button>
-
-												</div>
-											</div>
-										</div>
-										<div class="review_card">
-											<div class="row">
-												<div class="col-md-3 col-sm-6 col-12 user_info">
-													<div class="d-flex justify-content-center">
-														<div class="review-img">
-															<img src="img/avatar.jpg" alt="">
-														</div>
-
-													</div>
-
-													<h4 class="text-center text-blue">Lukas</h4>
-													<p class="text-center m-0">Co-Founder</p>
-													<p class="text-center m-0">Small Business</p>
-													<p class="text-center m-0">(50 or fewer emp.)</p>
-													<div class="badge mt-3 w-100">
-														<p>Validated Reviewer</p>
-														<p>Validated Reviewer</p>
-														<p>Validated Reviewer</p>
-													</div>
-
-												</div>
-
-												<div class="col-md-9 col-sm-12 col-12 review_content">
-													<h4>"Asana is the perfect to start and finish the tasks of a Project
-														in an efficient way."</h4>
-													<div class="clearfix add_bottom_15">
-														<span class="rating">
-															<span class="icon_star star-rating"></span>
-															<span class="icon_star star-rating"></span>
-															<span class="icon_star star-rating"></span>
-															<span class="icon_star star-rating"></span>
-															<span class="icon_star-half star-rating"></span>
-															<span>Published 54 minutes ago</span>
-															<!-- <em>5.00/5.00</em> -->
-														</span>
-
-													</div>
-
-													<p>Eos tollit ancillae ea, lorem consulatu qui ne, eu eros eirmod
-														scaevola sea. Et nec tantas accusamus salutatus, sit commodo
-														veritus te, erat legere fabulas has ut. Rebum laudem cum ea, ius
-														essent fuisset ut. Viderer petentium cu his. Tollit molestie
-														suscipiantur his et.
-														<br><br>
-														Eos tollit ancillae ea, lorem consulatu qui ne, eu eros eirmod
-														scaevola sea. Et nec tantas accusamus salutatus, sit commodo
-														veritus te, erat legere fabulas has ut. Rebum laudem cum ea, ius
-														essent fuisset ut. Viderer petentium cu his. Tollit molestie
-														suscipiantur his et.
-													</p>
-													<!-- <ul>
-														<li><a href="#0"><i
-																	class="icon_like_alt"></i><span>Useful</span></a>
-														</li>
-														<li><a href="#0"><i class="icon_dislike_alt"></i><span>Not
-																	useful</span></a></li>
-														<li><span>Share</span> <a href="#0"><i
-																	class="ti-facebook"></i></a> <a href="#0"><i
-																	class="ti-twitter-alt"></i></a> <a href="#0"><i
-																	class="ti-google"></i></a></li>
-													</ul> -->
-												</div>
-											</div>
-											<!-- /row -->
-										</div>
-
-										<div class="review_card">
-											<div class="row">
-												<div class="col-md-3 col-12 user_info">
-													<div class="d-flex justify-content-center">
-														<div class="review-img">
-															<img src="img/avatar.jpg" alt="">
-														</div>
-													</div>
-													<h4 class="text-center text-blue">Lukas</h4>
-													<p class="text-center m-0">Co-Founder</p>
-													<p class="text-center m-0">Small Business</p>
-													<p class="text-center m-0">(50 or fewer emp.)</p>
-													<div class="badge mt-3 w-100">
-														<p>Validated Reviewer</p>
-														<p>Validated Reviewer</p>
-														<p>Validated Reviewer</p>
-													</div>
-
-												</div>
-
-												<div class="col-md-9 col-12 review_content">
-													<h4>"Asana is the perfect to start and finish the tasks of a Project
-														in an efficient way."</h4>
-													<div class="clearfix add_bottom_15">
-														<span class="rating">
-															<span class="icon_star star-rating"></span>
-															<span class="icon_star star-rating"></span>
-															<span class="icon_star star-rating"></span>
-															<span class="icon_star star-rating"></span>
-															<span class="icon_star-half star-rating"></span>
-															<span>Published 54 minutes ago</span>
-															<!-- <em>5.00/5.00</em> -->
-														</span>
-
-													</div>
-
-													<p>Eos tollit ancillae ea, lorem consulatu qui ne, eu eros eirmod
-														scaevola sea. Et nec tantas accusamus salutatus, sit commodo
-														veritus te, erat legere fabulas has ut. Rebum laudem cum ea, ius
-														essent fuisset ut. Viderer petentium cu his. Tollit molestie
-														suscipiantur his et.
-														<br><br>
-														Eos tollit ancillae ea, lorem consulatu qui ne, eu eros eirmod
-														scaevola sea. Et nec tantas accusamus salutatus, sit commodo
-														veritus te, erat legere fabulas has ut. Rebum laudem cum ea, ius
-														essent fuisset ut. Viderer petentium cu his. Tollit molestie
-														suscipiantur his et.
-													</p>
-													<!-- <ul>
-														<li><a href="#0"><i
-																	class="icon_like_alt"></i><span>Useful</span></a>
-														</li>
-														<li><a href="#0"><i class="icon_dislike_alt"></i><span>Not
-																	useful</span></a></li>
-														<li><span>Share</span> <a href="#0"><i
-																	class="ti-facebook"></i></a> <a href="#0"><i
-																	class="ti-twitter-alt"></i></a> <a href="#0"><i
-																	class="ti-google"></i></a></li>
-													</ul> -->
-												</div>
-											</div>
-											<!-- /row -->
-										</div>
-										<div class="review_card">
-											<div class="row">
-												<div class="col-md-3 col-sm-6 col-12 user_info">
-													<div class="d-flex justify-content-center">
-														<div class="review-img">
-															<img src="img/avatar.jpg" alt="">
-														</div>
-
-													</div>
-
-													<h4 class="text-center text-blue">Lukas</h4>
-													<p class="text-center m-0">Co-Founder</p>
-													<p class="text-center m-0">Small Business</p>
-													<p class="text-center m-0">(50 or fewer emp.)</p>
-													<div class="badge mt-3 w-100">
-														<p>Validated Reviewer</p>
-														<p>Validated Reviewer</p>
-														<p>Validated Reviewer</p>
-													</div>
-
-												</div>
-
-												<div class="col-md-9 col-sm-12 col-12 review_content">
-													<h4>"Asana is the perfect to start and finish the tasks of a Project
-														in an efficient way."</h4>
-													<div class="clearfix add_bottom_15">
-														<span class="rating">
-															<span class="icon_star star-rating"></span>
-															<span class="icon_star star-rating"></span>
-															<span class="icon_star star-rating"></span>
-															<span class="icon_star star-rating"></span>
-															<span class="icon_star-half star-rating"></span>
-															<span>Published 54 minutes ago</span>
-															<!-- <em>5.00/5.00</em> -->
-														</span>
-
-													</div>
-
-													<p>Eos tollit ancillae ea, lorem consulatu qui ne, eu eros eirmod
-														scaevola sea. Et nec tantas accusamus salutatus, sit commodo
-														veritus te, erat legere fabulas has ut. Rebum laudem cum ea, ius
-														essent fuisset ut. Viderer petentium cu his. Tollit molestie
-														suscipiantur his et.
-														<br><br>
-														Eos tollit ancillae ea, lorem consulatu qui ne, eu eros eirmod
-														scaevola sea. Et nec tantas accusamus salutatus, sit commodo
-														veritus te, erat legere fabulas has ut. Rebum laudem cum ea, ius
-														essent fuisset ut. Viderer petentium cu his. Tollit molestie
-														suscipiantur his et.
-													</p>
-													<!-- <ul>
-														<li><a href="#0"><i
-																	class="icon_like_alt"></i><span>Useful</span></a>
-														</li>
-														<li><a href="#0"><i class="icon_dislike_alt"></i><span>Not
-																	useful</span></a></li>
-														<li><span>Share</span> <a href="#0"><i
-																	class="ti-facebook"></i></a> <a href="#0"><i
-																	class="ti-twitter-alt"></i></a> <a href="#0"><i
-																	class="ti-google"></i></a></li>
-													</ul> -->
-												</div>
-											</div>
-											<!-- /row -->
-										</div>
-
-										<div class="review_card">
-											<div class="row">
-												<div class="col-md-3 col-12 user_info">
-													<div class="d-flex justify-content-center">
-														<div class="review-img">
-															<img src="img/avatar.jpg" alt="">
-														</div>
-													</div>
-													<h4 class="text-center text-blue">Lukas</h4>
-													<p class="text-center m-0">Co-Founder</p>
-													<p class="text-center m-0">Small Business</p>
-													<p class="text-center m-0">(50 or fewer emp.)</p>
-													<div class="badge mt-3 w-100">
-														<p>Validated Reviewer</p>
-														<p>Validated Reviewer</p>
-														<p>Validated Reviewer</p>
-													</div>
-
-												</div>
-
-												<div class="col-md-9 col-12 review_content">
-													<h4>"Asana is the perfect to start and finish the tasks of a Project
-														in an efficient way."</h4>
-													<div class="clearfix add_bottom_15">
-														<span class="rating">
-															<span class="icon_star star-rating"></span>
-															<span class="icon_star star-rating"></span>
-															<span class="icon_star star-rating"></span>
-															<span class="icon_star star-rating"></span>
-															<span class="icon_star-half star-rating"></span>
-															<span>Published 54 minutes ago</span>
-															<!-- <em>5.00/5.00</em> -->
-														</span>
-
-													</div>
-
-													<p>Eos tollit ancillae ea, lorem consulatu qui ne, eu eros eirmod
-														scaevola sea. Et nec tantas accusamus salutatus, sit commodo
-														veritus te, erat legere fabulas has ut. Rebum laudem cum ea, ius
-														essent fuisset ut. Viderer petentium cu his. Tollit molestie
-														suscipiantur his et.
-														<br><br>
-														Eos tollit ancillae ea, lorem consulatu qui ne, eu eros eirmod
-														scaevola sea. Et nec tantas accusamus salutatus, sit commodo
-														veritus te, erat legere fabulas has ut. Rebum laudem cum ea, ius
-														essent fuisset ut. Viderer petentium cu his. Tollit molestie
-														suscipiantur his et.
-													</p>
-													<!-- <ul>
-														<li><a href="#0"><i
-																	class="icon_like_alt"></i><span>Useful</span></a>
-														</li>
-														<li><a href="#0"><i class="icon_dislike_alt"></i><span>Not
-																	useful</span></a></li>
-														<li><span>Share</span> <a href="#0"><i
-																	class="ti-facebook"></i></a> <a href="#0"><i
-																	class="ti-twitter-alt"></i></a> <a href="#0"><i
-																	class="ti-google"></i></a></li>
-													</ul> -->
-												</div>
-											</div>
-											<!-- /row -->
-										</div>
-										<div class="row">
-											<div class="pagination__wrapper add_bottom_15">
-												<ul class="pagination">
-													<li><a href="#0" class="prev" title="previous page">&#10094;</a>
-													</li>
-													<li><a href="#0" class="active">1</a></li>
-													<li><a href="#0">2</a></li>
-													<li><a href="#0">3</a></li>
-													<li><a href="#0">4</a></li>
-													<li><a href="#0" class="next" title="next page">&#10095;</a></li>
-												</ul>
-											</div>
-										</div>
-									</div>
-									<div class="col-lg-4 col-12">
-										<div class="right-box">
-											<h2 class="mb-3">Asana <br> <strong>Sentiments</strong></h2>
-											<div class="py-3">
-												<span class="icon icon-circle d-inline text-blue mr-1"></span><span
-													class="d-inline mr-2">Positive</span>
-												<span class="icon icon-circle text-lightblue d-inline mr-1"></span><span
-													class="d-inline mr-2">Negative</span>
-												<span class="icon icon-circle text-grey d-inline mr-1"></span><span
-													class="d-inline mr-2">Neutral</span>
-											</div>
-											<div class="row">
-												<div class="col-12 col-lg-12">
-													<h3 class="text-center mb-3">Twitter</h3>
-													<div class="d-flex justify-content-center w-100 mb-3">
-														<canvas id="twitterChart"></canvas>
-													</div>
-
-													<h3 class="text-center mb-3">Google</h3>
-													<div class="d-flex justify-content-center w-100 mb-3">
-														<canvas id="googleChart"></canvas>
-													</div>
-
-													<h3 class="text-center mb-3">Facebook</h3>
-													<div class="d-flex justify-content-center w-100 mb-3">
-														<canvas id="facebookChart"></canvas>
-													</div>
-
-												</div>
-											</div>
-										</div>
-										<div class="right-box">
-											<h2>Asana <br> <strong>Comparison</strong></h2>
-											<div class="row">
-												<div class="col-5 p-3">
-													<img class="w-100" src="img/logo-company.png" alt="logo-side">
-													<p class="text-center mt-2 mb-0">Asana</p>
-												</div>
-												<div class="col-2 p-1">
-													<div class="vs"> <span>VS</span> </div>
-												</div>
-												<div class="col-5 p-3">
-													<img class="w-100" src="img/logo-company.png" alt="logo-side">
-													<p class="text-center mt-2 mb-0">Winstrike</p>
-												</div>
-											</div>
-											<div class="row">
-												<div class="col-5 p-3">
-													<img class="w-100" src="img/logo-company.png" alt="logo-side">
-													<p class="text-center mt-2 mb-0">Asana</p>
-												</div>
-												<div class="col-2 p-1">
-													<div class="vs"> <span>VS</span> </div>
-												</div>
-												<div class="col-5 p-3">
-													<img class="w-100" src="img/logo-company.png" alt="logo-side">
-													<p class="text-center mt-2 mb-0">Winstrike</p>
-												</div>
-											</div>
-											<div class="row">
-												<div class="col-5 p-3">
-													<img class="w-100" src="img/logo-company.png" alt="logo-side">
-													<p class="text-center mt-2 mb-0">Asana</p>
-												</div>
-												<div class="col-2 p-1">
-													<div class="vs"> <span>VS</span> </div>
-												</div>
-												<div class="col-5 p-3">
-													<img class="w-100" src="img/logo-company.png" alt="logo-side">
-													<p class="text-center mt-2 mb-0">Winstrike</p>
-												</div>
-											</div>
-											<div class="row">
-												<div class="col-5 p-3">
-													<img class="w-100" src="img/logo-company.png" alt="logo-side">
-													<p class="text-center mt-2 mb-0">Asana</p>
-												</div>
-												<div class="col-2 p-1">
-													<div class="vs"> <span>VS</span> </div>
-												</div>
-												<div class="col-5 p-3">
-													<img class="w-100" src="img/logo-company.png" alt="logo-side">
-													<p class="text-center mt-2 mb-0">Winstrike</p>
-												</div>
-											</div>
-
-											<div class="row">
-												<div class="col-12">
-													<div class="p-3 clearfix">
-														<button class="btn btn-blue">Compare Asana Ratings
-															to similar
-															products</button>
-													</div>
-												</div>
-
-											</div>
-										</div>
-
-										<div class="right-box">
-											<h2>Top Rated Asana <br> <strong>Alternatives</strong></h2>
-											<div class="row">
-												<div class="col-7 p-3">
-													<img class="w-100 py-3" src="img/trello.JPG" alt="logo-side">
-												</div>
-												<div class="col-5 p-3">
-													<h3>Trello</h3>
-													<div class="rating">
-														<span class="icon_star star-rating"></span>
-														<span class="icon_star star-rating"></span>
-														<span class="icon_star star-rating"></span>
-														<span class="icon_star star-rating"></span>
-													</div>
-													<p class="m-0"><strong class="text-black">4.2 </strong>out of
-														<strong class="text-black">5</strong></p>
-													<p class="text-cyan">(1,216)</p>
-
-												</div>
-											</div>
-
-											<div class="row">
-												<div class="col-7 p-3">
-													<img class="w-100 py-3" src="img/trello.JPG" alt="logo-side">
-												</div>
-												<div class="col-5 p-3">
-													<h3>Trello</h3>
-													<div class="rating">
-														<span class="icon_star star-rating"></span>
-														<span class="icon_star star-rating"></span>
-														<span class="icon_star star-rating"></span>
-														<span class="icon_star star-rating"></span>
-													</div>
-													<p class="m-0"><strong class="text-black">4.2 </strong>out of
-														<strong class="text-black">5</strong></p>
-													<p class="text-cyan">(1,216)</p>
-
-												</div>
-											</div>
-
-
-											<div class="row">
-												<div class="col-12">
-													<div class="px-5 clearfix">
-														<button class="btn btn-blue">See all Asana alternatives</button>
-													</div>
-												</div>
-
-											</div>
-										</div>
-									</div>
-								</div>
-								<!-- /row -->
-							</section>
-							<section id="section-5">
-								<div class="row mb-4">
-									<div class="header-content p-3">
-										<h2>Asana <strong>Alternatives & Competitors</strong></h2>
-										<span class="header-content-underline"></span>
-									</div>
-
-
-								</div>
-								<div class="row mb-4">
-									<div class="sort-box p-3">
-										<span class="mr-2">Sort By: </span>
-										<ul class="sort-box-inside">
-											<li>
-												<div class="sort-box-inside">
-													<input type="radio" id="all" name="listing_filter" value="all"
-														checked class="selected">
-													<label for="all">All</label>
-
-													<input type="radio" id="alphabetical" name="listing_filter"
-														value="alphabetical">
-													<label for="alphabetical">Alphabetical</label>
-
-													<input type="radio" id="best" name="listing_filter" value="best">
-													<label for="best">Best Rated</label>
-
-													<input type="radio" id="popular" name="listing_filter"
-														value="popular">
-													<label for="popular">Most Popular</label>
-												</div>
-											</li>
-										</ul>
-
-									</div>
-								</div>
-								<div class="row mb-4">
-									<div class="col-lg-3 mb-3">
-										<div class="d-flex flex-column justify-content-center h-100">
-											<img class="mb-2" src="img/spotify.png" style="width: 100%;" alt="logo">
-
-										</div>
-
-									</div>
-									<div class="col-lg-6 mb-3">
-										<h3>Spotify</h3>
-										<span class="rating mb-2">
-											<span class="icon_star star-rating"></span>
-											<span class="icon_star star-rating"></span>
-											<span class="icon_star star-rating"></span>
-											<span class="icon_star star-rating"></span>
-											<span class="icon_star-half star-rating"></span>
-											<span><strong>4.5</strong> out of <strong>5</strong></span>
-											<!-- <em>5.00/5.00</em> -->
-										</span>
-										<p class="long-p">Lorem ipsum dolor sit amet consectetur adipisicing elit. Quia
-											magnam repellat
-											quaerat voluptatum a et fugiat laudantium eaque nisi facere in atque eveniet
-											architecto, nulla delectus quos, veritatis possimus vero! Lorem ipsum dolor
-											sit amet consectetur adipisicing elit. Quia magnam repellat quaerat
-											voluptatum a et fugiat laudantium eaque nisi facere in atque eveniet
-											architecto, nulla delectus quos, veritatis possimus vero! Lorem ipsum dolor
-											sit amet consectetur adipisicing elit. Quia magnam repellat quaerat
-											voluptatum a et fugiat laudantium eaque nisi facere in atque eveniet
-											architecto, nulla delectus quos, veritatis possimus vero!</p>
-
-										<button class="btn btn-blue xs mr-3">Visit Profile</button>
-										<button class="btn btn-trans xs">Go to website</button>
-									</div>
-									<div class="col-lg-3">
-
-										<div class="right-box two mb-0">
-											<h5 class="text-blue mb-3">Spotify Review</h5>
-											<div class="row">
-												<div class="col-3 pr-1">
-													<div class="review-img small">
-														<img src="img/avatar.jpg" alt="avatar">
-
-													</div>
-												</div>
-												<div class="col-9 pr-1">
-													<h6 class="m-0">Dikut Andi</h6>
-													<p class="m-0">Small Business</p>
-												</div>
-												<div class="col-12">
-													<p class="mini-p">Lorem ipsum dolor sit amet consectetur adipisicing
-														elit. Autem
-														qui est velit quidem ipsam ad totam repudiandae suscipit
-														eligendi error
-														dolore. Autem
-														qui est velit quidem ipsam ad totam repudiandae suscipit
-														eligendi error
-														dolore.
-													</p>
-													<div class="d-flex justify-content-center">
-														<button class="btn btn-blue xs">Full Review</button>
-													</div>
-
-												</div>
-
-											</div>
-
-										</div>
-									</div>
-								</div>
-								<div class="row mb-4">
-									<div class="col-lg-3 mb-3">
-										<div class="d-flex flex-column justify-content-center h-100">
-											<img class="mb-2" src="img/spotify.png" style="width: 100%;" alt="logo">
-
-										</div>
-
-									</div>
-									<div class="col-lg-6 mb-3">
-										<h3>Spotify</h3>
-										<span class="rating mb-2">
-											<span class="icon_star star-rating"></span>
-											<span class="icon_star star-rating"></span>
-											<span class="icon_star star-rating"></span>
-											<span class="icon_star star-rating"></span>
-											<span class="icon_star-half star-rating"></span>
-											<span><strong>4.5</strong> out of <strong>5</strong></span>
-											<!-- <em>5.00/5.00</em> -->
-										</span>
-										<p class="long-p">Lorem ipsum dolor sit amet consectetur adipisicing elit. Quia
-											magnam repellat
-											quaerat voluptatum a et fugiat laudantium eaque nisi facere in atque eveniet
-											architecto, nulla delectus quos, veritatis possimus vero! Lorem ipsum dolor
-											sit amet consectetur adipisicing elit. Quia magnam repellat quaerat
-											voluptatum a et fugiat laudantium eaque nisi facere in atque eveniet
-											architecto, nulla delectus quos, veritatis possimus vero! Lorem ipsum dolor
-											sit amet consectetur adipisicing elit. Quia magnam repellat quaerat
-											voluptatum a et fugiat laudantium eaque nisi facere in atque eveniet
-											architecto, nulla delectus quos, veritatis possimus vero!</p>
-
-										<button class="btn btn-blue xs mr-3">Visit Profile</button>
-										<button class="btn btn-trans xs">Go to website</button>
-									</div>
-									<div class="col-lg-3">
-
-										<div class="right-box two mb-0">
-											<h5 class="text-blue mb-3">Spotify Review</h5>
-											<div class="row">
-												<div class="col-3 pr-1">
-													<div class="review-img small">
-														<img src="img/avatar.jpg" alt="avatar">
-
-													</div>
-												</div>
-												<div class="col-9 pr-1">
-													<h6 class="m-0">Dikut Andi</h6>
-													<p class="m-0">Small Business</p>
-												</div>
-												<div class="col-12">
-													<p class="mini-p">Lorem ipsum dolor sit amet consectetur adipisicing
-														elit. Autem
-														qui est velit quidem ipsam ad totam repudiandae suscipit
-														eligendi error
-														dolore. Autem
-														qui est velit quidem ipsam ad totam repudiandae suscipit
-														eligendi error
-														dolore.
-													</p>
-													<div class="d-flex justify-content-center">
-														<button class="btn btn-blue xs">Full Review</button>
-													</div>
-
-												</div>
-
-											</div>
-
-										</div>
-									</div>
-								</div>
-								<div class="row mb-4">
-									<div class="col-lg-3 mb-3">
-										<div class="d-flex flex-column justify-content-center h-100">
-											<img class="mb-2" src="img/spotify.png" style="width: 100%;" alt="logo">
-
-										</div>
-
-									</div>
-									<div class="col-lg-6 mb-3">
-										<h3>Spotify</h3>
-										<span class="rating mb-2">
-											<span class="icon_star star-rating"></span>
-											<span class="icon_star star-rating"></span>
-											<span class="icon_star star-rating"></span>
-											<span class="icon_star star-rating"></span>
-											<span class="icon_star-half star-rating"></span>
-											<span><strong>4.5</strong> out of <strong>5</strong></span>
-											<!-- <em>5.00/5.00</em> -->
-										</span>
-										<p class="long-p">Lorem ipsum dolor sit amet consectetur adipisicing elit. Quia
-											magnam repellat
-											quaerat voluptatum a et fugiat laudantium eaque nisi facere in atque eveniet
-											architecto, nulla delectus quos, veritatis possimus vero! Lorem ipsum dolor
-											sit amet consectetur adipisicing elit. Quia magnam repellat quaerat
-											voluptatum a et fugiat laudantium eaque nisi facere in atque eveniet
-											architecto, nulla delectus quos, veritatis possimus vero! Lorem ipsum dolor
-											sit amet consectetur adipisicing elit. Quia magnam repellat quaerat
-											voluptatum a et fugiat laudantium eaque nisi facere in atque eveniet
-											architecto, nulla delectus quos, veritatis possimus vero!</p>
-
-										<button class="btn btn-blue xs mr-3">Visit Profile</button>
-										<button class="btn btn-trans xs">Go to website</button>
-									</div>
-									<div class="col-lg-3">
-
-										<div class="right-box two mb-0">
-											<h5 class="text-blue mb-3">Spotify Review</h5>
-											<div class="row">
-												<div class="col-3 pr-1">
-													<div class="review-img small">
-														<img src="img/avatar.jpg" alt="avatar">
-
-													</div>
-												</div>
-												<div class="col-9 pr-1">
-													<h6 class="m-0">Dikut Andi</h6>
-													<p class="m-0">Small Business</p>
-												</div>
-												<div class="col-12">
-													<p class="mini-p">Lorem ipsum dolor sit amet consectetur adipisicing
-														elit. Autem
-														qui est velit quidem ipsam ad totam repudiandae suscipit
-														eligendi error
-														dolore. Autem
-														qui est velit quidem ipsam ad totam repudiandae suscipit
-														eligendi error
-														dolore.
-													</p>
-													<div class="d-flex justify-content-center">
-														<button class="btn btn-blue xs">Full Review</button>
-													</div>
-
-												</div>
-
-											</div>
-
-										</div>
-									</div>
-								</div>
-								<div class="row mb-4">
-									<div class="col-lg-3 mb-3">
-										<div class="d-flex flex-column justify-content-center h-100">
-											<img class="mb-2" src="img/spotify.png" style="width: 100%;" alt="logo">
-
-										</div>
-
-									</div>
-									<div class="col-lg-6 mb-3">
-										<h3>Spotify</h3>
-										<span class="rating mb-2">
-											<span class="icon_star star-rating"></span>
-											<span class="icon_star star-rating"></span>
-											<span class="icon_star star-rating"></span>
-											<span class="icon_star star-rating"></span>
-											<span class="icon_star-half star-rating"></span>
-											<span><strong>4.5</strong> out of <strong>5</strong></span>
-											<!-- <em>5.00/5.00</em> -->
-										</span>
-										<p class="long-p">Lorem ipsum dolor sit amet consectetur adipisicing elit. Quia
-											magnam repellat
-											quaerat voluptatum a et fugiat laudantium eaque nisi facere in atque eveniet
-											architecto, nulla delectus quos, veritatis possimus vero! Lorem ipsum dolor
-											sit amet consectetur adipisicing elit. Quia magnam repellat quaerat
-											voluptatum a et fugiat laudantium eaque nisi facere in atque eveniet
-											architecto, nulla delectus quos, veritatis possimus vero! Lorem ipsum dolor
-											sit amet consectetur adipisicing elit. Quia magnam repellat quaerat
-											voluptatum a et fugiat laudantium eaque nisi facere in atque eveniet
-											architecto, nulla delectus quos, veritatis possimus vero!</p>
-
-										<button class="btn btn-blue xs mr-3">Visit Profile</button>
-										<button class="btn btn-trans xs">Go to website</button>
-									</div>
-									<div class="col-lg-3">
-
-										<div class="right-box two mb-0">
-											<h5 class="text-blue mb-3">Spotify Review</h5>
-											<div class="row">
-												<div class="col-3 pr-1">
-													<div class="review-img small">
-														<img src="img/avatar.jpg" alt="avatar">
-
-													</div>
-												</div>
-												<div class="col-9 pr-1">
-													<h6 class="m-0">Dikut Andi</h6>
-													<p class="m-0">Small Business</p>
-												</div>
-												<div class="col-12">
-													<p class="mini-p">Lorem ipsum dolor sit amet consectetur adipisicing
-														elit. Autem
-														qui est velit quidem ipsam ad totam repudiandae suscipit
-														eligendi error
-														dolore. Autem
-														qui est velit quidem ipsam ad totam repudiandae suscipit
-														eligendi error
-														dolore.
-													</p>
-													<div class="d-flex justify-content-center">
-														<button class="btn btn-blue xs">Full Review</button>
-													</div>
-
-												</div>
-
-											</div>
-
-										</div>
-									</div>
-								</div>
-
-								<!-- /row -->
-							</section>
-							<section id="section-7">
-								<div class="row mb-4">
-									<div class="header-content p-3">
-										<h2>Asana <strong>Comparison</strong></h2>
-										<span class="header-content-underline"></span>
-									</div>
-
-
-								</div>
-								<div class="row mb-4">
-									<div class="sort-box p-3">
-										<span class="mr-2">Sort By: </span>
-										<ul class="sort-box-inside">
-											<ul class="nav nav-tabs custom-nav" id="myTab" role="tablist">
-												<li class="nav-item" role="presentation">
-													<a class="nav-link active" data-toggle="tab" href="#" role="tab"
-														aria-controls="all" aria-selected="true">All</a>
-												</li>
-												<li class="nav-item" role="presentation">
-													<a class="nav-link" data-toggle="tab" href="#" role="tab"
-														aria-controls="Alphabetical"
-														aria-selected="false">Alphabetical</a>
-												</li>
-												<li class="nav-item" role="presentation">
-													<a class="nav-link" data-toggle="tab" href="#" role="tab"
-														aria-controls="best" aria-selected="false">Best
-														Rated</a>
-												</li>
-												<li class="nav-item" role="presentation">
-													<a class="nav-link" data-toggle="tab" href="#" role="tab"
-														aria-controls="popular" aria-selected="false">Most
-														Popular</a>
-												</li>
-											</ul>
-										</ul>
-
-
-									</div>
-								</div>
-								<div class="row mb-4">
-									<div class="col-lg-3 mb-3">
-										<div class="d-flex flex-column justify-content-center h-100">
-											<img class="mb-2" src="img/spotify.png" style="width: 100%;" alt="logo">
-										</div>
-									</div>
-									<div class="col-lg-6 mb-3">
-										<h3>Spotify</h3>
-										<span class="rating mb-2">
-											<span class="icon_star star-rating"></span>
-											<span class="icon_star star-rating"></span>
-											<span class="icon_star star-rating"></span>
-											<span class="icon_star star-rating"></span>
-											<span class="icon_star-half star-rating"></span>
-											<span><strong>4.5</strong> out of <strong>5</strong></span>
-											<!-- <em>5.00/5.00</em> -->
-										</span>
-										<p class="long-p">Lorem ipsum dolor sit amet consectetur adipisicing elit. Quia
-											magnam repellat
-											quaerat voluptatum a et fugiat laudantium eaque nisi facere in atque eveniet
-											architecto, nulla delectus quos, veritatis possimus vero! Lorem ipsum dolor
-											sit amet consectetur adipisicing elit. Quia magnam repellat quaerat
-											voluptatum a et fugiat laudantium eaque nisi facere in atque eveniet
-											architecto, nulla delectus quos, veritatis possimus vero! Lorem ipsum dolor
-											sit amet consectetur adipisicing elit. Quia magnam repellat quaerat
-											voluptatum a et fugiat laudantium eaque nisi facere in atque eveniet
-											architecto, nulla delectus quos, veritatis possimus vero!</p>
-
-										<button class="btn btn-blue xs mr-3">Visit Profile</button>
-										<button class="btn btn-trans xs">Go to website</button>
-									</div>
-									<div class="col-lg-3">
-										<div class="d-flex flex-column justify-content-center h-100">
-											<div class="custom-control text-center custom-checkbox py-2">
-												<input type="checkbox" class="custom-control-input" id="customCheck1">
-												<label class="custom-control-label fs-16 font-weight-bold"
-													for="customCheck1">Compare to
-													Asana</label>
-											</div>
-										</div>
-
-									</div>
-								</div>
-								<div class="row mb-4">
-									<div class="col-lg-3 mb-3">
-										<div class="d-flex flex-column justify-content-center h-100">
-											<img class="mb-2" src="img/spotify.png" style="width: 100%;" alt="logo">
-										</div>
-									</div>
-									<div class="col-lg-6 mb-3">
-										<h3>Spotify</h3>
-										<span class="rating mb-2">
-											<span class="icon_star star-rating"></span>
-											<span class="icon_star star-rating"></span>
-											<span class="icon_star star-rating"></span>
-											<span class="icon_star star-rating"></span>
-											<span class="icon_star-half star-rating"></span>
-											<span><strong>4.5</strong> out of <strong>5</strong></span>
-											<!-- <em>5.00/5.00</em> -->
-										</span>
-										<p class="long-p">Lorem ipsum dolor sit amet consectetur adipisicing elit. Quia
-											magnam repellat
-											quaerat voluptatum a et fugiat laudantium eaque nisi facere in atque eveniet
-											architecto, nulla delectus quos, veritatis possimus vero! Lorem ipsum dolor
-											sit amet consectetur adipisicing elit. Quia magnam repellat quaerat
-											voluptatum a et fugiat laudantium eaque nisi facere in atque eveniet
-											architecto, nulla delectus quos, veritatis possimus vero! Lorem ipsum dolor
-											sit amet consectetur adipisicing elit. Quia magnam repellat quaerat
-											voluptatum a et fugiat laudantium eaque nisi facere in atque eveniet
-											architecto, nulla delectus quos, veritatis possimus vero!</p>
-
-										<button class="btn btn-blue xs mr-3">Visit Profile</button>
-										<button class="btn btn-trans xs">Go to website</button>
-									</div>
-									<div class="col-lg-3">
-										<div class="d-flex flex-column justify-content-center h-100">
-											<div class="custom-control text-center custom-checkbox py-2">
-												<input type="checkbox" class="custom-control-input" id="customCheck2">
-												<label class="custom-control-label fs-16 font-weight-bold"
-													for="customCheck2">Compare to
-													Asana</label>
-											</div>
-										</div>
-
-									</div>
-								</div>
-								<div class="row mb-4">
-									<div class="col-lg-3 mb-3">
-										<div class="d-flex flex-column justify-content-center h-100">
-											<img class="mb-2" src="img/spotify.png" style="width: 100%;" alt="logo">
-										</div>
-									</div>
-									<div class="col-lg-6 mb-3">
-										<h3>Spotify</h3>
-										<span class="rating mb-2">
-											<span class="icon_star star-rating"></span>
-											<span class="icon_star star-rating"></span>
-											<span class="icon_star star-rating"></span>
-											<span class="icon_star star-rating"></span>
-											<span class="icon_star-half star-rating"></span>
-											<span><strong>4.5</strong> out of <strong>5</strong></span>
-											<!-- <em>5.00/5.00</em> -->
-										</span>
-										<p class="long-p">Lorem ipsum dolor sit amet consectetur adipisicing elit. Quia
-											magnam repellat
-											quaerat voluptatum a et fugiat laudantium eaque nisi facere in atque eveniet
-											architecto, nulla delectus quos, veritatis possimus vero! Lorem ipsum dolor
-											sit amet consectetur adipisicing elit. Quia magnam repellat quaerat
-											voluptatum a et fugiat laudantium eaque nisi facere in atque eveniet
-											architecto, nulla delectus quos, veritatis possimus vero! Lorem ipsum dolor
-											sit amet consectetur adipisicing elit. Quia magnam repellat quaerat
-											voluptatum a et fugiat laudantium eaque nisi facere in atque eveniet
-											architecto, nulla delectus quos, veritatis possimus vero!</p>
-
-										<button class="btn btn-blue xs mr-3">Visit Profile</button>
-										<button class="btn btn-trans xs">Go to website</button>
-									</div>
-									<div class="col-lg-3">
-										<div class="d-flex flex-column justify-content-center h-100">
-											<div class="custom-control text-center custom-checkbox py-2">
-												<input type="checkbox" class="custom-control-input" id="customCheck3">
-												<label class="custom-control-label fs-16 font-weight-bold"
-													for="customCheck3">Compare to
-													Asana</label>
-											</div>
-										</div>
-
-									</div>
-								</div>
-								<div class="row mb-4">
-									<div class="col-lg-3 mb-3">
-										<div class="d-flex flex-column justify-content-center h-100">
-											<img class="mb-2" src="img/spotify.png" style="width: 100%;" alt="logo">
-										</div>
-									</div>
-									<div class="col-lg-6 mb-3">
-										<h3>Spotify</h3>
-										<span class="rating mb-2">
-											<span class="icon_star star-rating"></span>
-											<span class="icon_star star-rating"></span>
-											<span class="icon_star star-rating"></span>
-											<span class="icon_star star-rating"></span>
-											<span class="icon_star-half star-rating"></span>
-											<span><strong>4.5</strong> out of <strong>5</strong></span>
-											<!-- <em>5.00/5.00</em> -->
-										</span>
-										<p class="long-p">Lorem ipsum dolor sit amet consectetur adipisicing elit. Quia
-											magnam repellat
-											quaerat voluptatum a et fugiat laudantium eaque nisi facere in atque eveniet
-											architecto, nulla delectus quos, veritatis possimus vero! Lorem ipsum dolor
-											sit amet consectetur adipisicing elit. Quia magnam repellat quaerat
-											voluptatum a et fugiat laudantium eaque nisi facere in atque eveniet
-											architecto, nulla delectus quos, veritatis possimus vero! Lorem ipsum dolor
-											sit amet consectetur adipisicing elit. Quia magnam repellat quaerat
-											voluptatum a et fugiat laudantium eaque nisi facere in atque eveniet
-											architecto, nulla delectus quos, veritatis possimus vero!</p>
-
-										<button class="btn btn-blue xs mr-3">Visit Profile</button>
-										<button class="btn btn-trans xs">Go to website</button>
-									</div>
-									<div class="col-lg-3">
-										<div class="d-flex flex-column justify-content-center h-100">
-											<div class="custom-control text-center custom-checkbox py-2">
-												<input type="checkbox" class="custom-control-input" id="customCheck4">
-												<label class="custom-control-label fs-16 font-weight-bold"
-													for="customCheck4">Compare to
-													Asana</label>
-											</div>
-										</div>
-
-									</div>
-								</div>
-
-
-								<!-- /row -->
-							</section>
-							<section id="section-6">
-								<div class="row mb-4">
-									<div class="header-content p-3">
-										<h2>Asana <strong>Coupons</strong></h2>
-										<span class="header-content-underline"></span>
-									</div>
-								</div>
-								<div class="row">
-									<div class="col-lg-8 col-12">
-										<div class="col-12">
-											<div class="row mb-4 coupon-wrapper">
-												<div class="col-lg-3 col-12">
-													<div class="d-flex justify-content-center align-items-center h-100">
-														<img src="img/tinder.png" alt="logo" width="100%">
-													</div>
-												</div>
-												<div class="col-lg-6 col-12 py-5">
-													<h5>Tinder Business Pack Coupon</h5>
-													<p class="m-0">Lorem ipsum dolor sit amet consectetur,
-														adipisicing elit.
-														Sint numquam voluptatibus unde porro iure.</p>
-												</div>
-												<div class="col-lg-3 col-12">
-													<div
-														class="py-4 d-flex justify-content-center align-items-center h-100">
-														<button class="btn btn-blue xs">Get Coupon!</button></div>
-												</div>
-											</div>
-											<div class="row mb-4 coupon-wrapper">
-												<div class="col-lg-3 col-12">
-													<div class="d-flex justify-content-center align-items-center h-100">
-														<img src="img/tinder.png" alt="logo" width="100%">
-													</div>
-												</div>
-												<div class="col-lg-6 col-12 py-5">
-													<h5>Tinder Business Pack Coupon</h5>
-													<p class="m-0">Lorem ipsum dolor sit amet consectetur,
-														adipisicing elit.
-														Sint numquam voluptatibus unde porro iure.</p>
-												</div>
-												<div class="col-lg-3 col-12">
-													<div
-														class="py-4 d-flex justify-content-center align-items-center h-100">
-														<button class="btn btn-blue xs">Get Coupon!</button></div>
-												</div>
-											</div>
-											<div class="row mb-4 coupon-wrapper">
-												<div class="col-lg-3 col-12">
-													<div class="d-flex justify-content-center align-items-center h-100">
-														<img src="img/tinder.png" alt="logo" width="100%">
-													</div>
-												</div>
-												<div class="col-lg-6 col-12 py-5">
-													<h5>Tinder Business Pack Coupon</h5>
-													<p class="m-0">Lorem ipsum dolor sit amet consectetur,
-														adipisicing elit.
-														Sint numquam voluptatibus unde porro iure.</p>
-												</div>
-												<div class="col-lg-3 col-12">
-													<div
-														class="py-4 d-flex justify-content-center align-items-center h-100">
-														<button class="btn btn-blue xs">Get Coupon!</button></div>
-												</div>
-											</div>
-											<div class="row mb-4 coupon-wrapper">
-												<div class="col-lg-3 col-12">
-													<div class="d-flex justify-content-center align-items-center h-100">
-														<img src="img/tinder.png" alt="logo" width="100%">
-													</div>
-												</div>
-												<div class="col-lg-6 col-12 py-5">
-													<h5>Tinder Business Pack Coupon</h5>
-													<p class="m-0">Lorem ipsum dolor sit amet consectetur,
-														adipisicing elit.
-														Sint numquam voluptatibus unde porro iure.</p>
-												</div>
-												<div class="col-lg-3 col-12">
-													<div
-														class="py-4 d-flex justify-content-center align-items-center h-100">
-														<button class="btn btn-blue xs">Get Coupon!</button></div>
-												</div>
-											</div>
-										</div>
-									</div>
-									<div class="col-lg-4 col-12">
-										<div class="right-box">
-											<h2>Asana <br> <strong>Pricing</strong></h2>
-											<div class="row">
-												<div class="col-12 p-3">
-													<div class="pricing-box">
-														<h3 class="mb-2">Asana Basic</h3>
-														<div class="row">
-															<div class="col-6 px-1">
-																<h1 class="m-0 text-right dollar">$20</h1>
-															</div>
-															<div class="col-6 px-1">
-																<p class="m-0 permonth">per user,<br>per
-																	month</p>
-															</div>
-														</div>
-													</div>
-
-													<div class="pricing-box">
-														<h3 class="mb-2">Asana Premium</h3>
-														<div class="row">
-															<div class="col-12">
-																<p class="m-0">
-																	Starts from
-																</p>
-															</div>
-															<div class="col-7 px-1">
-																<h1 class="m-0 text-right dollar">$22.10</h1>
-															</div>
-															<div class="col-5 px-1">
-																<p class="m-0 permonth">per user,<br>per
-																	month</p>
-															</div>
-														</div>
-													</div>
-												</div>
-											</div>
-											<div class="row">
-												<div class="col-12">
-													<div class="px-5 clearfix">
-														<button class="btn btn-blue">See all Pricing levels</button>
-													</div>
-												</div>
-
-											</div>
-										</div>
-										<div class="right-box">
-											<h2>Asana <br> <strong>Comparison</strong></h2>
-											<div class="row">
-												<div class="col-5 p-3">
-													<img class="w-100" src="img/logo-company.png" alt="logo-side">
-													<p class="text-center mt-2 mb-0">Asana</p>
-												</div>
-												<div class="col-2 p-1">
-													<div class="vs"> <span>VS</span> </div>
-												</div>
-												<div class="col-5 p-3">
-													<img class="w-100" src="img/logo-company.png" alt="logo-side">
-													<p class="text-center mt-2 mb-0">Winstrike</p>
-												</div>
-											</div>
-											<div class="row">
-												<div class="col-5 p-3">
-													<img class="w-100" src="img/logo-company.png" alt="logo-side">
-													<p class="text-center mt-2 mb-0">Asana</p>
-												</div>
-												<div class="col-2 p-1">
-													<div class="vs"> <span>VS</span> </div>
-												</div>
-												<div class="col-5 p-3">
-													<img class="w-100" src="img/logo-company.png" alt="logo-side">
-													<p class="text-center mt-2 mb-0">Winstrike</p>
-												</div>
-											</div>
-											<div class="row">
-												<div class="col-5 p-3">
-													<img class="w-100" src="img/logo-company.png" alt="logo-side">
-													<p class="text-center mt-2 mb-0">Asana</p>
-												</div>
-												<div class="col-2 p-1">
-													<div class="vs"> <span>VS</span> </div>
-												</div>
-												<div class="col-5 p-3">
-													<img class="w-100" src="img/logo-company.png" alt="logo-side">
-													<p class="text-center mt-2 mb-0">Winstrike</p>
-												</div>
-											</div>
-											<div class="row">
-												<div class="col-5 p-3">
-													<img class="w-100" src="img/logo-company.png" alt="logo-side">
-													<p class="text-center mt-2 mb-0">Asana</p>
-												</div>
-												<div class="col-2 p-1">
-													<div class="vs"> <span>VS</span> </div>
-												</div>
-												<div class="col-5 p-3">
-													<img class="w-100" src="img/logo-company.png" alt="logo-side">
-													<p class="text-center mt-2 mb-0">Winstrike</p>
-												</div>
-											</div>
-
-											<div class="row">
-												<div class="col-12">
-													<div class="p-3 clearfix">
-														<button class="btn btn-blue">Compare Asana Ratings
-															to similar
-															products</button>
-													</div>
-												</div>
-
-											</div>
-										</div>
-
-										<div class="right-box">
-											<h2>Top Rated Asana <br> <strong>Alternatives</strong></h2>
-											<div class="row">
-												<div class="col-7 p-3">
-													<img class="w-100 py-3" src="img/trello.JPG" alt="logo-side">
-												</div>
-												<div class="col-5 p-3">
-													<h3>Trello</h3>
-													<div class="rating">
-														<span class="icon_star star-rating"></span>
-														<span class="icon_star star-rating"></span>
-														<span class="icon_star star-rating"></span>
-														<span class="icon_star star-rating"></span>
-													</div>
-													<p class="m-0"><strong class="text-black">4.2 </strong>out of
-														<strong class="text-black">5</strong></p>
-													<p class="text-cyan">(1,216)</p>
-
-												</div>
-											</div>
-
-											<div class="row">
-												<div class="col-7 p-3">
-													<img class="w-100 py-3" src="img/trello.JPG" alt="logo-side">
-												</div>
-												<div class="col-5 p-3">
-													<h3>Trello</h3>
-													<div class="rating">
-														<span class="icon_star star-rating"></span>
-														<span class="icon_star star-rating"></span>
-														<span class="icon_star star-rating"></span>
-														<span class="icon_star star-rating"></span>
-													</div>
-													<p class="m-0"><strong class="text-black">4.2 </strong>out of
-														<strong class="text-black">5</strong></p>
-													<p class="text-cyan">(1,216)</p>
-
-												</div>
-											</div>
-
-
-											<div class="row">
-												<div class="col-12">
-													<div class="px-5 clearfix">
-														<button class="btn btn-blue">See all Asana alternatives</button>
-													</div>
-												</div>
-
-											</div>
-										</div>
-									</div>
-								</div>
-								<!-- /row -->
-							</section>
+			<section class="contribute">
+				<div class="bg-white-pure">
+					<div class="container">
+						<div class="row py-5">
+							<div class="col-lg-7 py-4">
+								<img src="img/multitasking.png" class="w-100" alt="stackbutler">
+							</div>
+							<div class="col-lg-5 py-4">
+								<h2>Contribute to <span class="text-blue">the Community</span></h2>
+								<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Doloribus cupiditate atque,
+									quis quam necessitatibus tenetur voluptate nisi earum nemo nostrum et nam reiciendis
+									possimus! Quas delectus vitae quisquam possimus quibusdam.</p>
+								<a href="#" class="btn btn-blue xs">Join Now!</a>
+							</div>
 						</div>
-						<!-- /content -->
 					</div>
-					<!-- /row -->
 				</div>
 			</section>
+
 			<!-- /container -->
 
 		</main>
