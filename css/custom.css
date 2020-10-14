@@ -25,7 +25,9 @@
     font-weight: 600;
 
 }
-
+.bg-white-pure {
+    background-color: white;
+}
 .bg-white {
     background-color: #e2f0f9;
 }
