@@ -253,10 +253,18 @@ li {
 .right-box {
     width: 100%;
     box-shadow: #cacaca 8px 7px 20px;
-    padding: 25px;
+    padding: 15px;
     border-radius: 30px;
     margin-bottom: 45px;
 }
+
+/* @media (max-width: 768px) and (min-width: 576px) {
+    .right-box {
+        width: 45%;
+        float: left;
+        margin-right: 10px;
+    }
+} */
 
 .right-box.two {
     box-shadow: none;
@@ -334,15 +342,15 @@ li {
 }
 
 .permonth {
-    line-height: 1.25rem;
-    font-size: 16px;
+    line-height: normal;
+    font-size: 14px;
     font-weight: 200;
     position: relative;
     top: 15px;
 }
 
 .dollar {
-    font-size: 48px;
+    font-size: 42px;
     font-weight: 700;
 }
 
@@ -813,4 +821,17 @@ color: black;
 .lukas {
     font-size: 20px;
     font-weight: 700;
+}
+
+@media only screen and (min-width: 992px) {
+    .main-menu > ul > li span > a.active {
+        color: #3578fa;
+        padding: 0 30px 15px 30px;
+        font-size: 14px;
+        font-size: 1rem;
+        font-weight: 500;
+    }
+    header.sticky .main-menu > ul > li span > a.active, header.header_in .main-menu > ul > li span > a.active {
+        color: #3578fa;
+    }
 }
