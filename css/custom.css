@@ -879,3 +879,33 @@ color: black;
     width: 100%;
     height: 350px;
 }
+
+.our-team-h2 {
+    font-size: 34px;
+    font-weight: 700;
+    text-align: center;
+    width: 100%;
+}
+.title-profile h4 {
+    margin: 0;
+    color: white;
+    font-size: 20px;
+}
+.title-profile b {
+    color: white;
+    font-weight: 400;
+}
+.title-profile {
+    position: absolute;
+    min-width: 200px;
+    padding: 7px 15px;
+    border-radius: 20px;
+    right: -10px;
+    bottom: 20px;
+    background-color: #41d3bd;
+    color: white;
+}
+
+.owl-carousel .owl-stage-outer {
+    /* overflow: unset; */
+}
