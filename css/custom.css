@@ -852,6 +852,12 @@ li {
   border-radius: 20px;
   box-shadow: #bdd2d2 7px 7px 20px;
 }
+.about-photo-wrapper-2 {
+  width: 100%;
+  display: block;
+  overflow: hidden;
+  border-radius: 20px;
+}
 
 .about-description strong {
   font-size: 12px;
