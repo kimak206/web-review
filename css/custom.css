@@ -49,7 +49,7 @@ h6 {
 }
 
 .text-blue {
-  color: #3578fa;
+  color: #3578fa !important;
 }
 
 .text-lightblue {
@@ -882,7 +882,7 @@ li {
 }
 .about-photo {
   width: 100%;
-  height: 350px;
+  height: auto;
 }
 
 .our-team-h2 {
@@ -953,4 +953,113 @@ a.active > .border-green {
   text-align: left;
   color: black;
   margin-bottom: 25px !important;
+}
+
+.custom-border-blue {
+  border-bottom: 3px solid #3c84e8;
+  width: 50px;
+  margin-top: 15px;
+  margin-bottom: 20px;
+}
+
+.list-wrap {
+  background-color: #e2f0f9;
+  padding: 20px 30px;
+  border-radius: 20px;
+  margin-bottom: 20px;
+}
+
+.filter-title {
+  font-weight: 700;
+  font-size: 20px;
+  text-align: left;
+  color: #3578fa;
+  margin-bottom: 10px;
+}
+
+.search-icon-filter {
+  display: inline-block;
+  border-left: solid 1px #3578fa;
+  border-top: solid 1px #3578fa;
+  border-bottom: solid 1px #3578fa;
+  border-right: none;
+  border-radius: 20px 0 0 20px;
+  padding: 5px 10px;
+}
+.search-icon-filter .icon_search {
+  font-weight: 700;
+  color: #1c60d5;
+}
+
+.search-box-2 {
+  width: 100%;
+  margin-bottom: 10px;
+}
+
+.search-box-2 input {
+  display: inline-block;
+  border: solid 1px #3578fa;
+  border-left: none;
+  border-top: solid 1px #3578fa;
+  border-bottom: solid 1px #3578fa;
+  border-right: solid 1px #3578fa;
+  padding: 5px 10px;
+  border-radius: 0px 20px 20px 0;
+  margin-left: -4px;
+  outline: none;
+}
+
+.filter-section {
+  text-align: left;
+}
+
+.filter-section-title {
+  font-weight: 700;
+  margin-top: 20px;
+  margin-bottom: 5px;
+}
+
+.custom-control.custom-checkbox.custom-checkbox-filter {
+  display: inline-block;
+}
+
+.custom-control-label::before {
+  border: #3578fa solid 1px;
+}
+
+.show-more {
+  color: #22cafa;
+  font-weight: 700;
+  text-align: left;
+}
+
+.show-more:hover {
+  color: #22cafa;
+}
+
+.show-more:focus {
+  color: #22cafa;
+}
+
+.filter-mobile {
+  position: fixed;
+  bottom: 15px;
+  left: 0;
+  padding: 15px;
+  width: 100%;
+}
+
+.filter-mobile-inside {
+  background-color: white;
+  border-radius: 20px;
+  display: block;
+  padding: 10px;
+  box-shadow: #ccc 0px 0px 7px 4px;
+}
+
+.toggle-filter {
+  font-size: 16px;
+  text-align: center;
+  font-weight: 700;
+  color: #3578fa;
 }
