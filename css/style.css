@@ -1265,9 +1265,6 @@ ul#additional_links li:after {
     font-size: 1.125rem;
   }
 }
-.hero_single.version_1 {
-  /* height: 620px; */
-}
 @media (max-width: 767px) {
   .hero_single.version_1 {
     background: url(../img/home_section_1.jpg) -300px top no-repeat fixed;
@@ -2339,7 +2336,7 @@ a.btn_search_mobile {
   color: rgba(0, 0, 0, 0.9);
 }
 .switch-field label {
-  float: left;
+  /* float: left; */
   display: inline-block;
   color: rgba(0, 0, 0, 0.5);
   font-weight: 600;
@@ -2581,7 +2578,7 @@ a.btn_filt:before {
   border-radius: 50%;
   display: inline-block;
   position: relative;
-  float: left;
+  /* float: left; */
   margin-right: 15px;
 }
 .review_listing figure img {
@@ -3881,20 +3878,13 @@ a.social_bt.linkedin:before {
   -moz-box-shadow: #cacaca 8px 7px 20px;
   box-shadow: #cacaca 8px 7px 20px;
 }
-@media (max-width: 991px) {
-  .box_style_cat {
-    /* display: none; */
-  }
-}
 
 ul#cat_nav {
   list-style: none;
   margin: 0;
   padding: 0;
 }
-ul#cat_nav li {
-  /* border-bottom: 1px solid #ededed; */
-}
+
 ul#cat_nav li i {
   font-size: 16px;
   font-size: 1rem;
@@ -4871,10 +4861,10 @@ a.btn_support:before {
   height: 6px;
   border: 4px solid transparent;
   background-clip: padding-box;
-  -webkit-border-radius: 7px;
+  /* -webkit-border-radius: 7px; */
   background-color: rgba(0, 0, 0, 0.15);
-  -webkit-box-shadow: inset -1px -1px 0px rgba(0, 0, 0, 0.05),
-    inset 1px 1px 0px rgba(0, 0, 0, 0.05);
+  /* -webkit-box-shadow: inset -1px -1px 0px rgba(0, 0, 0, 0.05), */
+  inset: 1px 1px 0px rgba(0, 0, 0, 0.05);
 }
 .nice-select .list::-webkit-scrollbar-button {
   width: 0;
