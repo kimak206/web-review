@@ -387,7 +387,6 @@ li {
 .column-top {
   padding: 25px 15px;
   min-height: 530px;
-  border-bottom: 1px solid #e2e2e2;
 }
 
 .column-top .p-one {
@@ -495,10 +494,11 @@ li {
   font-weight: 400;
 }
 .sort-box-inside label {
-  padding: 5px 10px;
+  padding: 0.5rem 1rem;
   margin-bottom: 0;
   cursor: pointer;
-  margin: 0 8px;
+  font-weight: 400;
+  margin: 0;
 }
 
 .sort-box-inside input {
@@ -579,11 +579,12 @@ li {
 .search-icon {
   display: inline-block;
   border-radius: 0 10px 10px 0;
+  background-color: #41d3bd;
   padding: 5px;
-  border-top: solid 1px black;
-  border-right: solid 1px black;
-  border-bottom: solid 1px black;
-  border-left: none;
+  border-top: solid 1px #413f3d;
+  border-right: solid 1px #413f3d;
+  border-bottom: solid 1px #413f3d;
+  border-left: solid 1px #413f3d;
   margin-left: -4px;
 }
 
@@ -789,9 +790,10 @@ li {
 
 .sotw-h2 {
   font-weight: 700;
-  color: black;
+  color: #413f3d;
+  font-size: 24px;
   padding-top: 60px;
-  padding-bottom: 25px;
+  padding-bottom: 8px;
   margin-bottom: 0;
 }
 .pb-60 {
@@ -1003,9 +1005,9 @@ a.active > .border-green {
 
 .search-icon-filter {
   display: inline-block;
-  border-left: solid 1px black;
-  border-top: solid 1px black;
-  border-bottom: solid 1px black;
+  border-left: solid 1px #413f3d;
+  border-top: solid 1px #413f3d;
+  border-bottom: solid 1px #413f3d;
   border-right: none;
   border-radius: 10px 0 0 10px;
   padding: 5px 10px;
