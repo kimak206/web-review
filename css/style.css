@@ -1144,6 +1144,7 @@ ul#additional_links li a {
 }
 ul#additional_links li a:hover {
   opacity: 1;
+  color: #41d3bd;
 }
 ul#additional_links li:after {
   content: "|";

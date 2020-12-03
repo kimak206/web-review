@@ -566,7 +566,7 @@ li {
 }
 
 .search-box.home-search input {
-  width: 90%;
+  width: 85%;
 }
 
 .search-box.home-search .search-icon {
@@ -612,10 +612,11 @@ li {
 .mini-p {
   overflow: hidden;
   text-overflow: ellipsis;
-  height: 85px;
+  max-height: 85px;
   display: -webkit-box;
   -webkit-line-clamp: 4;
   -webkit-box-orient: vertical;
+  font-style: italic;
 }
 
 .logo_normal,
@@ -1125,12 +1126,12 @@ a.active > .border-green {
 }
 
 .center-but-left {
-  text-align: center;
+  text-align: left;
 }
 
 @media (max-width: 576px) {
   .center-but-left {
-    text-align: left;
+    text-align: center;
   }
 }
 
@@ -1140,4 +1141,17 @@ a.active > .border-green {
 }
 .custom-select2 select:focus {
   border: solid 1px black;
+}
+.btn-seeall {
+  width: 100%;
+}
+@media (min-width: 1200px) {
+  .container.container-owl {
+    max-width: 1180px;
+  }
+  .btn-seeall {
+    width: 200px;
+    float: right;
+    margin-right: 20px;
+  }
 }
