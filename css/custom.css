@@ -165,7 +165,7 @@ h6 {
   width: 70%;
   margin: 20px auto 0;
   text-align: center;
-  border-radius: 25px;
+  border-radius: 10px;
   background-color: #1c60d5;
   color: white;
 }
@@ -192,7 +192,7 @@ h6 {
 
 .top-box-right {
   background-color: white;
-  border-radius: 30px;
+  border-radius: 10px;
   box-shadow: #bdd2d2 7px 7px 20px;
   padding: 30px;
   display: block;
@@ -249,7 +249,7 @@ li {
   border: solid 1px #3c84e8;
   color: #3c84e8;
   text-align: center;
-  border-radius: 5px;
+  border-radius: 10px;
   font-size: 12px;
   font-weight: 400;
 }
@@ -258,7 +258,7 @@ li {
   width: 100%;
   box-shadow: #cacaca 8px 7px 20px;
   padding: 15px;
-  border-radius: 30px;
+  border-radius: 10px;
   margin-bottom: 45px;
 }
 
@@ -326,7 +326,7 @@ li {
 .pricing-box {
   background-color: #3c84e8;
   padding: 20px 30px;
-  border-radius: 30px;
+  border-radius: 10px;
   margin-bottom: 30px;
 }
 
@@ -364,6 +364,10 @@ li {
   font-weight: 700;
 }
 
+.pricing-number {
+  min-height: 180px;
+}
+
 .pricing-number strong {
   font-size: 2.2rem;
   font-weight: 700;
@@ -382,12 +386,17 @@ li {
 }
 .column-top {
   padding: 25px 15px;
+  min-height: 530px;
   border-bottom: 1px solid #e2e2e2;
+}
+
+.column-top .p-one {
+  min-height: 150px;
 }
 
 @media (min-width: 577px) {
   .column-top {
-    min-height: 460px;
+    min-height: 480px;
   }
 }
 .column-top * {
@@ -420,7 +429,7 @@ li {
 .altp-mid {
   padding: 25px 20px;
   box-shadow: #bdd2d2 7px 7px 20px;
-  border-radius: 20px;
+  border-radius: 10px;
   text-align: center;
 }
 
@@ -467,9 +476,12 @@ li {
 
 .coupon-wrapper {
   background-color: #e2f0f9;
-  border-radius: 20px;
+  border-radius: 10px;
 }
 
+.sort-box {
+  width: 100%;
+}
 .sort-box-inside {
   display: inline-block;
   /* border-bottom: solid 1px #e2e2e2; */
@@ -527,7 +539,6 @@ li {
 }
 
 .search-box {
-  width: 250px;
   float: left;
   padding: 6px;
   margin-left: 40px;
@@ -536,11 +547,11 @@ li {
 
 .search-box input {
   display: inline-block;
-  border-radius: 20px 0 0 20px;
+  border-radius: 10px 0 0 10px;
   padding: 5px 10px;
-  border-top: solid 1px #3c84e8;
-  border-left: solid 1px #3c84e8;
-  border-bottom: solid 1px #3c84e8;
+  border-top: solid 1px black;
+  border-left: solid 1px black;
+  border-bottom: solid 1px black;
   border-right: none;
   background-color: transparent;
 }
@@ -549,13 +560,29 @@ li {
   outline: none;
 }
 
+.search-box.home-search {
+  margin-left: 0;
+  width: 100%;
+}
+
+.search-box.home-search input {
+  width: 90%;
+}
+
+.search-box.home-search .search-icon {
+  background-color: #41d3bd;
+}
+
+.search-box.home-search .search-icon span {
+  font-weight: bold;
+}
 .search-icon {
   display: inline-block;
-  border-radius: 0 20px 20px 0;
+  border-radius: 0 10px 10px 0;
   padding: 5px;
-  border-top: solid 1px #3c84e8;
-  border-right: solid 1px #3c84e8;
-  border-bottom: solid 1px #3c84e8;
+  border-top: solid 1px black;
+  border-right: solid 1px black;
+  border-bottom: solid 1px black;
   border-left: none;
   margin-left: -4px;
 }
@@ -682,7 +709,7 @@ li {
 .input-big {
   width: 100%;
   display: inline-block;
-  border-radius: 20px;
+  border-radius: 10px;
   padding: 10px 13px;
   border: solid 1px #3c84e8;
   background-color: transparent;
@@ -702,7 +729,7 @@ li {
 .btn-search {
   width: 40%;
   padding: 8px 10px;
-  border-radius: 15px;
+  border-radius: 10px;
   margin-left: auto;
   margin-right: auto;
   text-align: center;
@@ -731,7 +758,7 @@ li {
 }
 
 .most-pop-box {
-  border-radius: 20px;
+  border-radius: 10px;
   box-shadow: #cacaca 8px 7px 20px;
   padding: 12px;
   min-height: 150px;
@@ -761,10 +788,13 @@ li {
 
 .sotw-h2 {
   font-weight: 700;
-  color: white;
-  padding-top: 25px;
+  color: black;
+  padding-top: 60px;
   padding-bottom: 25px;
   margin-bottom: 0;
+}
+.pb-60 {
+  padding-bottom: 60px;
 }
 
 .bg-soft {
@@ -795,15 +825,15 @@ li {
 
 .latest-carousel {
   padding: 20px;
-  box-shadow: #cacaca 3px 2px 15px;
-  border-radius: 20px;
+  box-shadow: #e8e8e8 0px 0px 5px 5px;
+  border-radius: 10px;
   background-color: white;
 }
 
 .my-badge {
   padding: 4px 15px;
   display: inline-block;
-  border-radius: 20px;
+  border-radius: 10px;
   background-color: #e2f0f9;
   font-size: 12px;
   font-weight: 700;
@@ -846,14 +876,14 @@ li {
   width: 100%;
   display: block;
   overflow: hidden;
-  border-radius: 20px;
+  border-radius: 10px;
   box-shadow: #bdd2d2 7px 7px 20px;
 }
 .about-photo-wrapper-2 {
   width: 100%;
   display: block;
   overflow: hidden;
-  border-radius: 20px;
+  border-radius: 10px;
 }
 
 .about-description strong {
@@ -901,7 +931,7 @@ li {
   position: absolute;
   min-width: 200px;
   padding: 7px 15px;
-  border-radius: 20px;
+  border-radius: 10px;
   right: -10px;
   bottom: 20px;
   background-color: #41d3bd;
@@ -958,7 +988,7 @@ a.active > .border-green {
 .list-wrap {
   background-color: #e2f0f9;
   padding: 20px 30px;
-  border-radius: 20px;
+  border-radius: 10px;
   margin-bottom: 20px;
 }
 
@@ -972,11 +1002,11 @@ a.active > .border-green {
 
 .search-icon-filter {
   display: inline-block;
-  border-left: solid 1px #3578fa;
-  border-top: solid 1px #3578fa;
-  border-bottom: solid 1px #3578fa;
+  border-left: solid 1px black;
+  border-top: solid 1px black;
+  border-bottom: solid 1px black;
   border-right: none;
-  border-radius: 20px 0 0 20px;
+  border-radius: 10px 0 0 10px;
   padding: 5px 10px;
 }
 .search-icon-filter .icon_search {
@@ -991,15 +1021,16 @@ a.active > .border-green {
 
 .search-box-2 input {
   display: inline-block;
-  border: solid 1px #3578fa;
+  border: solid 1px black;
   border-left: none;
-  border-top: solid 1px #3578fa;
-  border-bottom: solid 1px #3578fa;
-  border-right: solid 1px #3578fa;
+  border-top: solid 1px black;
+  border-bottom: solid 1px black;
+  border-right: solid 1px black;
   padding: 5px 10px;
-  border-radius: 0px 20px 20px 0;
+  border-radius: 0px 10px 10px 0;
   margin-left: -4px;
   outline: none;
+  max-width: 80%;
 }
 
 .filter-section {
@@ -1044,7 +1075,7 @@ a.active > .border-green {
 .filter-trigger {
   display: block;
   font-size: 20px;
-  border-radius: 20px;
+  border-radius: 10px;
   font-weight: 700;
   color: black !important;
   width: 100%;
@@ -1052,9 +1083,9 @@ a.active > .border-green {
 }
 
 .collapse-filter-box {
-  border-radius: 20px;
-  border: solid 1px #3c84e8;
-  padding: 10px 20px;
+  border-radius: 10px;
+  border: solid 1px black;
+  padding: 5px 20px;
 }
 
 .bg-soft-2 {
@@ -1070,7 +1101,7 @@ a.active > .border-green {
 }
 
 .form-help-box {
-  border-radius: 20px;
+  border-radius: 10px;
   box-shadow: #cacaca 0px 0px 7px;
   padding-top: 30px;
   padding-bottom: 30px;
@@ -1091,4 +1122,22 @@ a.active > .border-green {
 .grid-center {
   display: grid;
   place-items: center;
+}
+
+.center-but-left {
+  text-align: center;
+}
+
+@media (max-width: 576px) {
+  .center-but-left {
+    text-align: left;
+  }
+}
+
+.custom-select2 select {
+  border-radius: 10px;
+  border: solid 1px black;
+}
+.custom-select2 select:focus {
+  border: solid 1px black;
 }

@@ -542,7 +542,7 @@ a.btn_top,
   -ms-transition: all 0.3s ease-in-out;
   transition: all 0.3s ease-in-out;
 
-  border-radius: 40px;
+  border-radius: 10px;
   line-height: 1 !important;
   padding: 10px 35px !important;
   position: relative;
@@ -940,7 +940,7 @@ footer ul li a {
   color: white;
 }
 footer ul li a:hover {
-  color: #3578fa;
+  color: #41d3bd;
   opacity: 1;
 }
 footer ul li a i {
@@ -956,7 +956,7 @@ footer ul.links li a:hover {
 }
 footer ul.links li a:hover:after {
   opacity: 1;
-  color: #3578fa;
+  color: #41d3bd;
 }
 footer ul.links li a:after {
   font-family: "ElegantIcons";
@@ -1041,10 +1041,7 @@ footer ul.contacts li i {
   height: 40px;
   line-height: 42px;
   cursor: pointer;
-  -webkit-border-radius: 0 3px 3px 0;
-  -moz-border-radius: 0 3px 3px 0;
-  -ms-border-radius: 0 3px 3px 0;
-  border-radius: 0 3px 3px 0;
+  border-radius: 0;
   background-color: #41d3bd;
   -moz-transition: all 0.3s ease-in-out;
   -o-transition: all 0.3s ease-in-out;
@@ -3607,14 +3604,14 @@ a.social_bt.linkedin:before {
 .tabs nav ul {
   margin: 0;
   list-style: none;
-  display: inline-block;
-  width: 100%;
-  text-align: center;
+  display: block;
+  text-align: left;
   border-bottom: solid 1px #e2e2e2;
+  overflow-x: auto;
+  white-space: nowrap;
 }
 .tabs nav ul li {
-  display: block;
-  float: left;
+  display: inline-block;
   text-align: left;
   line-height: 1.3;
 }
