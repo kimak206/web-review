@@ -99,8 +99,8 @@ h6 {
 .btn-trans {
   display: block;
   float: left;
-  border: black solid 1px;
-  color: black;
+  border: #413f3d solid 1px;
+  color: #413f3d;
   background: transparent;
   outline: none;
   cursor: pointer;
@@ -320,7 +320,7 @@ li {
 }
 
 .text-black {
-  color: black !important;
+  color: #413f3d !important;
 }
 
 .pricing-box {
@@ -513,14 +513,14 @@ li {
 .sort-box-inside input:checked + label {
   border-bottom: solid 3px #41d3bd;
   font-weight: 700;
-  color: black;
+  color: #413f3d;
   cursor: default;
 }
 
 .sort-box-inside .sort-alternatives.active {
   border-bottom: solid 3px #41d3bd;
   font-weight: 700;
-  color: black;
+  color: #413f3d;
   cursor: default;
 }
 
@@ -549,9 +549,9 @@ li {
   display: inline-block;
   border-radius: 10px 0 0 10px;
   padding: 5px 10px;
-  border-top: solid 1px black;
-  border-left: solid 1px black;
-  border-bottom: solid 1px black;
+  border-top: solid 1px #413f3d;
+  border-left: solid 1px #413f3d;
+  border-bottom: solid 1px #413f3d;
   border-right: none;
   background-color: transparent;
 }
@@ -670,7 +670,7 @@ li {
   border-right: none;
   border-top: none;
   border-bottom: solid 3px transparent;
-  color: black;
+  color: #413f3d;
 }
 
 .nav-tabs.custom-nav {
@@ -977,7 +977,7 @@ a.active > .border-green {
 }
 .faq-heading p {
   text-align: left;
-  color: black;
+  color: #413f3d;
   margin-bottom: 25px !important;
 }
 
@@ -1024,11 +1024,11 @@ a.active > .border-green {
 
 .search-box-2 input {
   display: inline-block;
-  border: solid 1px black;
+  border: solid 1px #413f3d;
   border-left: none;
-  border-top: solid 1px black;
-  border-bottom: solid 1px black;
-  border-right: solid 1px black;
+  border-top: solid 1px #413f3d;
+  border-bottom: solid 1px #413f3d;
+  border-right: solid 1px #413f3d;
   padding: 5px 10px;
   border-radius: 0px 10px 10px 0;
   margin-left: -4px;
@@ -1080,14 +1080,14 @@ a.active > .border-green {
   font-size: 20px;
   border-radius: 10px;
   font-weight: 700;
-  color: black !important;
+  color: #413f3d !important;
   width: 100%;
   color: #3c84e8 !important;
 }
 
 .collapse-filter-box {
   border-radius: 10px;
-  border: solid 1px black;
+  border: solid 1px #413f3d;
   padding: 5px 20px;
 }
 
@@ -1139,10 +1139,10 @@ a.active > .border-green {
 
 .custom-select2 select {
   border-radius: 10px;
-  border: solid 1px black;
+  border: solid 1px #413f3d;
 }
 .custom-select2 select:focus {
-  border: solid 1px black;
+  border: solid 1px #413f3d;
 }
 .btn-seeall {
   width: 100%;
